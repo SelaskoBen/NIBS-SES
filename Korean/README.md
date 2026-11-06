@@ -10,4 +10,4 @@ Selaskowski, B., Koelsch, C., Baeken, C., Blumberger, D. M., Brunoni, A. R., Hur
 
 [English](../README.md) · [OSF](https://doi.org/10.17605/OSF.IO/XZ3NB) · [nibs-ses.com](https://nibs-ses.com)
 
-<sub>키워드: 비침습적 뇌 자극, 경두개 자기 자극, 경두개자기자극, 반복적 경두개 자기 자극, 경두개 직류 자극, 경두개 교류 자극, 경두개 전기 자극, 경두개 초음파 자극, 집속 초음파, 부작용, 유해효과, 내약성, 설문지, 척도, 두통, 목 통증, 어지러움, 졸음/피로, 집중력 저하, 가려움(두피), 따끔거림(두피), 감정 기복, 메스꺼움, 홍반(두피), 열감 또는 화상(두피), 근육 경련, 국소 통증 또는 불편감, NIBS, TMS, rTMS, iTBS, tES, tDCS, tACS, tUS, tFUS, LIFU</sub>
+<sub>키워드: 비침습적 뇌 자극, 경두개 자기 자극, 경두개자기자극, 반복적 경두개 자기 자극, 경두개 직류 자극, 경두개 교류 자극, 경두개 전기 자극, 경두개 초음파 자극, 집속 초음파, 부작용, 유해효과, 내약성, 설문지, 척도, 두통, 목 통증, 어지러움, 졸음/피로, 집중력 저하, 가려움(두피), 따끔거림(두피), 감정 기복, 메스꺼움, 홍반(두피), 열감 또는 화상(두피), 근육 경련, 국소 통증 또는 불편감, NIBS, TMS, rTMS, TBS, iTBS, dTMS, tES, tDCS, tACS, tRNS, tUS, TUS, tFUS, FUS, LIFU, LIFUS, LITUS, TPS</sub>

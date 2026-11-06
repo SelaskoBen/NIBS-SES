@@ -10,4 +10,4 @@ Selaskowski, B., Koelsch, C., Baeken, C., Blumberger, D. M., Brunoni, A. R., Hur
 
 [English](../README.md) · [OSF](https://doi.org/10.17605/OSF.IO/XZ3NB) · [nibs-ses.com](https://nibs-ses.com)
 
-<sub>Gako-hitzak: garuneko estimulazio ez-inbaditzailea, albo-ondorioak, ondorio kaltegarriak, galdetegia, eskala, ultrasoinuak, Buruko mina, Lepoko mina, Zorabioa, Logura/nekea, Kontzentratzeko zailtasunak, Azkura (buru-azala), Inurridura (buru-azala), Umore aldaketa, Goragalea, Gorritasuna (buru-azala), Sumindura edo berotasuna (buru-azala), Muskulu-espasmoak, Mugatutako mina edo ondoeza, NIBS, TMS, rTMS, iTBS, tES, tDCS, tACS, tUS, tFUS, LIFU</sub>
+<sub>Gako-hitzak: garuneko estimulazio ez-inbaditzailea, albo-ondorioak, ondorio kaltegarriak, galdetegia, eskala, ultrasoinuak, Buruko mina, Lepoko mina, Zorabioa, Logura/nekea, Kontzentratzeko zailtasunak, Azkura (buru-azala), Inurridura (buru-azala), Umore aldaketa, Goragalea, Gorritasuna (buru-azala), Sumindura edo berotasuna (buru-azala), Muskulu-espasmoak, Mugatutako mina edo ondoeza, NIBS, TMS, rTMS, TBS, iTBS, dTMS, tES, tDCS, tACS, tRNS, tUS, TUS, tFUS, FUS, LIFU, LIFUS, LITUS, TPS</sub>
