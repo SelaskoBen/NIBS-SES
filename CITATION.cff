@@ -1,0 +1,65 @@
+cff-version: 1.2.0
+message: "If you use the NIBS-SES, please cite the article below."
+title: "Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)"
+version: "1.1"
+date-released: "2026-11-06"
+license: CC-BY-4.0
+doi: 10.17605/OSF.IO/XZ3NB
+url: "https://nibs-ses.com"
+repository: "https://osf.io/xz3nb"
+authors:
+  - family-names: Selaskowski
+    given-names: Benjamin
+  - family-names: Kiebs
+    given-names: Maximilian
+keywords:
+  - side effects questionnaire
+  - adverse effects
+  - tolerability
+  - non-invasive brain stimulation
+  - transcranial magnetic stimulation
+  - transcranial electrical stimulation
+  - transcranial ultrasound stimulation
+  - TMS
+  - tDCS
+  - tACS
+  - focused ultrasound
+preferred-citation:
+  type: article
+  title: "The Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES): development of a brief, multilingual questionnaire for monitoring adverse effects in transcranial magnetic, electrical and ultrasound stimulation"
+  journal: "Brain Stimulation"
+  year: 2026
+  doi: 10.1016/j.brs.2026.103252
+  authors:
+    - family-names: Selaskowski
+      given-names: Benjamin
+    - family-names: Koelsch
+      given-names: Celine
+    - family-names: Baeken
+      given-names: Chris
+    - family-names: Blumberger
+      given-names: Daniel M.
+    - family-names: Brunoni
+      given-names: André R.
+    - family-names: Hurlemann
+      given-names: René
+    - family-names: Lerma-Usabiaga
+      given-names: Garikoitz
+    - family-names: Noda
+      given-names: Yoshihiro
+    - family-names: Paz-Alonso
+      given-names: Pedro M.
+    - family-names: Rivadulla
+      given-names: Casto
+    - family-names: Sun
+      given-names: Junfeng
+    - family-names: Venkatasubramanian
+      given-names: Ganesan
+    - family-names: Sack
+      given-names: Alexander T.
+    - family-names: Rossi
+      given-names: Simone
+    - family-names: Valero-Cabré
+      given-names: Antoni
+    - family-names: Kiebs
+      given-names: Maximilian

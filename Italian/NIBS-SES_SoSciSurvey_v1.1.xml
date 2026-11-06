@@ -1,0 +1,5259 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE surveyProject SYSTEM "doctype.survey.dtd">
+<surveyProject version="2.4" timestamp="2026-07-20 20:27:43" program="oFb" progversion="3.8.08 1411">
+<title>NIBS-SES</title>
+<description />
+<attributes.specific program="ofb">
+<attr id="language">eng</attr>
+<attr id="translations">ara,por,dut,spa,chi,ita,jpn,kor,glg,deu,baq,fre,cat,hin,per</attr>
+</attributes.specific>
+<section>
+<title>Sleep</title>
+<attributes.specific program="ofb">
+<attr id="id">A2</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+<question>
+<description>Please rate your sleep last n...</description>
+<class>TextContent</class>
+<title />
+<explanation />
+<headerText>
+<txt>Please rate your sleep last night:</txt>
+<txt lng="ara">يُرجى منك تقييم نومك الليلة الماضية:</txt>
+<txt lng="por">Classifique o seu sono na última noite:</txt>
+<txt lng="dut">Beoordeel uw slaap van afgelopen nacht:</txt>
+<txt lng="spa">Indique la calidad de su sueño anoche:</txt>
+<txt lng="chi">请评价您昨晚的睡眠情况：</txt>
+<txt lng="ita">Valuti come ha dormito la scorsa notte:</txt>
+<txt lng="jpn">昨晩の睡眠について評価して下さい:</txt>
+<txt lng="kor">지난밤 수면을 평가해 주세요:</txt>
+<txt lng="glg">Indique a calidade do sono da última noite:</txt>
+<txt lng="deu">Bitte bewerten Sie Ihren Schlaf letzte Nacht:</txt>
+<txt lng="baq">Adierazi bart gaueko loaren kalitatea:</txt>
+<txt lng="fre">Veuillez évaluer votre sommeil de la nuit dernière :</txt>
+<txt lng="cat">Indiqui la qualitat del seu son d’ahir a la nit:</txt>
+<txt lng="hin">कृपया अपनी पिछली रात की नींद को रेटिंग दें:</txt>
+<txt lng="per">خواب شب گذشته خود را چگونه ارزیابی می‌کنید؟</txt>
+</headerText>
+<inputPosition>right</inputPosition>
+<lead>
+<![CDATA[
+]]>
+</lead>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="alignment">default</attr>
+<attr id="character">plain</attr>
+</attributes.specific>
+</question>
+<question>
+<description>Sleep duration</description>
+<class>text</class>
+<title>
+<txt>Sleep duration:</txt>
+<txt lng="ara">مدة النوم:</txt>
+<txt lng="por">Duração do sono:</txt>
+<txt lng="dut">Slaapduur:</txt>
+<txt lng="spa">Horas de sueño:</txt>
+<txt lng="chi">睡眠时长：</txt>
+<txt lng="ita">Durata del sonno:</txt>
+<txt lng="jpn">睡眠時間:</txt>
+<txt lng="kor">수면 시간:</txt>
+<txt lng="glg">Horas de sono:</txt>
+<txt lng="deu">Schlafdauer:</txt>
+<txt lng="baq">Lo-orduak:</txt>
+<txt lng="fre">Durée du sommeil :</txt>
+<txt lng="cat">Hores de son:</txt>
+<txt lng="hin">नींद की अवधि:</txt>
+<txt lng="per">مدت خواب:</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+<item>
+<text />
+<suffix>
+<txt>h</txt>
+<txt lng="ara">ساعة</txt>
+<txt lng="por">h</txt>
+<txt lng="dut">u</txt>
+<txt lng="spa">h</txt>
+<txt lng="chi">小时</txt>
+<txt lng="ita">h</txt>
+<txt lng="jpn">時間</txt>
+<txt lng="kor">시간</txt>
+<txt lng="glg">h</txt>
+<txt lng="deu">h</txt>
+<txt lng="baq">h</txt>
+<txt lng="fre">h</txt>
+<txt lng="cat">h</txt>
+<txt lng="hin">घंटे</txt>
+<txt lng="per">ساعت</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="width">5</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Sleep quality </description>
+<class>selscale</class>
+<title>
+<txt>Sleep quality:</txt>
+<txt lng="ara">جودة النوم:</txt>
+<txt lng="por">Qualidade do sono:</txt>
+<txt lng="dut">Slaapkwaliteit:</txt>
+<txt lng="spa">Calidad del sueño:</txt>
+<txt lng="chi">睡眠质量：</txt>
+<txt lng="ita">Qualità del sonno:</txt>
+<txt lng="jpn">睡眠の質:</txt>
+<txt lng="kor">수면 질:</txt>
+<txt lng="glg">Calidade do sono:</txt>
+<txt lng="deu">Schlafqualität:</txt>
+<txt lng="baq">Loaren kalitatea:</txt>
+<txt lng="fre">Qualité du sommeil :</txt>
+<txt lng="cat">Qualitat del son:</txt>
+<txt lng="hin">नींद की गुणवत्ता:</txt>
+<txt lng="per">کیفیت خواب:</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+<attr id="operation">right</attr>
+</attributes.specific>
+<item>
+<text>
+<txt><![CDATA[0 <br> Very poor]]></txt>
+<txt lng="ara"><![CDATA[0 <br> سيئة جداً]]></txt>
+<txt lng="por"><![CDATA[0 <br> Muito ruim]]></txt>
+<txt lng="dut"><![CDATA[0 <br> Zeer slecht]]></txt>
+<txt lng="spa"><![CDATA[0 <br> Muy mala]]></txt>
+<txt lng="chi"><![CDATA[0 <br> 很差]]></txt>
+<txt lng="ita">0 Molto male</txt>
+<txt lng="jpn"><![CDATA[0 <br> 非常に悪い]]></txt>
+<txt lng="kor"><![CDATA[0 <br> 매우 나쁘다]]></txt>
+<txt lng="glg"><![CDATA[0 <br> Moi mala]]></txt>
+<txt lng="deu"><![CDATA[0<br> Sehr schlecht]]></txt>
+<txt lng="baq"><![CDATA[0 <br> Oso txarra  ]]></txt>
+<txt lng="fre"><![CDATA[0 <br> Très mauvais]]></txt>
+<txt lng="cat"><![CDATA[0 <br> Molt dolenta]]></txt>
+<txt lng="hin"><![CDATA[0 <br> बहुत खराब]]></txt>
+<txt lng="per"><![CDATA[ 0 <br> خیلی بد]]></txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>1</txt>
+<txt lng="ara">1</txt>
+<txt lng="por">1</txt>
+<txt lng="dut">1</txt>
+<txt lng="spa">1</txt>
+<txt lng="chi">1</txt>
+<txt lng="ita">1</txt>
+<txt lng="jpn">1</txt>
+<txt lng="kor">1</txt>
+<txt lng="glg">1</txt>
+<txt lng="deu">1</txt>
+<txt lng="baq">1</txt>
+<txt lng="fre">1</txt>
+<txt lng="cat">1</txt>
+<txt lng="hin">1</txt>
+<txt lng="per">1</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>2</txt>
+<txt lng="ara">2</txt>
+<txt lng="por">2</txt>
+<txt lng="dut">2</txt>
+<txt lng="spa">2</txt>
+<txt lng="chi">2</txt>
+<txt lng="ita">2</txt>
+<txt lng="jpn">2</txt>
+<txt lng="kor">2</txt>
+<txt lng="glg">2</txt>
+<txt lng="deu">2</txt>
+<txt lng="baq">2</txt>
+<txt lng="fre">2</txt>
+<txt lng="cat">2</txt>
+<txt lng="hin">2</txt>
+<txt lng="per">2</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>3</txt>
+<txt lng="ara">3</txt>
+<txt lng="por">3</txt>
+<txt lng="dut">3</txt>
+<txt lng="spa">3</txt>
+<txt lng="chi">3</txt>
+<txt lng="ita">3</txt>
+<txt lng="jpn">3</txt>
+<txt lng="kor">3</txt>
+<txt lng="glg">3</txt>
+<txt lng="deu">3</txt>
+<txt lng="baq">3</txt>
+<txt lng="fre">3</txt>
+<txt lng="cat">3</txt>
+<txt lng="hin">3</txt>
+<txt lng="per">3</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt><![CDATA[4 <br> Very good ]]></txt>
+<txt lng="ara"><![CDATA[4 <br> جيدة جداً]]></txt>
+<txt lng="por"><![CDATA[4 <br> Muito boa]]></txt>
+<txt lng="dut"><![CDATA[4 <br> Zeer goed]]></txt>
+<txt lng="spa"><![CDATA[4 <br> Muy buena]]></txt>
+<txt lng="chi"><![CDATA[4 <br> 很好]]></txt>
+<txt lng="ita">4 Molto bene </txt>
+<txt lng="jpn"><![CDATA[4 <br> 非常に良い]]></txt>
+<txt lng="kor"><![CDATA[4 <br> 아주 좋아요]]></txt>
+<txt lng="glg"><![CDATA[4 <br> Moi boa]]></txt>
+<txt lng="deu"><![CDATA[4<br> Sehr gut ]]></txt>
+<txt lng="baq"><![CDATA[4 <br> Oso ona]]></txt>
+<txt lng="fre"><![CDATA[4 <br> Très bon]]></txt>
+<txt lng="cat"><![CDATA[4 <br> Molt bona]]></txt>
+<txt lng="hin"><![CDATA[4 <br> बहुत अच्छा]]></txt>
+<txt lng="per"><![CDATA[4 <br>  خیلی خوب]]></txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+</question>
+</section>
+<section>
+<title>Medication</title>
+<attributes.specific program="ofb">
+<attr id="id">A1</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+<question>
+<description>Medication</description>
+<class>checkbox</class>
+<title>
+<txt>Have you taken the following or any other substances in the last 24 hours?</txt>
+<txt lng="ara">هل تناولت المواد التالية أو أي مواد أخرى خلال الـ 24 ساعة الماضية؟</txt>
+<txt lng="por"><![CDATA[Você utilizou alguma das seguintes substâncias nas últimas 24 horas?]]></txt>
+<txt lng="dut">Heeft u in de afgelopen 24 uur de volgende of enige andere middelen ingenomen?</txt>
+<txt lng="spa">¿En las últimas 24 horas, ha hecho usted uso de una o varias de las siguientes sustancias?</txt>
+<txt lng="chi">在过去 24 小时内，您是否服用过以下药物或摄入过其他物质？</txt>
+<txt lng="ita"><![CDATA[Nelle ultime 24 ore ha assunto le seguenti, o altre, sostanze?]]></txt>
+<txt lng="jpn"><![CDATA[過去24時間の間に以下の物質又はその他の物質を摂取しましたか？]]></txt>
+<txt lng="kor">지난 24시간, 아래 물질이나 다른 물질을 복용하셨나요?</txt>
+<txt lng="glg">Usou algunha das seguintes (ou outra) substancia nas últimas 24 horas?</txt>
+<txt lng="deu">Haben Sie in den letzten 24 Stunden folgende oder andere Substanzen zu sich genommen?</txt>
+<txt lng="baq">Azken 24 orduetan kontsumitu al duzu substantzia hauetakoren bat (edo beste bat)?</txt>
+<txt lng="fre">Avez-vous pris les substances suivantes ou d'autres substances au cours des dernières 24 heures ?</txt>
+<txt lng="cat">En les darreres 24 hores, ha consumit una o diverses, de les següents substàncies?</txt>
+<txt lng="hin">क्या आपने पिछले 24 घंटों के दौरान निम्नलिखित या किसी अन्य पदार्थ का सेवन किया है?</txt>
+<txt lng="per">آیا در 24 ساعت گذشته، از مواد زیر یا هر ماده دیگری، استفاده کرده‌اید؟</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+<item>
+<text>
+<txt>Caffeine</txt>
+<txt lng="ara">كافيين</txt>
+<txt lng="por">Cafeína</txt>
+<txt lng="dut">Cafeïne</txt>
+<txt lng="spa">Cafeína</txt>
+<txt lng="chi">咖啡因</txt>
+<txt lng="ita">Caffeina</txt>
+<txt lng="jpn">カフェイン</txt>
+<txt lng="kor">카페인</txt>
+<txt lng="glg">Cafeína</txt>
+<txt lng="deu">Koffein</txt>
+<txt lng="baq">Kafea</txt>
+<txt lng="fre">Caféine</txt>
+<txt lng="cat">Cafeïna</txt>
+<txt lng="hin">कैफीन</txt>
+<txt lng="per">کافئین</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Nicotine</txt>
+<txt lng="ara">نيكوتين</txt>
+<txt lng="por">Nicotina</txt>
+<txt lng="dut">Nicotine</txt>
+<txt lng="spa">Nicotina</txt>
+<txt lng="chi">尼古丁</txt>
+<txt lng="ita">Nicotina</txt>
+<txt lng="jpn">ニコチン</txt>
+<txt lng="kor">니코틴</txt>
+<txt lng="glg">Nicotina</txt>
+<txt lng="deu">Nikotin</txt>
+<txt lng="baq">Nikotina</txt>
+<txt lng="fre">Nicotine</txt>
+<txt lng="cat">Nicotina</txt>
+<txt lng="hin">निकोटीन</txt>
+<txt lng="per">نیکوتین</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Alcohol</txt>
+<txt lng="ara">كحول</txt>
+<txt lng="por">Álcool</txt>
+<txt lng="dut">Alcohol</txt>
+<txt lng="spa">Alcohol</txt>
+<txt lng="chi">酒精</txt>
+<txt lng="ita">Alcol</txt>
+<txt lng="jpn">アルコール</txt>
+<txt lng="kor">알코올</txt>
+<txt lng="glg">Alcohol</txt>
+<txt lng="deu">Alkohol</txt>
+<txt lng="baq">Alkohola</txt>
+<txt lng="fre">Alcool</txt>
+<txt lng="cat">Alcohol</txt>
+<txt lng="hin">अल्कोहल</txt>
+<txt lng="per">الکل</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Antihistamines</txt>
+<txt lng="ara">مضادات الهيستامين</txt>
+<txt lng="por">Anti-histamínicos</txt>
+<txt lng="dut">Antihistaminica</txt>
+<txt lng="spa">Antihistamínicos</txt>
+<txt lng="chi">抗组胺药</txt>
+<txt lng="ita">Antistaminici</txt>
+<txt lng="jpn">抗ヒスタミン剤</txt>
+<txt lng="kor">항히스타민제</txt>
+<txt lng="glg">Antihistamínicos</txt>
+<txt lng="deu">Antihistaminika</txt>
+<txt lng="baq">Antihistaminikoak</txt>
+<txt lng="fre">Antihistaminiques</txt>
+<txt lng="cat">Antihistamínics</txt>
+<txt lng="hin">एंटीहिस्टामाइन</txt>
+<txt lng="per">آنتی‌هیستامین‌ها</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Painkillers</txt>
+<txt lng="ara">مسكنات الألم</txt>
+<txt lng="por">Analgésicos</txt>
+<txt lng="dut">Pijnstillers</txt>
+<txt lng="spa">Analgésicos</txt>
+<txt lng="chi">止痛药</txt>
+<txt lng="ita">Antidolorifici</txt>
+<txt lng="jpn">鎮痛剤</txt>
+<txt lng="kor">진통제</txt>
+<txt lng="glg">Analxésicos</txt>
+<txt lng="deu">Schmerzmittel</txt>
+<txt lng="baq">Analgesikoak</txt>
+<txt lng="fre">Anti-douleurs</txt>
+<txt lng="cat">Analgèsics</txt>
+<txt lng="hin">दर्दनाशक</txt>
+<txt lng="per">مسکن‌ها</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Sedatives</txt>
+<txt lng="ara">مهدئات</txt>
+<txt lng="por">Sedativos</txt>
+<txt lng="dut">Sedativa</txt>
+<txt lng="spa">Sedantes</txt>
+<txt lng="chi">镇静剂</txt>
+<txt lng="ita">Sedativi</txt>
+<txt lng="jpn">鎮静剤</txt>
+<txt lng="kor">신경 안정제</txt>
+<txt lng="glg">Sedantes</txt>
+<txt lng="deu">Beruhigungsmittel</txt>
+<txt lng="baq">Lasaigarriak</txt>
+<txt lng="fre">Sédatifs</txt>
+<txt lng="cat">Sedants</txt>
+<txt lng="hin">शामक औषधि</txt>
+<txt lng="per">آرام‌بخش‌ها</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Sleep-related medication</txt>
+<txt lng="ara">الأدوية الخاصة بالنوم</txt>
+<txt lng="por">Medicamentos para dormir</txt>
+<txt lng="dut">Slaapgerelateerde medicatie</txt>
+<txt lng="spa">Medicación para inducir el sueño</txt>
+<txt lng="chi">睡眠类药物</txt>
+<txt lng="ita">Farmaci contro l’insonnia</txt>
+<txt lng="jpn">睡眠薬</txt>
+<txt lng="kor">수면 관련 약</txt>
+<txt lng="glg">Medicación para inducir o sono</txt>
+<txt lng="deu">Schlafmedikation</txt>
+<txt lng="baq">Lokartzen laguntzeko medikazioa</txt>
+<txt lng="fre">Médicaments liés aux troubles du sommeil</txt>
+<txt lng="cat">Medicació per induir el son</txt>
+<txt lng="hin">नींद से संबंधित दवा</txt>
+<txt lng="per">داروهای مرتبط با خواب</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Medication 2 </description>
+<class>text</class>
+<title>
+<txt>Please specify substance, amount, time of intake:</txt>
+<txt lng="ara">يُرجى تحديد المادة والكمية ووقت التناول</txt>
+<txt lng="por">Especifique as substâncias, doses e horários da utilização:</txt>
+<txt lng="dut">Specificeer het middel, de hoeveelheid, innametijdstip:</txt>
+<txt lng="spa">Por favor, especifique sustancia, cantidad y hora de uso:</txt>
+<txt lng="chi">请说明物质名称、数量、摄入时间：</txt>
+<txt lng="ita">Specifichi la sostanza, la dose, l’orario di assunzione:</txt>
+<txt lng="jpn">摂取した物質名、量、時間をご記入下さい:</txt>
+<txt lng="kor">복용 물질, 복용량, 복용 시간을 기재하세요:</txt>
+<txt lng="glg">Por favor, especifique substancia, cantidade e hora de uso:</txt>
+<txt lng="deu">Bitte Substanz, Menge und Zeitpunkt der Einnahme angeben:</txt>
+<txt lng="baq">Mesedez, zehaztu substantzia, kantitatea eta erabilera-ordua:</txt>
+<txt lng="fre">Veuillez préciser la substance, la quantité et l'heure de prise :</txt>
+<txt lng="cat">Si us plau, especifiqui la substància, la quantitat i l’hora de consum :</txt>
+<txt lng="hin">कृपया पदार्थ, मात्रा, सेवन का समय निर्दिष्ट करें:</txt>
+<txt lng="per">لطفاً ماده، مقدار، و زمان مصرف آن را مشخص کنید:</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+<item>
+<text />
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Medication 3</description>
+<class>text</class>
+<title>
+<txt>Did any change in medication occur in the last 24 hours? If yes, specify substance/dose:</txt>
+<txt lng="ara">هل حدث أي تغيير في الأدوية خلال الـ 24 ساعة الماضية؟ إذا كانت الإجابة نعم، فحدد المادة/الجرعة</txt>
+<txt lng="por">Houve alguma alteração na medicação nas últimas 24 horas? Em caso afirmativo, especifique a medicação e dose:</txt>
+<txt lng="dut">Heeft zich in de afgelopen 24 uur een wijziging in medicatie voorgedaan? Zo ja, specificeer middel/dosis:</txt>
+<txt lng="spa">¿En las últimas 24 horas, ha cambiado el uso de algún medicamento prescrito? En caso afirmativo, indique sustancia/dosis:</txt>
+<txt lng="chi">在过去 24 小时内，是否调整过用药？如果调整过，请具体说明药物名称/剂量：</txt>
+<txt lng="ita">Nelle ultime 24 ore ha cambiato l’assunzione di qualche medicinale? Se sì, specifici la sostanza/dose:</txt>
+<txt lng="jpn">過去24時間に薬の変更はありましたか？ あった場合は、薬剤名／用量をご記入下さい:</txt>
+<txt lng="kor">지난 24시간, 약물 치료에 변경 사항이 있었나요? 있다면, 물질/투여량 기재:</txt>
+<txt lng="glg"><![CDATA[Cambiou o uso prescrito dalgún medicamento nas últimas 24 horas? En caso afirmativo, indique substancia/dose:]]></txt>
+<txt lng="deu">Gab es in den letzten 24 Stunden eine Veränderung der Medikation? Falls ja, bitte Substanz/Dosis angeben:</txt>
+<txt lng="baq">Aldatu al duzu medikamenteuren baten agindutako erabilera azken 24 orduetan? Erantzuna baiezkoa bada, adierazi substantzia/dosia:</txt>
+<txt lng="fre">Avez-vous changé de traitement au cours des dernières 24 heures ? Si oui, précisez la substance/dose :</txt>
+<txt lng="cat">En les darreres 24 hores, ha canviat l’ús d’algun medicament prescrit? En cas afirmatiu, indiqui les substàncies i les dosis :</txt>
+<txt lng="hin">क्या पिछले 24 घंटों में दवा में कोई बदलाव हुआ है? यदि हाँ, तो पदार्थ/खुराक निर्दिष्ट करें:</txt>
+<txt lng="per">آیا در 24 ساعت گذشته، تغییری در داروهای مصرفی شما، رخ داده است؟ اگر بله، ماده/دوز را مشخص کنید:</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+<item>
+<text />
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+</question>
+</section>
+<section>
+<title>after treatment </title>
+<attributes.specific program="ofb">
+<attr id="id">A3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+<question>
+<description>Unpleasant sensations</description>
+<class>mc-matrix</class>
+<title>
+<txt>How unpleasant was the sensation?</txt>
+<txt lng="ara">كم كان الإحساس مزعجاً؟</txt>
+<txt lng="por">Até que ponto o efeito foi desagradável?</txt>
+<txt lng="dut">Hoe onaangenaam was de sensatie?</txt>
+<txt lng="spa">¿Cómo de molesta ha sido la sensación?</txt>
+<txt lng="chi">这种感觉有多不舒服？</txt>
+<txt lng="ita">Quanto è stata fastidiosa la sensazione?</txt>
+<txt lng="jpn">その感覚はどの程度不快でしたか？</txt>
+<txt lng="kor">얼마나 불쾌했나요?</txt>
+<txt lng="glg">Canto lle resultou de molesta a sensación?</txt>
+<txt lng="deu">Wie unangenehm war die Empfindung?</txt>
+<txt lng="baq">Zein gogaikarri izan da sentsazioa?</txt>
+<txt lng="fre">À quel point leur effet était-il désagréable ?</txt>
+<txt lng="cat">Com de molesta diria que ha estat la sensació?</txt>
+<txt lng="hin">यह अनुभूति कितनी अप्रिय थी?</txt>
+<txt lng="per">این حس چقدر ناراحت‌کننده بود؟</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<labels>
+<li i="1">
+<txt><![CDATA[Not at all
+0]]></txt>
+<txt lng="ara"><![CDATA[اطلاقاً لا
+0]]></txt>
+<txt lng="por"><![CDATA[Nada
+0]]></txt>
+<txt lng="dut"><![CDATA[In het geheel niet
+0]]></txt>
+<txt lng="spa"><![CDATA[Nada molesta
+0]]></txt>
+<txt lng="chi"><![CDATA[没有不舒服
+0]]></txt>
+<txt lng="ita"><![CDATA[Per niente
+0]]></txt>
+<txt lng="jpn"><![CDATA[全然
+0]]></txt>
+<txt lng="kor"><![CDATA[전혀 아니다
+0]]></txt>
+<txt lng="glg"><![CDATA[Nada molesta
+0]]></txt>
+<txt lng="deu"><![CDATA[Gar nicht 
+0]]></txt>
+<txt lng="baq"><![CDATA[Batere ez
+0]]></txt>
+<txt lng="fre"><![CDATA[Pas du tout
+0]]></txt>
+<txt lng="cat"><![CDATA[Gens molesta
+0]]></txt>
+<txt lng="hin"><![CDATA[बिल्कुल नहीं
+0]]></txt>
+<txt lng="per"><![CDATA[اصلاً
+0]]></txt>
+</li>
+<li i="2">
+<txt>1</txt>
+<txt lng="ara">1</txt>
+<txt lng="por">1</txt>
+<txt lng="dut">1</txt>
+<txt lng="spa">1</txt>
+<txt lng="chi">1</txt>
+<txt lng="ita">1</txt>
+<txt lng="jpn">1</txt>
+<txt lng="kor">1</txt>
+<txt lng="glg">1</txt>
+<txt lng="deu">1</txt>
+<txt lng="baq">1</txt>
+<txt lng="fre">1</txt>
+<txt lng="cat">1</txt>
+<txt lng="hin">1</txt>
+<txt lng="per">1</txt>
+</li>
+<li i="3">
+<txt>2</txt>
+<txt lng="ara">2</txt>
+<txt lng="por">2</txt>
+<txt lng="dut">2</txt>
+<txt lng="spa">2</txt>
+<txt lng="chi">2</txt>
+<txt lng="ita">2</txt>
+<txt lng="jpn">2</txt>
+<txt lng="kor">2</txt>
+<txt lng="glg">2</txt>
+<txt lng="deu">2</txt>
+<txt lng="baq">2</txt>
+<txt lng="fre">2</txt>
+<txt lng="cat">2</txt>
+<txt lng="hin">2</txt>
+<txt lng="per">2</txt>
+</li>
+<li i="4">
+<txt>3</txt>
+<txt lng="ara">3</txt>
+<txt lng="por">3</txt>
+<txt lng="dut">3</txt>
+<txt lng="spa">3</txt>
+<txt lng="chi">3</txt>
+<txt lng="ita">3</txt>
+<txt lng="jpn">3</txt>
+<txt lng="kor">3</txt>
+<txt lng="glg">3</txt>
+<txt lng="deu">3</txt>
+<txt lng="baq">3</txt>
+<txt lng="fre">3</txt>
+<txt lng="cat">3</txt>
+<txt lng="hin">3</txt>
+<txt lng="per">3</txt>
+</li>
+<li i="5">
+<txt><![CDATA[Very
+4]]></txt>
+<txt lng="ara"><![CDATA[جداً
+4]]></txt>
+<txt lng="por"><![CDATA[Muito 
+4]]></txt>
+<txt lng="dut"><![CDATA[In grote mate
+4]]></txt>
+<txt lng="spa"><![CDATA[Muy molesta
+4]]></txt>
+<txt lng="chi"><![CDATA[很不舒服
+4]]></txt>
+<txt lng="ita"><![CDATA[Molto
+4]]></txt>
+<txt lng="jpn"><![CDATA[非常に
+4]]></txt>
+<txt lng="kor"><![CDATA[매우 그렇다
+4]]></txt>
+<txt lng="glg"><![CDATA[Moi molesta
+4]]></txt>
+<txt lng="deu"><![CDATA[Sehr 
+4]]></txt>
+<txt lng="baq"><![CDATA[Asko
+4]]></txt>
+<txt lng="fre"><![CDATA[Très désagréable
+4]]></txt>
+<txt lng="cat"><![CDATA[Molt molesta
+4]]></txt>
+<txt lng="hin"><![CDATA[बहुत
+4]]></txt>
+<txt lng="per"><![CDATA[بسیار
+4]]></txt>
+</li>
+</labels>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="scale.metrics.extrema">65</attr>
+<attr id="composition">default</attr>
+</attributes.specific>
+<item>
+<text>
+<txt>Headache</txt>
+<txt lng="ara">صداع</txt>
+<txt lng="por">Dor de cabeça (cefaleia)</txt>
+<txt lng="dut">Hoofdpijn</txt>
+<txt lng="spa">Dolor de cabeza</txt>
+<txt lng="chi">头痛</txt>
+<txt lng="ita">Mal di testa</txt>
+<txt lng="jpn">頭痛</txt>
+<txt lng="kor">두통</txt>
+<txt lng="glg">Dor de cabeza</txt>
+<txt lng="deu">Kopfschmerzen</txt>
+<txt lng="baq">Buruko mina</txt>
+<txt lng="fre">Maux de tête</txt>
+<txt lng="cat">Mal de cap</txt>
+<txt lng="hin">सिरदर्द</txt>
+<txt lng="per">سردرد</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Neck pain</txt>
+<txt lng="ara">ألم في الرقبة</txt>
+<txt lng="por">Dor no pescoço</txt>
+<txt lng="dut">Nekpijn</txt>
+<txt lng="spa">Dolor cervical</txt>
+<txt lng="chi">颈痛</txt>
+<txt lng="ita">Mal di collo</txt>
+<txt lng="jpn">首の痛み</txt>
+<txt lng="kor">목 통증</txt>
+<txt lng="glg">Dor no pescozo</txt>
+<txt lng="deu">Nackenschmerzen</txt>
+<txt lng="baq">Lepoko mina</txt>
+<txt lng="fre">Douleur cervicale</txt>
+<txt lng="cat">Dolor cervical</txt>
+<txt lng="hin">गर्दन में दर्द</txt>
+<txt lng="per">گردن‌درد</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Dizziness</txt>
+<txt lng="ara">دوخة (دوار)</txt>
+<txt lng="por">Tontura</txt>
+<txt lng="dut">Duizeligheid</txt>
+<txt lng="spa">Mareo</txt>
+<txt lng="chi">头晕</txt>
+<txt lng="ita">Stordimento</txt>
+<txt lng="jpn">めまい</txt>
+<txt lng="kor">어지러움</txt>
+<txt lng="glg">Mareo</txt>
+<txt lng="deu">Schwindel</txt>
+<txt lng="baq">Zorabioa</txt>
+<txt lng="fre">Vertige</txt>
+<txt lng="cat">Mareig</txt>
+<txt lng="hin">चक्कर आना</txt>
+<txt lng="per">سرگیجه</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Sleepiness/fatigue</txt>
+<txt lng="ara">نعاس أو إرهاق</txt>
+<txt lng="por">Sonolência/fadiga</txt>
+<txt lng="dut">Slaperigheid/vermoeidheid</txt>
+<txt lng="spa">Somnolencia/fatiga</txt>
+<txt lng="chi">困倦或疲惫</txt>
+<txt lng="ita">Sonnolenza/stanchezza</txt>
+<txt lng="jpn">眠気または倦怠感</txt>
+<txt lng="kor">졸음/피로</txt>
+<txt lng="glg">Somnolencia/fatiga</txt>
+<txt lng="deu">Müdigkeit/Erschöpfung</txt>
+<txt lng="baq">Logura/nekea</txt>
+<txt lng="fre">Somnolence/fatigue</txt>
+<txt lng="cat">Somnolència/fatiga</txt>
+<txt lng="hin">उनींदापन/थकान</txt>
+<txt lng="per">خواب‌آلودگی یا خستگی</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Difficulty concentrating</txt>
+<txt lng="ara">صعوبة في التركيز</txt>
+<txt lng="por">Dificuldade de concentração</txt>
+<txt lng="dut">Concentratieproblemen</txt>
+<txt lng="spa">Dificultad para concentrarse</txt>
+<txt lng="chi">注意力不集中</txt>
+<txt lng="ita">Difficoltà di concentrazione</txt>
+<txt lng="jpn">集中困難</txt>
+<txt lng="kor">집중력 저하</txt>
+<txt lng="glg">Dificultade para concentrarse</txt>
+<txt lng="deu">Konzentrationsprobleme</txt>
+<txt lng="baq">Kontzentratzeko zailtasunak</txt>
+<txt lng="fre">Problème de concentration</txt>
+<txt lng="cat">Dificultat per concentrar-se</txt>
+<txt lng="hin">ध्यान केंद्रित करने में कठिनाई</txt>
+<txt lng="per">مشکل در تمرکز</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Itching (scalp)</txt>
+<txt lng="ara">حكة (فروة الرأس)</txt>
+<txt lng="por">Coceira na cabeça</txt>
+<txt lng="dut">Jeuk (schedel)</txt>
+<txt lng="spa">Picor (cuero cabelludo)</txt>
+<txt lng="chi">瘙痒（头皮）</txt>
+<txt lng="ita">Prurito (cuoio capelluto)</txt>
+<txt lng="jpn">かゆみ（頭皮）</txt>
+<txt lng="kor">가려움(두피)</txt>
+<txt lng="glg">Proído (coiro cabeludo)</txt>
+<txt lng="deu">Juckreiz (Kopfhaut)</txt>
+<txt lng="baq">Azkura (buru-azala)</txt>
+<txt lng="fre">Démangeaison (cuir chevelu)</txt>
+<txt lng="cat">Picor (cuir cabellut)</txt>
+<txt lng="hin">खुजली (सिर)</txt>
+<txt lng="per">خارش (پوست سر)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Tingling (scalp)</txt>
+<txt lng="ara">وخز (فروة الرأس)</txt>
+<txt lng="por">Formigamento na cabeça (couro cabeludo)</txt>
+<txt lng="dut">Tinteling (schedel)</txt>
+<txt lng="spa">Hormigueo (cuero cabelludo)</txt>
+<txt lng="chi">刺痛（头皮）</txt>
+<txt lng="ita">Formicolio (cuoio capelluto)</txt>
+<txt lng="jpn">ピリピリ感（頭皮）</txt>
+<txt lng="kor">따끔거림(두피)</txt>
+<txt lng="glg">Formigueo (coiro cabeludo)</txt>
+<txt lng="deu">Kribbeln (Kopfhaut)</txt>
+<txt lng="baq">Inurridura (buru-azala)</txt>
+<txt lng="fre">Picotement (cuir chevelu)</txt>
+<txt lng="cat">Formigueig (cuir cabellut)</txt>
+<txt lng="hin">सिहरन (सिर)</txt>
+<txt lng="per">مورمور شدن (پوست سر)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Change in mood</txt>
+<txt lng="ara">تغير في الحالة المزاجية</txt>
+<txt lng="por">Variações de humor</txt>
+<txt lng="dut">Verandering van humeur</txt>
+<txt lng="spa">Cambio de humor</txt>
+<txt lng="chi">情绪波动</txt>
+<txt lng="ita">Cambiamento di umore</txt>
+<txt lng="jpn">気分の変化</txt>
+<txt lng="kor">감정 기복</txt>
+<txt lng="glg">Cambio de humor</txt>
+<txt lng="deu">Stimmungsänderung</txt>
+<txt lng="baq">Umore aldaketa</txt>
+<txt lng="fre">Changement d'humeur</txt>
+<txt lng="cat">Canvi d’humor</txt>
+<txt lng="hin">भाव में बदलाव</txt>
+<txt lng="per">تغییر در خلق‌وخوی</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Nausea</txt>
+<txt lng="ara">غثيان</txt>
+<txt lng="por">Náuseas</txt>
+<txt lng="dut">Misselijkheid</txt>
+<txt lng="spa">Náuseas</txt>
+<txt lng="chi">恶心</txt>
+<txt lng="ita">Nausea</txt>
+<txt lng="jpn">吐き気</txt>
+<txt lng="kor">메스꺼움</txt>
+<txt lng="glg">Náuseas</txt>
+<txt lng="deu">Übelkeit</txt>
+<txt lng="baq">Goragalea</txt>
+<txt lng="fre">Nausée</txt>
+<txt lng="cat">Nàusea</txt>
+<txt lng="hin">मतली</txt>
+<txt lng="per">تهوع</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">9</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Total duration</description>
+<class>text</class>
+<title>
+<txt>Total duration (in hours)</txt>
+<txt lng="ara">المدة الإجمالية (بالساعات)</txt>
+<txt lng="por">Duração total (em horas)</txt>
+<txt lng="dut">Totale duur (in uren)</txt>
+<txt lng="spa">Duración total (en horas)</txt>
+<txt lng="chi">总时长（小时）</txt>
+<txt lng="ita">Durata totale (in ore)</txt>
+<txt lng="jpn">合計継続時間（時間）</txt>
+<txt lng="kor">총 지속 기간 (시간 단위)</txt>
+<txt lng="glg">Duración total (en horas)</txt>
+<txt lng="deu">Gesamtdauer (in Stunden)</txt>
+<txt lng="baq">Iraupena guztira (ordutan)</txt>
+<txt lng="fre">Durée totale (en heures)</txt>
+<txt lng="cat">Durada total (en hores)</txt>
+<txt lng="hin">कुल अवधि (घंटों में)</txt>
+<txt lng="per">مدت کل (به ساعت)</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+<attr id="metrics.width_default">100</attr>
+<attr id="metrics.width_label">160</attr>
+</attributes.specific>
+<item>
+<text>
+<txt>Headache</txt>
+<txt lng="ara">صداع</txt>
+<txt lng="por">Dor de cabeça (cefaleia)</txt>
+<txt lng="dut">Hoofdpijn</txt>
+<txt lng="spa">Dolor de cabeza</txt>
+<txt lng="chi">头痛</txt>
+<txt lng="ita">Mal di testa</txt>
+<txt lng="jpn">頭痛</txt>
+<txt lng="kor">두통</txt>
+<txt lng="glg">Dor de cabeza</txt>
+<txt lng="deu">Kopfschmerzen</txt>
+<txt lng="baq">Buruko mina</txt>
+<txt lng="fre">Maux de tête</txt>
+<txt lng="cat">Mal de cap</txt>
+<txt lng="hin">सिरदर्द</txt>
+<txt lng="per">سردرد</txt>
+</text>
+<suffix>
+<txt>h Ongoing? %input:ZE07_01%</txt>
+<txt lng="ara"> ساعة مستمر؟ %input:ZE07_01%</txt>
+<txt lng="por">h Contínua?  %input:ZE07_01%</txt>
+<txt lng="dut">h Doorlopend? %input:ZE07_01%</txt>
+<txt lng="spa">h ¿Persistente? %input:ZE07_01%</txt>
+<txt lng="chi">小时 仍在持续？%input:ZE07_01%</txt>
+<txt lng="ita">h Persiste? %input:ZE07_01%</txt>
+<txt lng="jpn">時間 継続中か？%input:ZE07_01%</txt>
+<txt lng="kor">시간 여전히 계속 되나요? %input:ZE07_01%</txt>
+<txt lng="glg">h Mantense? %input:ZE07_01%</txt>
+<txt lng="deu">h Andauernd? %input:ZE07_01%</txt>
+<txt lng="baq">h Jarraitzen al du? %input:ZE07_01%</txt>
+<txt lng="fre">h Encore présent ? %input:ZE07_01%</txt>
+<txt lng="cat">h Persistent? %input:ZE07_01%</txt>
+<txt lng="hin">घंटे जारी है? %input:ZE07_01%</txt>
+<txt lng="per"> ساعت مستمر؟ %input:ZE07_01%</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="width">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Neck pain</txt>
+<txt lng="ara">ألم في الرقبة</txt>
+<txt lng="por">Dor no pescoço</txt>
+<txt lng="dut">Nekpijn</txt>
+<txt lng="spa">Dolor cervical</txt>
+<txt lng="chi">颈痛</txt>
+<txt lng="ita">Mal di collo</txt>
+<txt lng="jpn">首の痛み</txt>
+<txt lng="kor">목 통증</txt>
+<txt lng="glg">Dor no pescozo</txt>
+<txt lng="deu">Nackenschmerzen</txt>
+<txt lng="baq">Lepoko mina</txt>
+<txt lng="fre">Douleur cervicale</txt>
+<txt lng="cat">Dolor cervical</txt>
+<txt lng="hin">गर्दन में दर्द</txt>
+<txt lng="per">گردن‌درد</txt>
+</text>
+<suffix>
+<txt>h Ongoing? %input:ZE07_02%</txt>
+<txt lng="ara"> ساعة مستمر؟ %input:ZE07_02%</txt>
+<txt lng="por">h Contínua?  %input:ZE07_02%</txt>
+<txt lng="dut">h Doorlopend? %input:ZE07_02%</txt>
+<txt lng="spa">h ¿Persistente? %input:ZE07_02%</txt>
+<txt lng="chi">小时 仍在持续？%input:ZE07_02%</txt>
+<txt lng="ita">h Persiste? %input:ZE07_02%</txt>
+<txt lng="jpn">時間 継続中か？%input:ZE07_02%</txt>
+<txt lng="kor">시간 여전히 계속 되나요? %input:ZE07_02%</txt>
+<txt lng="glg">h Mantense? %input:ZE07_02%</txt>
+<txt lng="deu">h Andauernd? %input:ZE07_02%</txt>
+<txt lng="baq">h Jarraitzen al du? %input:ZE07_02%</txt>
+<txt lng="fre">h Encore présent ? %input:ZE07_02%</txt>
+<txt lng="cat">h Persistent? %input:ZE07_02%</txt>
+<txt lng="hin">घंटे जारी है? %input:ZE07_02%</txt>
+<txt lng="per"> ساعت مستمر؟ %input:ZE07_02%</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+<attr id="width">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Dizziness</txt>
+<txt lng="ara">دوخة (دوار)</txt>
+<txt lng="por">Tontura</txt>
+<txt lng="dut">Duizeligheid</txt>
+<txt lng="spa">Mareo</txt>
+<txt lng="chi">头晕</txt>
+<txt lng="ita">Stordimento</txt>
+<txt lng="jpn">めまい</txt>
+<txt lng="kor">어지러움</txt>
+<txt lng="glg">Mareo</txt>
+<txt lng="deu">Schwindel</txt>
+<txt lng="baq">Zorabioa</txt>
+<txt lng="fre">Vertige</txt>
+<txt lng="cat">Mareig</txt>
+<txt lng="hin">चक्कर आना</txt>
+<txt lng="per">سرگیجه</txt>
+</text>
+<suffix>
+<txt>h Ongoing? %input:ZE07_03%</txt>
+<txt lng="ara"> ساعة مستمر؟ %input:ZE07_03%</txt>
+<txt lng="por">h Contínua?  %input:ZE07_03%</txt>
+<txt lng="dut">h Doorlopend? %input:ZE07_03%</txt>
+<txt lng="spa">h ¿Persistente? %input:ZE07_03%</txt>
+<txt lng="chi">小时 仍在持续？%input:ZE07_03%</txt>
+<txt lng="ita">h Persiste? %input:ZE07_03%</txt>
+<txt lng="jpn">時間 継続中か？%input:ZE07_03%</txt>
+<txt lng="kor">시간 여전히 계속 되나요? %input:ZE07_03%</txt>
+<txt lng="glg">h Mantense? %input:ZE07_03%</txt>
+<txt lng="deu">h Andauernd? %input:ZE07_03%</txt>
+<txt lng="baq">h Jarraitzen al du? %input:ZE07_03%</txt>
+<txt lng="fre">h Encore présent ? %input:ZE07_03%</txt>
+<txt lng="cat">h Persistent? %input:ZE07_03%</txt>
+<txt lng="hin">घंटे जारी है? %input:ZE07_03%</txt>
+<txt lng="per"> ساعت مستمر؟ %input:ZE07_03%</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+<attr id="width">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Sleepiness/fatigue</txt>
+<txt lng="ara">نعاس أو إرهاق</txt>
+<txt lng="por">Sonolência/fadiga</txt>
+<txt lng="dut">Slaperigheid/vermoeidheid</txt>
+<txt lng="spa">Somnolencia/fatiga</txt>
+<txt lng="chi">困倦或疲惫</txt>
+<txt lng="ita">Sonnolenza/stanchezza</txt>
+<txt lng="jpn">眠気または倦怠感</txt>
+<txt lng="kor">졸음/피로</txt>
+<txt lng="glg">Somnolencia/fatiga</txt>
+<txt lng="deu">Müdigkeit/Erschöpfung</txt>
+<txt lng="baq">Logura/nekea</txt>
+<txt lng="fre">Somnolence/fatigue</txt>
+<txt lng="cat">Somnolència/fatiga</txt>
+<txt lng="hin">उनींदापन/थकान</txt>
+<txt lng="per">خواب‌آلودگی یا خستگی</txt>
+</text>
+<suffix>
+<txt>h Ongoing? %input:ZE07_04%</txt>
+<txt lng="ara"> ساعة مستمر؟ %input:ZE07_04%</txt>
+<txt lng="por">h Contínua?  %input:ZE07_04%</txt>
+<txt lng="dut">h Doorlopend? %input:ZE07_04%</txt>
+<txt lng="spa">h ¿Persistente? %input:ZE07_04%</txt>
+<txt lng="chi">小时 仍在持续？%input:ZE07_04%</txt>
+<txt lng="ita">h Persiste? %input:ZE07_04%</txt>
+<txt lng="jpn">時間 継続中か？%input:ZE07_04%</txt>
+<txt lng="kor">시간 여전히 계속 되나요? %input:ZE07_04%</txt>
+<txt lng="glg">h Mantense? %input:ZE07_04%</txt>
+<txt lng="deu">h Andauernd? %input:ZE07_04%</txt>
+<txt lng="baq">h Jarraitzen al du? %input:ZE07_04%</txt>
+<txt lng="fre">h Encore présent ? %input:ZE07_04%</txt>
+<txt lng="cat">h Persistent? %input:ZE07_04%</txt>
+<txt lng="hin">घंटे जारी है? %input:ZE07_04%</txt>
+<txt lng="per"> ساعت مستمر؟ %input:ZE07_04%</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+<attr id="width">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Difficulty concentrating</txt>
+<txt lng="ara">صعوبة في التركيز</txt>
+<txt lng="por">Dificuldade de concentração</txt>
+<txt lng="dut">Concentratieproblemen</txt>
+<txt lng="spa">Dificultad para concentrarse</txt>
+<txt lng="chi">注意力不集中</txt>
+<txt lng="ita">Difficoltà di concentrazione</txt>
+<txt lng="jpn">集中困難</txt>
+<txt lng="kor">집중력 저하</txt>
+<txt lng="glg">Dificultade para concentrarse</txt>
+<txt lng="deu">Konzentrationsprobleme</txt>
+<txt lng="baq">Kontzentratzeko zailtasunak</txt>
+<txt lng="fre">Problème de concentration</txt>
+<txt lng="cat">Dificultat per concentrar-se</txt>
+<txt lng="hin">ध्यान केंद्रित करने में कठिनाई</txt>
+<txt lng="per">مشکل در تمرکز</txt>
+</text>
+<suffix>
+<txt>h Ongoing? %input:ZE07_05%</txt>
+<txt lng="ara"> ساعة مستمر؟ %input:ZE07_05%</txt>
+<txt lng="por">h Contínua?  %input:ZE07_05%</txt>
+<txt lng="dut">h Doorlopend? %input:ZE07_05%</txt>
+<txt lng="spa">h ¿Persistente? %input:ZE07_05%</txt>
+<txt lng="chi">小时 仍在持续？%input:ZE07_05%</txt>
+<txt lng="ita">h Persiste? %input:ZE07_05%</txt>
+<txt lng="jpn">時間 継続中か？%input:ZE07_05%</txt>
+<txt lng="kor">시간 여전히 계속 되나요? %input:ZE07_05%</txt>
+<txt lng="glg">h Mantense? %input:ZE07_05%</txt>
+<txt lng="deu">h Andauernd? %input:ZE07_05%</txt>
+<txt lng="baq">h Jarraitzen al du? %input:ZE07_05%</txt>
+<txt lng="fre">h Encore présent ? %input:ZE07_05%</txt>
+<txt lng="cat">h Persistent? %input:ZE07_05%</txt>
+<txt lng="hin">घंटे जारी है? %input:ZE07_05%</txt>
+<txt lng="per"> ساعت مستمر؟ %input:ZE07_05%</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+<attr id="width">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Itching (scalp)</txt>
+<txt lng="ara">حكة (فروة الرأس)</txt>
+<txt lng="por">Coceira na cabeça</txt>
+<txt lng="dut">Jeuk (schedel)</txt>
+<txt lng="spa">Picor (cuero cabelludo)</txt>
+<txt lng="chi">瘙痒（头皮）</txt>
+<txt lng="ita">Prurito (cuoio capelluto)</txt>
+<txt lng="jpn">かゆみ（頭皮）</txt>
+<txt lng="kor">가려움(두피)</txt>
+<txt lng="glg">Proído (coiro cabeludo)</txt>
+<txt lng="deu">Juckreiz (Kopfhaut)</txt>
+<txt lng="baq">Azkura (buru-azala)</txt>
+<txt lng="fre">Démangeaison (cuir chevelu)</txt>
+<txt lng="cat">Picor (cuir cabellut)</txt>
+<txt lng="hin">खुजली (सिर)</txt>
+<txt lng="per">خارش (پوست سر)</txt>
+</text>
+<suffix>
+<txt>h Ongoing? %input:ZE07_06%</txt>
+<txt lng="ara"> ساعة مستمر؟ %input:ZE07_06%</txt>
+<txt lng="por">h Contínua?  %input:ZE07_06%</txt>
+<txt lng="dut">h Doorlopend? %input:ZE07_06%</txt>
+<txt lng="spa">h ¿Persistente? %input:ZE07_06%</txt>
+<txt lng="chi">小时 仍在持续？%input:ZE07_06%</txt>
+<txt lng="ita">h Persiste? %input:ZE07_06%</txt>
+<txt lng="jpn">時間 継続中か？%input:ZE07_06%</txt>
+<txt lng="kor">시간 여전히 계속 되나요? %input:ZE07_06%</txt>
+<txt lng="glg">h Mantense? %input:ZE07_06%</txt>
+<txt lng="deu">h Andauernd? %input:ZE07_06%</txt>
+<txt lng="baq">h Jarraitzen al du? %input:ZE07_06%</txt>
+<txt lng="fre">h Encore présent ? %input:ZE07_06%</txt>
+<txt lng="cat">h Persistent? %input:ZE07_06%</txt>
+<txt lng="hin">घंटे जारी है? %input:ZE07_06%</txt>
+<txt lng="per"> ساعت مستمر؟ %input:ZE07_06%</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+<attr id="width">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Tingling (scalp)</txt>
+<txt lng="ara">وخز (فروة الرأس)</txt>
+<txt lng="por">Formigamento na cabeça (couro cabeludo)</txt>
+<txt lng="dut">Tinteling (schedel)</txt>
+<txt lng="spa">Hormigueo (cuero cabelludo)</txt>
+<txt lng="chi">刺痛（头皮）</txt>
+<txt lng="ita">Formicolio (cuoio capelluto)</txt>
+<txt lng="jpn">ピリピリ感（頭皮）</txt>
+<txt lng="kor">따끔거림(두피)</txt>
+<txt lng="glg">Formigueo (coiro cabeludo)</txt>
+<txt lng="deu">Kribbeln (Kopfhaut)</txt>
+<txt lng="baq">Inurridura (buru-azala)</txt>
+<txt lng="fre">Picotement (cuir chevelu)</txt>
+<txt lng="cat">Formigueig (cuir cabellut)</txt>
+<txt lng="hin">सिहरन (सिर)</txt>
+<txt lng="per">مورمور شدن (پوست سر)</txt>
+</text>
+<suffix>
+<txt>h Ongoing? %input:ZE07_07%</txt>
+<txt lng="ara"> ساعة مستمر؟ %input:ZE07_07%</txt>
+<txt lng="por">h Contínua?  %input:ZE07_07%</txt>
+<txt lng="dut">h Doorlopend? %input:ZE07_07%</txt>
+<txt lng="spa">h ¿Persistente? %input:ZE07_07%</txt>
+<txt lng="chi">小时 仍在持续？%input:ZE07_07%</txt>
+<txt lng="ita">h Persiste? %input:ZE07_07%</txt>
+<txt lng="jpn">時間 継続中か？%input:ZE07_07%</txt>
+<txt lng="kor">시간 여전히 계속 되나요? %input:ZE07_07%</txt>
+<txt lng="glg">h Mantense? %input:ZE07_07%</txt>
+<txt lng="deu">h Andauernd? %input:ZE07_07%</txt>
+<txt lng="baq">h Jarraitzen al du? %input:ZE07_07%</txt>
+<txt lng="fre">h Encore présent ? %input:ZE07_07%</txt>
+<txt lng="cat">h Persistent? %input:ZE07_07%</txt>
+<txt lng="hin">घंटे जारी है? %input:ZE07_07%</txt>
+<txt lng="per"> ساعت مستمر؟ %input:ZE07_07%</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+<attr id="width">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Change in mood</txt>
+<txt lng="ara">تغير في الحالة المزاجية</txt>
+<txt lng="por">Variações de humor</txt>
+<txt lng="dut">Verandering van humeur</txt>
+<txt lng="spa">Cambio de humor</txt>
+<txt lng="chi">情绪波动</txt>
+<txt lng="ita">Cambiamento di umore</txt>
+<txt lng="jpn">気分の変化</txt>
+<txt lng="kor">감정 기복</txt>
+<txt lng="glg">Cambio de humor</txt>
+<txt lng="deu">Stimmungsänderung</txt>
+<txt lng="baq">Umore aldaketa</txt>
+<txt lng="fre">Changement d'humeur</txt>
+<txt lng="cat">Canvi d’humor</txt>
+<txt lng="hin">भाव में बदलाव</txt>
+<txt lng="per">تغییر در خلق‌وخوی</txt>
+</text>
+<suffix>
+<txt>h Ongoing? %input:ZE07_08%</txt>
+<txt lng="ara"> ساعة مستمر؟ %input:ZE07_08%</txt>
+<txt lng="por">h Contínua?  %input:ZE07_08%</txt>
+<txt lng="dut">h Doorlopend? %input:ZE07_08%</txt>
+<txt lng="spa">h ¿Persistente? %input:ZE07_08%</txt>
+<txt lng="chi">小时 仍在持续？%input:ZE07_08%</txt>
+<txt lng="ita">h Persiste? %input:ZE07_08%</txt>
+<txt lng="jpn">時間 継続中か？%input:ZE07_08%</txt>
+<txt lng="kor">시간 여전히 계속 되나요? %input:ZE07_08%</txt>
+<txt lng="glg">h Mantense? %input:ZE07_08%</txt>
+<txt lng="deu">h Andauernd? %input:ZE07_08%</txt>
+<txt lng="baq">h Jarraitzen al du? %input:ZE07_08%</txt>
+<txt lng="fre">h Encore présent ? %input:ZE07_08%</txt>
+<txt lng="cat">h Persistent? %input:ZE07_08%</txt>
+<txt lng="hin">घंटे जारी है? %input:ZE07_08%</txt>
+<txt lng="per"> ساعت مستمر؟ %input:ZE07_08%</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+<attr id="width">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Nausea</txt>
+<txt lng="ara">غثيان</txt>
+<txt lng="por">Náuseas</txt>
+<txt lng="dut">Misselijkheid</txt>
+<txt lng="spa">Náuseas</txt>
+<txt lng="chi">恶心</txt>
+<txt lng="ita">Nausea</txt>
+<txt lng="jpn">吐き気</txt>
+<txt lng="kor">메스꺼움</txt>
+<txt lng="glg">Náuseas</txt>
+<txt lng="deu">Übelkeit</txt>
+<txt lng="baq">Goragalea</txt>
+<txt lng="fre">Nausée</txt>
+<txt lng="cat">Nàusea</txt>
+<txt lng="hin">मतली</txt>
+<txt lng="per">تهوع</txt>
+</text>
+<suffix>
+<txt>h Ongoing? %input:ZE07_09%</txt>
+<txt lng="ara"> ساعة مستمر؟ %input:ZE07_09%</txt>
+<txt lng="por">h Contínua?  %input:ZE07_09%</txt>
+<txt lng="dut">h Doorlopend? %input:ZE07_09%</txt>
+<txt lng="spa">h ¿Persistente? %input:ZE07_09%</txt>
+<txt lng="chi">小时 仍在持续？%input:ZE07_09%</txt>
+<txt lng="ita">h Persiste? %input:ZE07_09%</txt>
+<txt lng="jpn">時間 継続中か？ %input:ZE07_09%</txt>
+<txt lng="kor">시간 여전히 계속 되나요? %input:ZE07_09%</txt>
+<txt lng="glg">h Mantense? %input:ZE07_09%</txt>
+<txt lng="deu">h Andauernd? %input:ZE07_09%</txt>
+<txt lng="baq">h Jarraitzen al du? %input:ZE07_09%</txt>
+<txt lng="fre">h Encore présent ? %input:ZE07_09%</txt>
+<txt lng="cat">h Persistent? %input:ZE07_09%</txt>
+<txt lng="hin">घंटे जारी है? %input:ZE07_09%</txt>
+<txt lng="per"> ساعت مستمر؟ %input:ZE07_09%</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">9</attr>
+<attr id="width">3</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Treatment-related</description>
+<class>mc-matrix</class>
+<title>
+<txt>Do you think it was treatment-related?</txt>
+<txt lng="ara">هل تعتقد أن ذلك كان بسبب العلاج؟</txt>
+<txt lng="por">Você acha que o efeito está relacionado com o tratamento?</txt>
+<txt lng="dut">Bent u van mening dat deze te maken had met de behandeling?</txt>
+<txt lng="spa">¿Cree que está relacionado con el tratamiento?</txt>
+<txt lng="chi">您认为这是否与治疗有关系？</txt>
+<txt lng="ita">Ritiene che sia dovuta al trattamento?</txt>
+<txt lng="jpn">治療が関係したと思いますか？</txt>
+<txt lng="kor">치료 관련이라고 생각하시나요?</txt>
+<txt lng="glg">Cre que está relacionado co tratamento?</txt>
+<txt lng="deu">Halten Sie dies für behandlungsbedingt?</txt>
+<txt lng="baq">Tratamenduarekin zerikusia duela uste duzu?</txt>
+<txt lng="fre">Pensez-vous qu’il soit lié au traitement ?</txt>
+<txt lng="cat">Creu que està relacionada amb el tractament?</txt>
+<txt lng="hin">क्या आपको लगता है कि यह उपचार से संबंधित था?</txt>
+<txt lng="per">فکر می‌کنید این حس مرتبط با درمان بوده است؟</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<labels>
+<li i="1">
+<txt>Yes</txt>
+<txt lng="ara">نعم</txt>
+<txt lng="por">Sim</txt>
+<txt lng="dut">Ja</txt>
+<txt lng="spa">Sí</txt>
+<txt lng="chi">是</txt>
+<txt lng="ita">Sì</txt>
+<txt lng="jpn">はい</txt>
+<txt lng="kor">예</txt>
+<txt lng="glg">Si</txt>
+<txt lng="deu">Ja</txt>
+<txt lng="baq">Bai</txt>
+<txt lng="fre">Oui</txt>
+<txt lng="cat">Sí</txt>
+<txt lng="hin">हाँ</txt>
+<txt lng="per">بله</txt>
+</li>
+<li i="2">
+<txt>No</txt>
+<txt lng="ara">لا</txt>
+<txt lng="por">Não</txt>
+<txt lng="dut">Nee</txt>
+<txt lng="spa">No</txt>
+<txt lng="chi">否</txt>
+<txt lng="ita">No</txt>
+<txt lng="jpn">いいえ</txt>
+<txt lng="kor">아니오</txt>
+<txt lng="glg">Non</txt>
+<txt lng="deu">Nein</txt>
+<txt lng="baq">Ez</txt>
+<txt lng="fre">Non</txt>
+<txt lng="cat">No</txt>
+<txt lng="hin">नहीं</txt>
+<txt lng="per">خیر</txt>
+</li>
+</labels>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+<attr id="scale.niveau">2</attr>
+<attr id="composition">default</attr>
+</attributes.specific>
+<item>
+<text>
+<txt>Headache</txt>
+<txt lng="ara">صداع</txt>
+<txt lng="por">Dor de cabeça (cefaleia)</txt>
+<txt lng="dut">Hoofdpijn</txt>
+<txt lng="spa">Dolor de cabeza</txt>
+<txt lng="chi">头痛</txt>
+<txt lng="ita">Mal di testa</txt>
+<txt lng="jpn">頭痛</txt>
+<txt lng="kor">두통</txt>
+<txt lng="glg">Dor de cabeza</txt>
+<txt lng="deu">Kopfschmerzen</txt>
+<txt lng="baq">Buruko mina</txt>
+<txt lng="fre">Maux de tête</txt>
+<txt lng="cat">Mal de cap</txt>
+<txt lng="hin">सिरदर्द</txt>
+<txt lng="per">سردرد</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Neck pain</txt>
+<txt lng="ara">ألم في الرقبة</txt>
+<txt lng="por">Dor no pescoço</txt>
+<txt lng="dut">Nekpijn</txt>
+<txt lng="spa">Dolor cervical</txt>
+<txt lng="chi">颈痛</txt>
+<txt lng="ita">Mal di collo</txt>
+<txt lng="jpn">首の痛み</txt>
+<txt lng="kor">목 통증</txt>
+<txt lng="glg">Dor no pescozo</txt>
+<txt lng="deu">Nackenschmerzen</txt>
+<txt lng="baq">Lepoko mina</txt>
+<txt lng="fre">Douleur cervicale</txt>
+<txt lng="cat">Dolor cervical</txt>
+<txt lng="hin">गर्दन में दर्द</txt>
+<txt lng="per">گردن‌درد</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Dizziness</txt>
+<txt lng="ara">دوخة (دوار)</txt>
+<txt lng="por">Tontura</txt>
+<txt lng="dut">Duizeligheid</txt>
+<txt lng="spa">Mareo</txt>
+<txt lng="chi">头晕</txt>
+<txt lng="ita">Stordimento</txt>
+<txt lng="jpn">めまい</txt>
+<txt lng="kor">어지러움</txt>
+<txt lng="glg">Mareo</txt>
+<txt lng="deu">Schwindel</txt>
+<txt lng="baq">Zorabioa</txt>
+<txt lng="fre">Vertige</txt>
+<txt lng="cat">Mareig</txt>
+<txt lng="hin">चक्कर आना</txt>
+<txt lng="per">سرگیجه</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Sleepiness/fatigue</txt>
+<txt lng="ara">نعاس أو إرهاق</txt>
+<txt lng="por">Sonolência/fadiga</txt>
+<txt lng="dut">Slaperigheid/vermoeidheid</txt>
+<txt lng="spa">Somnolencia/fatiga</txt>
+<txt lng="chi">困倦或疲惫</txt>
+<txt lng="ita">Sonnolenza/stanchezza</txt>
+<txt lng="jpn">眠気または倦怠感</txt>
+<txt lng="kor">졸음/피로</txt>
+<txt lng="glg">Somnolencia/fatiga</txt>
+<txt lng="deu">Müdigkeit/Erschöpfung</txt>
+<txt lng="baq">Logura/nekea</txt>
+<txt lng="fre">Somnolence/fatigue</txt>
+<txt lng="cat">Somnolència/fatiga</txt>
+<txt lng="hin">उनींदापन/थकान</txt>
+<txt lng="per">خواب‌آلودگی یا خستگی</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Difficulty concentrating</txt>
+<txt lng="ara">صعوبة في التركيز</txt>
+<txt lng="por">Dificuldade de concentração</txt>
+<txt lng="dut">Concentratieproblemen</txt>
+<txt lng="spa">Dificultad para concentrarse</txt>
+<txt lng="chi">注意力不集中</txt>
+<txt lng="ita">Difficoltà di concentrazione</txt>
+<txt lng="jpn">集中困難</txt>
+<txt lng="kor">집중력 저하</txt>
+<txt lng="glg">Dificultade para concentrarse</txt>
+<txt lng="deu">Konzentrationsprobleme</txt>
+<txt lng="baq">Kontzentratzeko zailtasunak</txt>
+<txt lng="fre">Problème de concentration</txt>
+<txt lng="cat">Dificultat per concentrar-se</txt>
+<txt lng="hin">ध्यान केंद्रित करने में कठिनाई</txt>
+<txt lng="per">مشکل در تمرکز</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Itching (scalp)</txt>
+<txt lng="ara">حكة (فروة الرأس)</txt>
+<txt lng="por">Coceira na cabeça</txt>
+<txt lng="dut">Jeuk (schedel)</txt>
+<txt lng="spa">Picor (cuero cabelludo)</txt>
+<txt lng="chi">瘙痒（头皮）</txt>
+<txt lng="ita">Prurito (cuoio capelluto)</txt>
+<txt lng="jpn">かゆみ（頭皮）</txt>
+<txt lng="kor">가려움(두피)</txt>
+<txt lng="glg">Proído (coiro cabeludo)</txt>
+<txt lng="deu">Juckreiz (Kopfhaut)</txt>
+<txt lng="baq">Azkura (buru-azala)</txt>
+<txt lng="fre">Démangeaison (cuir chevelu)</txt>
+<txt lng="cat">Picor (cuir cabellut)</txt>
+<txt lng="hin">खुजली (सिर)</txt>
+<txt lng="per">خارش (پوست سر)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Tingling (scalp)</txt>
+<txt lng="ara">وخز (فروة الرأس)</txt>
+<txt lng="por">Formigamento na cabeça (couro cabeludo)</txt>
+<txt lng="dut">Tinteling (schedel)</txt>
+<txt lng="spa">Hormigueo (cuero cabelludo)</txt>
+<txt lng="chi">刺痛（头皮）</txt>
+<txt lng="ita">Formicolio (cuoio capelluto)</txt>
+<txt lng="jpn">ピリピリ感（頭皮）</txt>
+<txt lng="kor">따끔거림(두피)</txt>
+<txt lng="glg">Formigueo (coiro cabeludo)</txt>
+<txt lng="deu">Kribbeln (Kopfhaut)</txt>
+<txt lng="baq">Inurridura (buru-azala)</txt>
+<txt lng="fre">Picotement (cuir chevelu)</txt>
+<txt lng="cat">Formigueig (cuir cabellut)</txt>
+<txt lng="hin">सिहरन (सिर)</txt>
+<txt lng="per">مورمور شدن (پوست سر)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Change in mood</txt>
+<txt lng="ara">تغير في الحالة المزاجية</txt>
+<txt lng="por">Variações de humor</txt>
+<txt lng="dut">Verandering van humeur</txt>
+<txt lng="spa">Cambio de humor</txt>
+<txt lng="chi">情绪波动</txt>
+<txt lng="ita">Cambiamento di umore</txt>
+<txt lng="jpn">気分の変化</txt>
+<txt lng="kor">감정 기복</txt>
+<txt lng="glg">Cambio de humor</txt>
+<txt lng="deu">Stimmungsänderung</txt>
+<txt lng="baq">Umore aldaketa</txt>
+<txt lng="fre">Changement d'humeur</txt>
+<txt lng="cat">Canvi d’humor</txt>
+<txt lng="hin">भाव में बदलाव</txt>
+<txt lng="per">تغییر در خلق‌وخوی</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Nausea</txt>
+<txt lng="ara">غثيان</txt>
+<txt lng="por">Náuseas</txt>
+<txt lng="dut">Misselijkheid</txt>
+<txt lng="spa">Náuseas</txt>
+<txt lng="chi">恶心</txt>
+<txt lng="ita">Nausea</txt>
+<txt lng="jpn">吐き気</txt>
+<txt lng="kor">메스꺼움</txt>
+<txt lng="glg">Náuseas</txt>
+<txt lng="deu">Übelkeit</txt>
+<txt lng="baq">Goragalea</txt>
+<txt lng="fre">Nausée</txt>
+<txt lng="cat">Nàusea</txt>
+<txt lng="hin">मतली</txt>
+<txt lng="per">تهوع</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">9</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Other sensations</description>
+<class>text</class>
+<title>
+<txt>Please describe any other sensations you have experienced (level of unpleasantness, 0-4):</txt>
+<txt lng="ara">يُرجى وصف أي أحاسيس أخرى شعرت بها (مستوى عدم الارتياح، 0-4):</txt>
+<txt lng="por">Descreva quaisquer outras sensações que você tenha sentido (nível de desconforto, 0-4):</txt>
+<txt lng="dut">Beschrijf andere sensaties die u hebt opgemerkt (intensiteit van onaangenaamheid, 0-4):</txt>
+<txt lng="spa">Por favor, describa cualquier otra sensación que haya sentido (indique el nivel de molestia en una escala de 0 a 4):</txt>
+<txt lng="chi">请说明您感受到的其他感觉（不适程度，0-4分）：</txt>
+<txt lng="ita">Descriva altre eventuali sensazioni che ha avuto (livello di fastidio, 0-4):</txt>
+<txt lng="jpn">他に経験した副作用があればご説明下さい（不快さのレベル0～4）：</txt>
+<txt lng="kor">그 외 다른 증상을 경험하셨다면 기재해 주세요(불쾌감 정도, 0-4):</txt>
+<txt lng="glg">Por favor, describa calquera outra sensación que sentise (indique molestia do 0 ao 4):</txt>
+<txt lng="deu">Bitte beschreiben Sie sonstige bei Ihnen aufgetretene Empfindungen (Grad der unangenehmen Empfindung, 0-4):</txt>
+<txt lng="baq">Mesedez, deskribatu nabaritu duzun beste edozein sentsazio (adierazi ondoeza 0-4 bitartean):</txt>
+<txt lng="fre">Veuillez décrire tout autre symptôme ressenti (niveau de désagrément, 0-4) :</txt>
+<txt lng="cat">Si us plau, descrigui qualsevol altra sensació que hagi percebut (indiqui el nivell de molèstia en una escala de 0 a 4):</txt>
+<txt lng="hin">कृपया अपने द्वारा महसूस किए गए किसी अन्य लक्षण का वर्णन करें (अप्रियता का स्तर, 0-4):</txt>
+<txt lng="per">لطفاً هر حس دیگری که تجربه کرده‌اید را توصیف کنید (سطح ناراحتی، 0-4):</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+<item>
+<text />
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Daily activities </description>
+<class>selscale</class>
+<title>
+<txt>How much have you been affected by these sensations in your daily activities since your last treatment?</txt>
+<txt lng="ara">ما مدى تأثير هذه الأعراض على أنشطتك اليومية منذ آخر علاج لك؟</txt>
+<txt lng="por">Até que ponto foi afetado por estes efeitos nas suas atividades do dia a dia desde o seu último tratamento?</txt>
+<txt lng="dut">In welke mate werd u negatief beïnvloed door deze sensaties tijdens uw dagelijkse activiteiten sinds uw laatste behandeling?</txt>
+<txt lng="spa">¿En qué medida le han afectado estas sensaciones en las actividades del día a día desde el último tratamiento?</txt>
+<txt lng="chi">自上次治疗以来，这些感觉对您的日常活动有多大影响？</txt>
+<txt lng="ita">In che misura queste sensazioni hanno avuto un impatto sulle sue attività giornalieri dall’ultimo trattamento?</txt>
+<txt lng="jpn">前回の治療以降、それらの副作用はあなたの日常生活にどの程度影響しましたか？</txt>
+<txt lng="kor">지난번 치료 이후, 위 증상이 일상생활에 어떤 영향을 미쳤나요?</txt>
+<txt lng="glg">En que medida lle afectaron estas sensacións nas actividades do día a día dende o último tratamento?</txt>
+<txt lng="deu">Inwieweit haben diese Empfindungen Ihre täglichen Aktivitäten seit Ihrer letzten Behandlung beeinträchtigt?</txt>
+<txt lng="baq">Zer neurritan eragin dizute sentsazio horiek eguneroko jardueretan azken tratamendutik?</txt>
+<txt lng="fre">Dans quelle mesure ces symptômes ont-ils affecté vos activités quotidiennes depuis votre dernier traitement ?</txt>
+<txt lng="cat">En quina mesura, aquestes sensacions han afectat les activitats de seu dia a dia després del darrer tractament?</txt>
+<txt lng="hin">आपके पिछले उपचार के बाद से इन लक्षणों ने आपकी नियमित गतिविधियों को किस प्रकार प्रभावित किया है?</txt>
+<txt lng="per">این حس‌ها از زمان آخرین درمان، تا چه حد بر فعالیت‌های روزانه شما، تأثیر گذاشته‌اند؟</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+<attr id="operation">right</attr>
+</attributes.specific>
+<item>
+<text>
+<txt><![CDATA[0 <br> Not affected]]></txt>
+<txt lng="ara"><![CDATA[0 <br> غير متأثر]]></txt>
+<txt lng="por"><![CDATA[0 <br> Não afetou]]></txt>
+<txt lng="dut"><![CDATA[0 <br> Niet negatief beïnvloed]]></txt>
+<txt lng="spa"><![CDATA[0 <br> No me ha afectado]]></txt>
+<txt lng="chi"><![CDATA[0 <br> 未受影响]]></txt>
+<txt lng="ita"><![CDATA[0 <br> Nessun impatto]]></txt>
+<txt lng="jpn"><![CDATA[0 <br> 影響しなかった]]></txt>
+<txt lng="glg"><![CDATA[0 <br> Non me afectaron]]></txt>
+<txt lng="deu"><![CDATA[0<br> Nicht beeinträchtigt]]></txt>
+<txt lng="baq"><![CDATA[0 <br> Ez dute eraginik izan ]]></txt>
+<txt lng="fre"><![CDATA[0 <br> Pas du tout affecté]]></txt>
+<txt lng="cat"><![CDATA[0 <br> No m’ha afectat ]]></txt>
+<txt lng="hin"><![CDATA[0 <br> प्रभावित नहीं किया]]></txt>
+<txt lng="per"><![CDATA[ 0 <br> بی‌تأثیر]]></txt>
+<txt lng="kor"><![CDATA[0 <br> 전혀 영향 없음]]></txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>1</txt>
+<txt lng="ara">1</txt>
+<txt lng="por">1</txt>
+<txt lng="dut">1</txt>
+<txt lng="spa">1</txt>
+<txt lng="chi">1</txt>
+<txt lng="ita">1</txt>
+<txt lng="jpn">1</txt>
+<txt lng="kor">1</txt>
+<txt lng="glg">1</txt>
+<txt lng="deu">1</txt>
+<txt lng="baq">1</txt>
+<txt lng="fre">1</txt>
+<txt lng="cat">1</txt>
+<txt lng="hin">1</txt>
+<txt lng="per">1</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>2</txt>
+<txt lng="ara">2</txt>
+<txt lng="por">2</txt>
+<txt lng="dut">2</txt>
+<txt lng="spa">2</txt>
+<txt lng="chi">2</txt>
+<txt lng="ita">2</txt>
+<txt lng="jpn">2</txt>
+<txt lng="kor">2</txt>
+<txt lng="glg">2</txt>
+<txt lng="deu">2</txt>
+<txt lng="baq">2</txt>
+<txt lng="fre">2</txt>
+<txt lng="cat">2</txt>
+<txt lng="hin">2</txt>
+<txt lng="per">2</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>3</txt>
+<txt lng="ara">3</txt>
+<txt lng="por">3</txt>
+<txt lng="dut">3</txt>
+<txt lng="spa">3</txt>
+<txt lng="chi">3</txt>
+<txt lng="ita">3</txt>
+<txt lng="jpn">3</txt>
+<txt lng="kor">3</txt>
+<txt lng="glg">3</txt>
+<txt lng="deu">3</txt>
+<txt lng="baq">3</txt>
+<txt lng="fre">3</txt>
+<txt lng="cat">3</txt>
+<txt lng="hin">3</txt>
+<txt lng="per">3</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt><![CDATA[4 <br> Very severely affected]]></txt>
+<txt lng="ara"><![CDATA[4 <br> متأثر بشدة]]></txt>
+<txt lng="por"><![CDATA[4 <br> afetou muito ]]></txt>
+<txt lng="dut"><![CDATA[4 <br> Zeer ernstig negatief beïnvloed]]></txt>
+<txt lng="spa"><![CDATA[4 <br> Me ha afectado severamente]]></txt>
+<txt lng="chi"><![CDATA[4 <br> 受到严重影响]]></txt>
+<txt lng="ita"><![CDATA[4 <br> Impatto molto forte]]></txt>
+<txt lng="jpn"><![CDATA[4 <br> 非常に大きく影響した]]></txt>
+<txt lng="glg"><![CDATA[4 <br> Afectáronme severamente]]></txt>
+<txt lng="deu"><![CDATA[4<br> Sehr stark beeinträchtigt ]]></txt>
+<txt lng="baq"><![CDATA[4 <br> Eragin didate]]></txt>
+<txt lng="fre"><![CDATA[4 <br> Très sévèrement affecté]]></txt>
+<txt lng="cat"><![CDATA[4 <br> M’ha afectat seriosament]]></txt>
+<txt lng="hin"><![CDATA[4 <br> बहुत बुरी तरह प्रभावित किया]]></txt>
+<txt lng="per"><![CDATA[ 4 <br> به‌شدت تأثیرگذار]]></txt>
+<txt lng="kor"><![CDATA[4 <br> 매우 심하게 영향받음]]></txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Intro_previousTreatment</description>
+<class>TextContent</class>
+<title />
+<explanation />
+<headerText>
+<txt>A) Did you experience the following sensations after the previous treatment (if applicable)?</txt>
+<txt lng="ara">أ) هل شعرت بالأحاسيس التالية بعد العلاج السابق؟ (ضع علامة إذا كان ذلك ينطبق)</txt>
+<txt lng="por"><![CDATA[A) Você observou algum dos seguintes efeitos após a sessão de tratamento anterior (se aplicável)?]]></txt>
+<txt lng="dut"><![CDATA[A) Heeft u na de vorige behandeling de volgende sensaties opgemerkt (indien van toepassing)?]]></txt>
+<txt lng="spa">A) ¿Ha notado alguna de las siguientes sensaciones tras la última sesión de tratamiento (si corresponde)?</txt>
+<txt lng="chi">A) 上次治疗结束后，您是否有过以下感觉（如果适用）？</txt>
+<txt lng="ita"><![CDATA[A) Ha avuto le seguenti sensazioni dopo il trattamento precedente (se applicabile)?]]></txt>
+<txt lng="jpn">A) 前回の治療後、以下のような副作用がありましたか？（治療を受けた場合のみ回答）</txt>
+<txt lng="kor">A) 지난번 치료 후에 아래 증상을 경험하셨나요(해당하면)?</txt>
+<txt lng="glg">A) Notou algunha das seguintes sensacións tras o tratamento anterior (se procede)?</txt>
+<txt lng="deu">A) Traten nach der vorherigen Behandlung die folgenden Empfindungen auf (falls zutreffend)?</txt>
+<txt lng="baq">A) Nabaritu al duzu sentsazio hauetakoren bat aurretiko tratamenduaren ondoren (hala badagokio)?</txt>
+<txt lng="fre">A) Avez-vous ressenti les symptômes suivants à la suite de la dernière séance de traitement (le cas échéant) ?</txt>
+<txt lng="cat">A) Ha remarcat alguna de les següents sensacions després de la darrera sessió de tractament (si correspon)?</txt>
+<txt lng="hin">A) क्या आपने अपने पिछले उपचार के बाद निम्नलिखित संवेदनाएं महसूस कीं (यदि लागू हो)?</txt>
+<txt lng="per">الف) آیا پس از درمان قبلی (در صورت وجود)، حس‌های زیر را تجربه کرده‌اید؟</txt>
+</headerText>
+<inputPosition>right</inputPosition>
+<lead>
+<txt>Continue on next page if none applies or sensation not listed.</txt>
+<txt lng="ara">انتقل إلى الصفحة التالية إذا لم ينطبق أي شيء أو إذا لم تكن الأعراض مذكورة.</txt>
+<txt lng="por">Continue na página seguinte se nenhuma opção se aplicar ou se a sensação não estiver listada.</txt>
+<txt lng="dut">Ga verder op de volgende pagina als er geen van toepassing is of als de sensatie niet in de lijst voorkomt.</txt>
+<txt lng="spa">Continúe en la página siguiente si ninguna opción es aplicable o si la sensación no está incluida en la lista.</txt>
+<txt lng="chi">如果以上均不适用或未列出相关感觉，请继续到下一页。</txt>
+<txt lng="ita">Continuare alla pagina successiva se nessuna delle risposte è pertinente o se la sensazione non è elencata.</txt>
+<txt lng="jpn">該当するものがない場合、または感覚がリストにない場合は、次のページへ進んでください。</txt>
+<txt lng="kor">해당되는 항목이 없거나 목록에 없는 감각인 경우 다음 페이지로 이동하세요.</txt>
+<txt lng="glg">Continúe na páxina seguinte se ningunha opción é aplicable ou se a sensación non aparece na lista.</txt>
+<txt lng="deu">Wenn nichts zutrifft oder die Empfindung nicht aufgeführt ist, fahren Sie auf der nächsten Seite fort.</txt>
+<txt lng="baq">Jarraitu hurrengo orrialdera, aukera egokiarik ez badago edo sentsazioa zerrendan agertzen ez bada.</txt>
+<txt lng="fre">Continuez à la page suivante si aucune option ne s’applique ou si la sensation n’est pas listée.</txt>
+<txt lng="cat">Continueu a la pàgina següent si cap opció és aplicable o si la sensació no apareix a la llista.</txt>
+<txt lng="hin">यदि कोई विकल्प लागू नहीं होता है या संवेदना सूची में नहीं है, तो अगले पृष्ठ पर जाएँ।</txt>
+<txt lng="per">در صورت عدم تطابق یا عدم ذکر احساس، به صفحهٔ بعد ادامه دهید.</txt>
+</lead>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+<attr id="alignment">default</attr>
+<attr id="character">plain</attr>
+</attributes.specific>
+</question>
+<question>
+<description>Occurred</description>
+<class>checkbox</class>
+<title>
+<txt>Please mark if occurred.</txt>
+<txt lng="ara">يُرجى وضع علامة إذا حدث ذلك.</txt>
+<txt lng="por">Assinale se tiver ocorrido.</txt>
+<txt lng="dut">Markeren, indien van toepassing.</txt>
+<txt lng="spa">Por favor, marque lo que corresponda.</txt>
+<txt lng="chi">如果症状符合，请选择。</txt>
+<txt lng="ita">Contrassegni le sensazioni che ha avuto.</txt>
+<txt lng="jpn">該当するものにチェックして下さい。</txt>
+<txt lng="kor">경험했다면 표시해 주세요.</txt>
+<txt lng="glg">Por favor, marque o que corresponda.</txt>
+<txt lng="deu">Bitte ankreuzen falls aufgetreten</txt>
+<txt lng="baq">Mesedez, markatu dagokiona</txt>
+<txt lng="fre">Veuillez cocher les symptômes ressentis.</txt>
+<txt lng="cat">Si us plau, marqui el que correspongui.</txt>
+<txt lng="hin">यदि ऐसा हुआ हो तो कृपया चिह्नित करें।</txt>
+<txt lng="per">لطفاً در صورت وقوع، علامت بزنید.</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+<item>
+<text>
+<txt>Headache</txt>
+<txt lng="ara">صداع</txt>
+<txt lng="por">Dor de cabeça (cefaleia)</txt>
+<txt lng="dut">Hoofdpijn</txt>
+<txt lng="spa">Dolor de cabeza</txt>
+<txt lng="chi">头痛</txt>
+<txt lng="ita">Mal di testa</txt>
+<txt lng="jpn">頭痛</txt>
+<txt lng="kor">두통</txt>
+<txt lng="glg">Dor de cabeza</txt>
+<txt lng="deu">Kopfschmerzen</txt>
+<txt lng="baq">Buruko mina</txt>
+<txt lng="fre">Maux de tête</txt>
+<txt lng="cat">Mal de cap</txt>
+<txt lng="hin">सिरदर्द</txt>
+<txt lng="per">سردرد</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Neck pain</txt>
+<txt lng="ara">ألم في الرقبة</txt>
+<txt lng="por">Dor no pescoço</txt>
+<txt lng="dut">Nekpijn</txt>
+<txt lng="spa">Dolor cervical</txt>
+<txt lng="chi">颈痛</txt>
+<txt lng="ita">Mal di collo</txt>
+<txt lng="jpn">首の痛み</txt>
+<txt lng="kor">목 통증</txt>
+<txt lng="glg">Dor no pescozo</txt>
+<txt lng="deu">Nackenschmerzen</txt>
+<txt lng="baq">Lepoko mina</txt>
+<txt lng="fre">Douleur cervicale</txt>
+<txt lng="cat">Dolor cervical</txt>
+<txt lng="hin">गर्दन में दर्द</txt>
+<txt lng="per">گردن‌درد</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Dizziness</txt>
+<txt lng="ara">دوخة (دوار)</txt>
+<txt lng="por">Tontura</txt>
+<txt lng="dut">Duizeligheid</txt>
+<txt lng="spa">Mareo</txt>
+<txt lng="chi">头晕</txt>
+<txt lng="ita">Stordimento</txt>
+<txt lng="jpn">めまい</txt>
+<txt lng="kor">어지러움</txt>
+<txt lng="glg">Mareo</txt>
+<txt lng="deu">Schwindel</txt>
+<txt lng="baq">Zorabioa</txt>
+<txt lng="fre">Vertige</txt>
+<txt lng="cat">Mareig</txt>
+<txt lng="hin">चक्कर आना</txt>
+<txt lng="per">سرگیجه</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Sleepiness/fatigue</txt>
+<txt lng="ara">نعاس أو إرهاق</txt>
+<txt lng="por">Sonolência/fadiga</txt>
+<txt lng="dut">Slaperigheid/vermoeidheid</txt>
+<txt lng="spa">Somnolencia/fatiga</txt>
+<txt lng="chi">困倦或疲惫</txt>
+<txt lng="ita">Sonnolenza/stanchezza</txt>
+<txt lng="jpn">眠気または倦怠感</txt>
+<txt lng="kor">졸음/피로</txt>
+<txt lng="glg">Somnolencia/fatiga</txt>
+<txt lng="deu">Müdigkeit/Erschöpfung</txt>
+<txt lng="baq">Logura/nekea</txt>
+<txt lng="fre">Somnolence/fatigue</txt>
+<txt lng="cat">Somnolència/fatiga</txt>
+<txt lng="hin">उनींदापन/थकान</txt>
+<txt lng="per">خواب‌آلودگی یا خستگی</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Difficulty concentrating</txt>
+<txt lng="ara">صعوبة في التركيز</txt>
+<txt lng="por">Dificuldade de concentração</txt>
+<txt lng="dut">Concentratieproblemen</txt>
+<txt lng="spa">Dificultad para concentrarse</txt>
+<txt lng="chi">注意力不集中</txt>
+<txt lng="ita">Difficoltà di concentrazione</txt>
+<txt lng="jpn">集中困難</txt>
+<txt lng="kor">집중력 저하</txt>
+<txt lng="glg">Dificultade para concentrarse</txt>
+<txt lng="deu">Konzentrationsprobleme</txt>
+<txt lng="baq">Kontzentratzeko zailtasunak</txt>
+<txt lng="fre">Problème de concentration</txt>
+<txt lng="cat">Dificultat per concentrar-se</txt>
+<txt lng="hin">ध्यान केंद्रित करने में कठिनाई</txt>
+<txt lng="per">مشکل در تمرکز</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Itching (scalp)</txt>
+<txt lng="ara">حكة (فروة الرأس)</txt>
+<txt lng="por">Coceira na cabeça</txt>
+<txt lng="dut">Jeuk (schedel)</txt>
+<txt lng="spa">Picor (cuero cabelludo)</txt>
+<txt lng="chi">瘙痒（头皮）</txt>
+<txt lng="ita">Prurito (cuoio capelluto)</txt>
+<txt lng="jpn">かゆみ（頭皮）</txt>
+<txt lng="kor">가려움(두피)</txt>
+<txt lng="glg">Proído (coiro cabeludo)</txt>
+<txt lng="deu">Juckreiz (Kopfhaut)</txt>
+<txt lng="baq">Azkura (buru-azala)</txt>
+<txt lng="fre">Démangeaison (cuir chevelu)</txt>
+<txt lng="cat">Picor (cuir cabellut)</txt>
+<txt lng="hin">खुजली (सिर)</txt>
+<txt lng="per">خارش (پوست سر)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Tingling (scalp)</txt>
+<txt lng="ara">وخز (فروة الرأس)</txt>
+<txt lng="por">Formigamento na cabeça (couro cabeludo)</txt>
+<txt lng="dut">Tinteling (schedel)</txt>
+<txt lng="spa">Hormigueo (cuero cabelludo)</txt>
+<txt lng="chi">刺痛（头皮）</txt>
+<txt lng="ita">Formicolio (cuoio capelluto)</txt>
+<txt lng="jpn">ピリピリ感（頭皮）</txt>
+<txt lng="kor">따끔거림(두피)</txt>
+<txt lng="glg">Formigueo (coiro cabeludo)</txt>
+<txt lng="deu">Kribbeln (Kopfhaut)</txt>
+<txt lng="baq">Inurridura (buru-azala)</txt>
+<txt lng="fre">Picotement (cuir chevelu)</txt>
+<txt lng="cat">Formigueig (cuir cabellut)</txt>
+<txt lng="hin">सिहरन (सिर)</txt>
+<txt lng="per">مورمور شدن (پوست سر)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Change in mood</txt>
+<txt lng="ara">تغير في الحالة المزاجية</txt>
+<txt lng="por">Variações de humor</txt>
+<txt lng="dut">Verandering van humeur</txt>
+<txt lng="spa">Cambio de humor</txt>
+<txt lng="chi">情绪波动</txt>
+<txt lng="ita">Cambiamento di umore</txt>
+<txt lng="jpn">気分の変化</txt>
+<txt lng="kor">감정 기복</txt>
+<txt lng="glg">Cambio de humor</txt>
+<txt lng="deu">Stimmungsänderung</txt>
+<txt lng="baq">Umore aldaketa</txt>
+<txt lng="fre">Changement d'humeur</txt>
+<txt lng="cat">Canvi d’humor</txt>
+<txt lng="hin">भाव में बदलाव</txt>
+<txt lng="per">تغییر در خلق‌وخوی</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Nausea</txt>
+<txt lng="ara">غثيان</txt>
+<txt lng="por">Náuseas</txt>
+<txt lng="dut">Misselijkheid</txt>
+<txt lng="spa">Náuseas</txt>
+<txt lng="chi">恶心</txt>
+<txt lng="ita">Nausea</txt>
+<txt lng="jpn">吐き気</txt>
+<txt lng="kor">메스꺼움</txt>
+<txt lng="glg">Náuseas</txt>
+<txt lng="deu">Übelkeit</txt>
+<txt lng="baq">Goragalea</txt>
+<txt lng="fre">Nausée</txt>
+<txt lng="cat">Nàusea</txt>
+<txt lng="hin">मतली</txt>
+<txt lng="per">تهوع</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">9</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Treatment-related 2 </description>
+<class>select</class>
+<title>
+<txt>Do you think it was treatment-related?</txt>
+<txt lng="ara">هل تعتقد أن ذلك كان بسبب العلاج؟</txt>
+<txt lng="por">Você acha que o efeito está relacionado com o tratamento?</txt>
+<txt lng="dut">Bent u van mening dat deze te maken had met de behandeling?</txt>
+<txt lng="spa">¿Cree que está relacionado con el tratamiento?</txt>
+<txt lng="chi">您认为这是否与治疗有关系？</txt>
+<txt lng="ita">Ritiene che sia dovuta al trattamento?</txt>
+<txt lng="jpn">治療が関係したと思いますか？</txt>
+<txt lng="kor">치료 관련이라고 생각하시나요?</txt>
+<txt lng="glg">Cre que está relacionado co tratamento?</txt>
+<txt lng="deu">Halten Sie dies für behandlungsbedingt?</txt>
+<txt lng="baq">Tratamenduarekin zerikusia duela uste duzu?</txt>
+<txt lng="fre">Pensez-vous qu’il soit lié au traitement ?</txt>
+<txt lng="cat">Creu que està relacionada amb el tractament?</txt>
+<txt lng="hin">क्या आपको लगता है कि यह उपचार से संबंधित था?</txt>
+<txt lng="per">فکر می‌کنید این حس مرتبط با درمان بوده است؟</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">11</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+<item>
+<text>
+<txt>Yes</txt>
+<txt lng="ara">نعم</txt>
+<txt lng="por">Sim</txt>
+<txt lng="dut">Ja</txt>
+<txt lng="spa">Sí</txt>
+<txt lng="chi">是</txt>
+<txt lng="ita">Sì</txt>
+<txt lng="jpn">はい</txt>
+<txt lng="kor">예</txt>
+<txt lng="glg">Si</txt>
+<txt lng="deu">Ja</txt>
+<txt lng="baq">Bai</txt>
+<txt lng="fre">Oui</txt>
+<txt lng="cat">Sí</txt>
+<txt lng="hin">हाँ</txt>
+<txt lng="per">بله</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>No</txt>
+<txt lng="ara">لا</txt>
+<txt lng="por">Não</txt>
+<txt lng="dut">Nee</txt>
+<txt lng="spa">No</txt>
+<txt lng="chi">否</txt>
+<txt lng="ita">No</txt>
+<txt lng="jpn">いいえ</txt>
+<txt lng="kor">아니오</txt>
+<txt lng="glg">Non</txt>
+<txt lng="deu">Nein</txt>
+<txt lng="baq">Ez</txt>
+<txt lng="fre">Non</txt>
+<txt lng="cat">No</txt>
+<txt lng="hin">नहीं</txt>
+<txt lng="per">خیر</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Total duration 4</description>
+<class>text</class>
+<title>
+<txt>Total duration (in hours)</txt>
+<txt lng="ara">المدة الإجمالية (بالساعات)</txt>
+<txt lng="por">Duração total (em horas)</txt>
+<txt lng="dut">Totale duur (in uren)</txt>
+<txt lng="spa">Duración total (en horas)</txt>
+<txt lng="chi">总时长（小时）</txt>
+<txt lng="ita">Durata totale (in ore)</txt>
+<txt lng="jpn">合計継続時間（時間）</txt>
+<txt lng="kor">총 지속 기간 (시간 단위)</txt>
+<txt lng="glg">Duración total (en horas)</txt>
+<txt lng="deu">Gesamtdauer (in Stunden)</txt>
+<txt lng="baq">Iraupena guztira (ordutan)</txt>
+<txt lng="fre">Durée totale (en heures)</txt>
+<txt lng="cat">Durada total (en hores)</txt>
+<txt lng="hin">कुल अवधि (घंटों में)</txt>
+<txt lng="per">مدت کل (به ساعت)</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">12</attr>
+<attr id="pos">9</attr>
+</attributes.specific>
+<item>
+<text />
+<suffix>
+<txt>h Ongoing? %input:ZE07_01%</txt>
+<txt lng="ara"> ساعة مستمر؟ %input:ZE07_01%</txt>
+<txt lng="por">h Contínua? %input:ZE07_01%</txt>
+<txt lng="dut">h Doorlopend? %input:ZE07_01%</txt>
+<txt lng="spa">h ¿Persistente? %input:ZE07_01%</txt>
+<txt lng="chi">小时 仍在持续？%input:ZE07_01%</txt>
+<txt lng="ita">h Persiste? %input:ZE07_01%</txt>
+<txt lng="jpn">時間 継続中か？%input:ZE07_01%</txt>
+<txt lng="kor">시간 여전히 계속 되나요? %input:ZE07_01%</txt>
+<txt lng="glg">h Mantense? %input:ZE07_01%</txt>
+<txt lng="deu">h Andauernd? %input:ZE07_01%</txt>
+<txt lng="baq">h Jarraitzen al du? %input:ZE07_01%</txt>
+<txt lng="fre">h Encore présent ? %input:ZE07_01%</txt>
+<txt lng="cat">h Persistent? %input:ZE07_01%</txt>
+<txt lng="hin">घंटे जारी है? %input:ZE07_01%</txt>
+<txt lng="per">ساعت مستمر؟ %input:ZE07_01%</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="width">70</attr>
+</attributes.specific>
+</item>
+</question>
+</section>
+<section>
+<title>during treatment</title>
+<attributes.specific program="ofb">
+<attr id="id">A4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+<question>
+<description>Tolerability </description>
+<class>selscale</class>
+<title>
+<txt>How tolerable was the procedure overall?</txt>
+<txt lng="ara">إلى أي مدى كان الإجراء مقبولاً بالنسبة لك بشكل عام؟</txt>
+<txt lng="por"><![CDATA[Qual o grau de tolerabilidade do procedimento em geral?]]></txt>
+<txt lng="dut">Hoe aanvaardbaar was de procedure in totaal?</txt>
+<txt lng="spa">¿En general, cómo de tolerable ha sido el procedimiento?</txt>
+<txt lng="chi">整个过程的耐受程度如何？</txt>
+<txt lng="ita">Nel complesso, quanto è stata tollerabile la procedura?</txt>
+<txt lng="jpn">処置全体としての苦痛はどの程度でしたか？</txt>
+<txt lng="kor">치료는 전체적으로 견딜 만했나요?</txt>
+<txt lng="glg">Como de tolerable foi o procedemento en xeral?</txt>
+<txt lng="deu">Wie erträglich war das Verfahren insgesamt?</txt>
+<txt lng="baq">Zenbateraino izan da jasangarria prozedura oro har?</txt>
+<txt lng="fre">Comment avez-vous supporté la procédure dans l’ensemble ?</txt>
+<txt lng="cat">En general, com de tolerable ha estat el procediment?</txt>
+<txt lng="hin">कुल मिलाकर यह प्रक्रिया कितनी सहनीय थी?</txt>
+<txt lng="per">روند درمان به طور کلی چقدر قابل‌تحمل بود؟</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="operation">right</attr>
+</attributes.specific>
+<item>
+<text>
+<txt><![CDATA[0 <br> Not tolerable]]></txt>
+<txt lng="ara"><![CDATA[ 0 <br> غير مقبول]]></txt>
+<txt lng="por"><![CDATA[0 <br> Nada tolerável]]></txt>
+<txt lng="dut"><![CDATA[0 <br> Niet aanvaardbaar]]></txt>
+<txt lng="spa"><![CDATA[0 <br> Intolerable ]]></txt>
+<txt lng="chi"><![CDATA[0 <br> 无法忍受]]></txt>
+<txt lng="ita"><![CDATA[0 <br> Intollerabile ]]></txt>
+<txt lng="jpn"><![CDATA[0 <br> 耐え難かった]]></txt>
+<txt lng="glg"><![CDATA[0 <br> Intolerable ]]></txt>
+<txt lng="deu"><![CDATA[0<br> Nicht erträglich]]></txt>
+<txt lng="baq"><![CDATA[0 <br> Jasaezina ]]></txt>
+<txt lng="fre"><![CDATA[0 <br> Insupportable]]></txt>
+<txt lng="cat"><![CDATA[0 <br> Intolerable ]]></txt>
+<txt lng="hin"><![CDATA[0 <br> सहनीय नहीं]]></txt>
+<txt lng="per"><![CDATA[0 <br> غیرقابل‌تحمل]]></txt>
+<txt lng="kor"><![CDATA[0 <br> 전혀 견딜 수 없음]]></txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>1</txt>
+<txt lng="ara">1</txt>
+<txt lng="por">1</txt>
+<txt lng="dut">1</txt>
+<txt lng="spa">1</txt>
+<txt lng="chi">1</txt>
+<txt lng="ita">1</txt>
+<txt lng="jpn">1</txt>
+<txt lng="kor">1</txt>
+<txt lng="glg">1</txt>
+<txt lng="deu">1</txt>
+<txt lng="baq">1</txt>
+<txt lng="fre">1</txt>
+<txt lng="cat">1</txt>
+<txt lng="hin">1</txt>
+<txt lng="per">1</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>2</txt>
+<txt lng="ara">2</txt>
+<txt lng="por">2</txt>
+<txt lng="dut">2</txt>
+<txt lng="spa">2</txt>
+<txt lng="chi">2</txt>
+<txt lng="ita">2</txt>
+<txt lng="jpn">2</txt>
+<txt lng="kor">2</txt>
+<txt lng="glg">2</txt>
+<txt lng="deu">2</txt>
+<txt lng="baq">2</txt>
+<txt lng="fre">2</txt>
+<txt lng="cat">2</txt>
+<txt lng="hin">2</txt>
+<txt lng="per">2</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>3</txt>
+<txt lng="ara">3</txt>
+<txt lng="por">3</txt>
+<txt lng="dut">3</txt>
+<txt lng="spa">3</txt>
+<txt lng="chi">3</txt>
+<txt lng="ita">3</txt>
+<txt lng="jpn">3</txt>
+<txt lng="kor">3</txt>
+<txt lng="glg">3</txt>
+<txt lng="deu">3</txt>
+<txt lng="baq">3</txt>
+<txt lng="fre">3</txt>
+<txt lng="cat">3</txt>
+<txt lng="hin">3</txt>
+<txt lng="per">3</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt><![CDATA[4 <br> Completely tolerable]]></txt>
+<txt lng="ara"><![CDATA[4 <br> مقبول تماماً]]></txt>
+<txt lng="por"><![CDATA[4 <br> Completamente tolerável]]></txt>
+<txt lng="dut"><![CDATA[4 <br> Volledig aanvaardbaar]]></txt>
+<txt lng="spa"><![CDATA[4 <br> Totalmente tolerable]]></txt>
+<txt lng="chi"><![CDATA[4 <br> 完全可以忍受]]></txt>
+<txt lng="ita"><![CDATA[4 <br> Del tutto tollerabile]]></txt>
+<txt lng="jpn"><![CDATA[4 <br> 全く許容範囲だった]]></txt>
+<txt lng="glg"><![CDATA[4 <br> Totalmente tolerable]]></txt>
+<txt lng="deu"><![CDATA[4<br> Vollkommen erträglich]]></txt>
+<txt lng="baq"><![CDATA[4 <br> Guztiz jasangarria]]></txt>
+<txt lng="fre"><![CDATA[4 <br> Tout à fait supportable]]></txt>
+<txt lng="cat"><![CDATA[4 <br> Totalment tolerable]]></txt>
+<txt lng="hin"><![CDATA[4 <br> पूरी तरह से सहनीय]]></txt>
+<txt lng="per"><![CDATA[4 <br>  کاملاً قابل‌تحمل]]></txt>
+<txt lng="kor"><![CDATA[4 <br> 완전히 견딜 만함]]></txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Unpleasant sensation</description>
+<class>mc-matrix</class>
+<title>
+<txt>How unpleasant was the sensation?</txt>
+<txt lng="ara">كم كان الإحساس مزعجاً؟</txt>
+<txt lng="por">Até que ponto a sensação foi desagradável?</txt>
+<txt lng="dut">Hoe onaangenaam was de sensatie?</txt>
+<txt lng="spa">¿Cómo de molesta ha sido la sensación?</txt>
+<txt lng="chi">这种感觉有多不舒服？</txt>
+<txt lng="ita">Quanto è stata fastidiosa la sensazione?</txt>
+<txt lng="jpn">その感覚はどの程度不快でしたか？</txt>
+<txt lng="kor">얼마나 불쾌했나요?</txt>
+<txt lng="glg">Canto lle molestou a sensación?</txt>
+<txt lng="deu">Wie unangenehm war die Empfindung?</txt>
+<txt lng="baq">Zein gogaikarri izan da sentsazioa?</txt>
+<txt lng="fre">À quel point leur effet était-il désagréable ?</txt>
+<txt lng="cat">Com de molesta ha estat la sensació?</txt>
+<txt lng="hin">यह अनुभूति कितनी अप्रिय थी?</txt>
+<txt lng="per">این حس چقدر ناراحت‌کننده بود؟</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<labels>
+<li i="1">
+<txt><![CDATA[Not at all
+0]]></txt>
+<txt lng="ara"><![CDATA[غير مزعج اطلاقاً
+0]]></txt>
+<txt lng="por"><![CDATA[Nada
+0]]></txt>
+<txt lng="dut"><![CDATA[In het geheel niet
+0]]></txt>
+<txt lng="spa"><![CDATA[Nada molesta
+0]]></txt>
+<txt lng="chi"><![CDATA[没有不舒服
+0]]></txt>
+<txt lng="ita"><![CDATA[Per niente
+0]]></txt>
+<txt lng="jpn"><![CDATA[全然
+0]]></txt>
+<txt lng="kor"><![CDATA[아무렇지 않음
+0]]></txt>
+<txt lng="glg"><![CDATA[Nada molesta
+0]]></txt>
+<txt lng="deu"><![CDATA[Gar nicht 
+0]]></txt>
+<txt lng="baq"><![CDATA[Batere ez
+0]]></txt>
+<txt lng="fre"><![CDATA[Pas du tout
+0]]></txt>
+<txt lng="cat"><![CDATA[Gens molesta
+0]]></txt>
+<txt lng="hin"><![CDATA[बिल्कुल नहीं
+0]]></txt>
+<txt lng="per"><![CDATA[اصلاً
+0]]></txt>
+</li>
+<li i="2">
+<txt>1</txt>
+<txt lng="ara">1</txt>
+<txt lng="por">1</txt>
+<txt lng="dut">1</txt>
+<txt lng="spa">1</txt>
+<txt lng="chi">1</txt>
+<txt lng="ita">1</txt>
+<txt lng="jpn">1</txt>
+<txt lng="kor">1</txt>
+<txt lng="glg">1</txt>
+<txt lng="deu">1</txt>
+<txt lng="baq">1</txt>
+<txt lng="fre">1</txt>
+<txt lng="cat">1</txt>
+<txt lng="hin">1</txt>
+<txt lng="per">1</txt>
+</li>
+<li i="3">
+<txt>2</txt>
+<txt lng="ara">2</txt>
+<txt lng="por">2</txt>
+<txt lng="dut">2</txt>
+<txt lng="spa">2</txt>
+<txt lng="chi">2</txt>
+<txt lng="ita">2</txt>
+<txt lng="jpn">2</txt>
+<txt lng="kor">2</txt>
+<txt lng="glg">2</txt>
+<txt lng="deu">2</txt>
+<txt lng="baq">2</txt>
+<txt lng="fre">2</txt>
+<txt lng="cat">2</txt>
+<txt lng="hin">2</txt>
+<txt lng="per">2</txt>
+</li>
+<li i="4">
+<txt>3</txt>
+<txt lng="ara">3</txt>
+<txt lng="por">3</txt>
+<txt lng="dut">3</txt>
+<txt lng="spa">3</txt>
+<txt lng="chi">3</txt>
+<txt lng="ita">3</txt>
+<txt lng="jpn">3</txt>
+<txt lng="kor">3</txt>
+<txt lng="glg">3</txt>
+<txt lng="deu">3</txt>
+<txt lng="baq">3</txt>
+<txt lng="fre">3</txt>
+<txt lng="cat">3</txt>
+<txt lng="hin">3</txt>
+<txt lng="per">3</txt>
+</li>
+<li i="5">
+<txt><![CDATA[Very
+4]]></txt>
+<txt lng="ara"><![CDATA[جداً
+4]]></txt>
+<txt lng="por"><![CDATA[Muito 
+4]]></txt>
+<txt lng="dut"><![CDATA[In grote mate
+4]]></txt>
+<txt lng="spa"><![CDATA[Muy molesta
+4]]></txt>
+<txt lng="chi"><![CDATA[很不舒服
+4]]></txt>
+<txt lng="ita"><![CDATA[Molto
+4]]></txt>
+<txt lng="jpn"><![CDATA[非常に
+4]]></txt>
+<txt lng="kor"><![CDATA[매우 불쾌
+4]]></txt>
+<txt lng="glg"><![CDATA[Moi molesta
+4]]></txt>
+<txt lng="deu"><![CDATA[Sehr 
+4]]></txt>
+<txt lng="baq"><![CDATA[Asko
+4]]></txt>
+<txt lng="fre"><![CDATA[Très désagréable
+4]]></txt>
+<txt lng="cat"><![CDATA[Molt molesta
+4]]></txt>
+<txt lng="hin"><![CDATA[बहुत
+4]]></txt>
+<txt lng="per"><![CDATA[بسیار
+4]]></txt>
+</li>
+</labels>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+<attr id="alignment">left</attr>
+<attr id="composition">default</attr>
+</attributes.specific>
+<item>
+<text>
+<txt>Headache</txt>
+<txt lng="ara">صداع</txt>
+<txt lng="por">Dor de cabeça (cefaleia)</txt>
+<txt lng="dut">Hoofdpijn</txt>
+<txt lng="spa">Dolor de cabeza</txt>
+<txt lng="chi">头痛</txt>
+<txt lng="ita">Mal di testa</txt>
+<txt lng="jpn">頭痛</txt>
+<txt lng="kor">두통</txt>
+<txt lng="glg">Dor de cabeza</txt>
+<txt lng="deu">Kopfschmerzen</txt>
+<txt lng="baq">Buruko mina</txt>
+<txt lng="fre">Maux de tête</txt>
+<txt lng="cat">Mal de cap</txt>
+<txt lng="hin">सिरदर्द</txt>
+<txt lng="per">سردرد</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Local pain or discomfort</txt>
+<txt lng="ara">آلام أو متاعب موضعية</txt>
+<txt lng="por">Dor local ou desconforto</txt>
+<txt lng="dut">Plaatselijke pijn of ongemak</txt>
+<txt lng="spa">Dolor o malestar localizados</txt>
+<txt lng="chi">局部疼痛或不适</txt>
+<txt lng="ita">Dolore locale o fastidio</txt>
+<txt lng="jpn">局所的な痛みや不快感</txt>
+<txt lng="kor">국소 통증 또는 불편감</txt>
+<txt lng="glg">Dor ou malestar localizados</txt>
+<txt lng="deu">Lokaler Schmerz/Unbehagen</txt>
+<txt lng="baq">Mugatutako mina edo ondoeza</txt>
+<txt lng="fre">Douleur ou gêne locale</txt>
+<txt lng="cat">Dolor o malestar localizats</txt>
+<txt lng="hin">स्थानीय दर्द या बेचैनी</txt>
+<txt lng="per">درد یا ناراحتی موضعی</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">11</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Neck pain</txt>
+<txt lng="ara">ألم في الرقبة</txt>
+<txt lng="por">Dor no pescoço</txt>
+<txt lng="dut">Nekpijn</txt>
+<txt lng="spa">Dolor cervical</txt>
+<txt lng="chi">颈痛</txt>
+<txt lng="ita">Mal di collo</txt>
+<txt lng="jpn">首の痛み</txt>
+<txt lng="kor">목 통증</txt>
+<txt lng="glg">Dor no pescozo</txt>
+<txt lng="deu">Nackenschmerzen</txt>
+<txt lng="baq">Lepoko mina</txt>
+<txt lng="fre">Douleur cervicale</txt>
+<txt lng="cat">Dolor cervical</txt>
+<txt lng="hin">गर्दन में दर्द</txt>
+<txt lng="per">گردن‌درد</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Dizziness</txt>
+<txt lng="ara">دوخة (دوار)</txt>
+<txt lng="por">Tontura</txt>
+<txt lng="dut">Duizeligheid</txt>
+<txt lng="spa">Mareo</txt>
+<txt lng="chi">头晕</txt>
+<txt lng="ita">Stordimento</txt>
+<txt lng="jpn">めまい</txt>
+<txt lng="kor">어지러움</txt>
+<txt lng="glg">Mareo</txt>
+<txt lng="deu">Schwindel</txt>
+<txt lng="baq">Zorabioa</txt>
+<txt lng="fre">Vertige</txt>
+<txt lng="cat">Mareig</txt>
+<txt lng="hin">चक्कर आना</txt>
+<txt lng="per">سرگیجه</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Sleepiness/fatigue</txt>
+<txt lng="ara">نعاس أو إرهاق</txt>
+<txt lng="por">Sonolência/fadiga</txt>
+<txt lng="dut">Slaperigheid/vermoeidheid</txt>
+<txt lng="spa">Somnolencia/fatiga</txt>
+<txt lng="chi">困倦或疲惫</txt>
+<txt lng="ita">Sonnolenza/stanchezza</txt>
+<txt lng="jpn">眠気または倦怠感</txt>
+<txt lng="kor">졸음/피로</txt>
+<txt lng="glg">Somnolencia/fatiga</txt>
+<txt lng="deu">Müdigkeit/Erschöpfung</txt>
+<txt lng="baq">Logura/nekea</txt>
+<txt lng="fre">Somnolence/fatigue</txt>
+<txt lng="cat">Somnolència/fatiga</txt>
+<txt lng="hin">उनींदापन/थकान</txt>
+<txt lng="per">خواب‌آلودگی یا خستگی</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Redness (scalp)</txt>
+<txt lng="ara">احمرار (فروة الرأس)</txt>
+<txt lng="por">Vermelhidão na cabeça</txt>
+<txt lng="dut">Roodheid (schedel)</txt>
+<txt lng="spa">Enrojecimiento (cuero cabelludo)</txt>
+<txt lng="chi">发红（头皮）</txt>
+<txt lng="ita">Rossore (cuoio capelluto)</txt>
+<txt lng="jpn">赤み（頭皮）</txt>
+<txt lng="kor">홍반(두피)</txt>
+<txt lng="glg">Arroibamento (coiro cabeludo)</txt>
+<txt lng="deu">Rötung (Kopfhaut)</txt>
+<txt lng="baq">Gorritasuna (buru-azala)</txt>
+<txt lng="fre">Rougeur (cuir chevelu)</txt>
+<txt lng="cat">Vermellor (cuir cabellut)</txt>
+<txt lng="hin">लाली (सिर)</txt>
+<txt lng="per">قرمزی (پوست سر)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Itching (scalp)</txt>
+<txt lng="ara">حكة (فروة الرأس)</txt>
+<txt lng="por">Coceira na cabeça</txt>
+<txt lng="dut">Jeuk (schedel)</txt>
+<txt lng="spa">Picor (cuero cabelludo)</txt>
+<txt lng="chi">瘙痒（头皮）</txt>
+<txt lng="ita">Prurito (cuoio capelluto)</txt>
+<txt lng="jpn">かゆみ（頭皮）</txt>
+<txt lng="kor">가려움(두피)</txt>
+<txt lng="glg">Proído (coiro cabeludo)</txt>
+<txt lng="deu">Juckreiz (Kopfhaut)</txt>
+<txt lng="baq">Azkura (buru-azala)</txt>
+<txt lng="fre">Démangeaison (cuir chevelu)</txt>
+<txt lng="cat">Picor (cuir cabellut)</txt>
+<txt lng="hin">खुजली (सिर)</txt>
+<txt lng="per">خارش (پوست سر)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Tingling (scalp)</txt>
+<txt lng="ara">وخز (فروة الرأس)</txt>
+<txt lng="por">Formigamento na cabeça (couro cabeludo)</txt>
+<txt lng="dut">Tinteling (schedel)</txt>
+<txt lng="spa">Hormigueo (cuero cabelludo)</txt>
+<txt lng="chi">刺痛（头皮）</txt>
+<txt lng="ita">Formicolio (cuoio capelluto)</txt>
+<txt lng="jpn">ピリピリ感（頭皮）</txt>
+<txt lng="kor">따끔거림(두피)</txt>
+<txt lng="glg">Formigueo (coiro cabeludo)</txt>
+<txt lng="deu">Kribbeln (Kopfhaut)</txt>
+<txt lng="baq">Inurridura (buru-azala)</txt>
+<txt lng="fre">Picotement (cuir chevelu)</txt>
+<txt lng="cat">Formigueig (cuir cabellut)</txt>
+<txt lng="hin">सिहरन (सिर)</txt>
+<txt lng="per">مورمور شدن (پوست سر)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Burning or heating (scalp)</txt>
+<txt lng="ara">حرقة أو سخونة (فروة الرأس)</txt>
+<txt lng="por">Sensação de queimação ou ardência (couro cabeludo)</txt>
+<txt lng="dut">Brandend of warm gevoel (schedel)</txt>
+<txt lng="spa">Quemazón/sensación de calor (cuero cabelludo)</txt>
+<txt lng="chi">灼烧感或发热（头皮）</txt>
+<txt lng="ita">Bruciore o calore (cuoio capelluto)</txt>
+<txt lng="jpn">灼熱感または熱感（頭皮）</txt>
+<txt lng="kor">열감 또는 화상(두피)</txt>
+<txt lng="glg">Ardor ou sensación de calor (coiro cabeludo)</txt>
+<txt lng="deu">Brennen/Erhitzen (Kopfhaut)</txt>
+<txt lng="baq">Sumindura edo berotasuna (buru-azala)</txt>
+<txt lng="fre">Sensation de brûlure/chaleur (cuir chevelu)</txt>
+<txt lng="cat">Cremor/sensació de calor (cuir cabellut)</txt>
+<txt lng="hin">जलन या गर्मी (सिर)</txt>
+<txt lng="per">سوزش یا داغ شدن (پوست سر)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">9</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Muscle twitching - If yes, specify location: %input:ZE03%</txt>
+<txt lng="ara">ارتعاش العضلات - إذا كانت الاجابة بنعم، حدد الموقع: %input:ZE03%</txt>
+<txt lng="por"><![CDATA[Contrações musculares - Em caso afirmativo, especifique o local: %input:ZE03%         
+]]></txt>
+<txt lng="dut">Spiertrekkingen - Zo ja, specificeer de plaats: %input:ZE03%</txt>
+<txt lng="spa"><![CDATA[Espasmos musculares - En caso afirmativo, especifique la zona: %input:ZE03%     
+]]></txt>
+<txt lng="chi">肌肉抽搐 - 如果有，请说明部位：%input:ZE03%</txt>
+<txt lng="ita"><![CDATA[Contrazioni muscolari - Se sì, specifichi dove: %input:ZE03%       
+]]></txt>
+<txt lng="jpn">筋肉のぴくつき - 該当する場合はその場所：%input:ZE03%</txt>
+<txt lng="kor"><![CDATA[근육 경련 - 해당하면, 구체적 부위: %input:ZE03%
+]]></txt>
+<txt lng="glg"><![CDATA[Espasmos musculares - En caso afirmativo, especifique onde: %input:ZE03%      
+]]></txt>
+<txt lng="deu">Muskelzuckungen - Falls ja, Ort angeben: %input:ZE03%</txt>
+<txt lng="baq"><![CDATA[Muskulu-espasmoak-Baiezkoa bada, adierazi aldea: %input:ZE03%
+]]></txt>
+<txt lng="fre"><![CDATA[Contraction musculaire - Le cas échéant, précisez à quel endroit : %input:ZE03%    
+]]></txt>
+<txt lng="cat"><![CDATA[Espasmes musculars - En cas afirmatiu, especifiqui la zona: %input:ZE03%       
+]]></txt>
+<txt lng="hin">मांसपेशियों में ऐंठन - यदि हाँ, तो स्थान निर्दिष्ट करें: %input:ZE03%</txt>
+<txt lng="per">لرزش عضلانی -  اگر بله، موضع را مشخص کنید: %input:ZE03%</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">10</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Local pain or discomfort - If yes, specify location: %input:ZE04%</txt>
+<txt lng="ara">آلام أو متاعب موضعية – إذا كانت الاجابة بنعم، حدد الموقع: %input:ZE04%</txt>
+<txt lng="por"><![CDATA[Dor local ou desconforto - Em caso afirmativo, especifique o local: %input:ZE04%         
+]]></txt>
+<txt lng="dut">Plaatselijke pijn of ongemak - Zo ja, specificeer de plaats: %input:ZE04%</txt>
+<txt lng="spa">Dolor o malestar localizados - En caso afirmativo, especifique la zona: %input:ZE04%</txt>
+<txt lng="chi"><![CDATA[局部疼痛或不适 - 如果有，请说明部位：%input:ZE04%
+]]></txt>
+<txt lng="ita">Dolore locale o fastidio - Se sì, specifichi dove: %input:ZE04%       </txt>
+<txt lng="jpn"><![CDATA[局所的な痛みや不快感 - 該当する場合はその場所：%input:ZE04%
+]]></txt>
+<txt lng="kor">국소 통증 또는 불편감 - 해당하면, 구체적 부위: %input:ZE04%</txt>
+<txt lng="glg"><![CDATA[Dor ou malestar localizados - En caso afirmativo, especifique onde: %input:ZE04%         
+]]></txt>
+<txt lng="deu">Lokaler Schmerz/Unbehagen – Falls ja, Ort angeben: %input:ZE04%</txt>
+<txt lng="baq"><![CDATA[Mugatutako mina edo ondoeza - Baiezkoa bada, adierazi aldea: %input:ZE04%
+]]></txt>
+<txt lng="fre">Douleur ou gêne locale - Le cas échéant, précisez à quel endroit : %input:ZE04%</txt>
+<txt lng="cat"><![CDATA[Dolor o malestar localizats - En cas afirmatiu, especifiqui la zona: %input:ZE04%          
+]]></txt>
+<txt lng="hin">स्थानीय दर्द या बेचैनी - यदि हाँ, तो स्थान निर्दिष्ट करें: %input:ZE04%</txt>
+<txt lng="per">درد یا ناراحتی موضعی - اگر بله، موضع را مشخص کنید:  %input:ZE04%</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">12</attr>
+<attr id="pos">11</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Other sensations</description>
+<class>text</class>
+<title>
+<txt>Please describe any other sensations you have experienced (level of unpleasantness, 0-4):</txt>
+<txt lng="ara">يُرجى وصف أي أحاسيس أخرى اختبرتها (مستوى المتاعب، 0-4):</txt>
+<txt lng="por">Descreva quaisquer outros efeitos colaterais que tenha sentido (nível de desconforto, 0-4):</txt>
+<txt lng="dut">Beschrijf andere sensaties die u hebt opgemerkt (niveau van onaangenaamheid, 0-4):</txt>
+<txt lng="spa">Por favor, describa cualquier otra sensación que haya sentido (indique el nivel de molestia en una escala de 0 a 4):</txt>
+<txt lng="chi">请说明您感受到的其他感觉（不适程度，0-4分）：</txt>
+<txt lng="ita">Descriva ulteriori eventuali sensazioni che ha avuto (livello di fastidio, 0-4):</txt>
+<txt lng="jpn">他に経験した副作用があればご説明ください（不快さのレベル0～4）：</txt>
+<txt lng="kor">그 외 다른 증상을 경험하셨다면 기재해 주세요(불쾌감 정도, 0-4):</txt>
+<txt lng="glg">Por favor, describa calquera outra sensación que sentise (indique molestia do 0 ao 4):</txt>
+<txt lng="deu">Bitte beschreiben Sie sonstige bei Ihnen aufgetretene Empfindungen (Grad der unangenehmen Empfindung, 0-4):</txt>
+<txt lng="baq">Mesedez, deskribatu nabaritu duzun beste edozein sentsazio (adierazi ondoeza 0-4 bitartean):</txt>
+<txt lng="fre">Veuillez décrire tout autre symptôme ressenti (niveau de désagrément, 0-4) :</txt>
+<txt lng="cat">Si us plau, descrigui qualsevol altra sensació que hagi percebut (indiqui el nivell de molèstia en una escala de 0 a 4):</txt>
+<txt lng="hin">कृपया अपने द्वारा महसूस किए गए किसी अन्य लक्षण का वर्णन करें (अप्रियता का स्तर, 0-4):</txt>
+<txt lng="per">لطفاً هر حس دیگری که تجربه کرده‌اید را توصیف کنید (سطح ناراحتی، 0-4):</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+<item>
+<text />
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Intro_currentTreatment</description>
+<class>TextContent</class>
+<title />
+<explanation />
+<headerText>
+<txt>B) In the following section, please rate any sensations experienced during the treatment just completed.</txt>
+<txt lng="ara">ب) في الجزء التالي، يُرجى تقييم أي أحاسيس شعرت بها أثناء العلاج الذي انتهى للتو.</txt>
+<txt lng="por">B) Na seguinte seção, classifique quaisquer efeitos que tenha tido durante o tratamento que acabou de terminar.</txt>
+<txt lng="dut">B) Beoordeel in het volgende gedeelte de sensaties die u hebt opgemerkt tijdens de zojuist voltooide behandeling.</txt>
+<txt lng="spa">B) En esta sección, evalúe las sensaciones sentidas durante el tratamiento que acaba de completar.</txt>
+<txt lng="chi">B) 在以下部分，请对刚刚完成的治疗过程中所感受到的感觉进行评分。</txt>
+<txt lng="ita">B) Nella seguente sezione, valuti le sensazioni che ha avuto durante il trattamento appena completato.</txt>
+<txt lng="jpn">B) 以下の欄では、今回終了したばかりの治療中に経験した副作用について評価して下さい。</txt>
+<txt lng="kor">B) 다음 섹션에서는 방금 완료된 치료 도중 경험한 증상을 평가해 주세요.</txt>
+<txt lng="glg">B) Nesta sección, avalíe as sensacións sentidas durante o tratamento que acaba de completar.</txt>
+<txt lng="deu">B) Bitte bewerten Sie im folgenden Abschnitt alle Empfindungen, die Sie während der soeben abgeschlossenen Behandlung erlebt haben.</txt>
+<txt lng="baq">B) Atal honetan, ebaluatu osatu berri duzun tratamenduan sentitutako sentsazioak.</txt>
+<txt lng="fre">B) Dans la section suivante, veuillez évaluer les symptômes ressentis pendant le traitement que vous venez de terminer.</txt>
+<txt lng="cat">B) En aquesta secció, avaluï les sensacions percebudes durant el tractament que acaba de completar.</txt>
+<txt lng="hin">B) निम्नलिखित अनुभाग में, कृपया हाल ही में संपन्न चिकित्सा के दौरान अनुभव की गई किसी भी संवेदना को रेटिंग दें.</txt>
+<txt lng="per">ب) در بخش زیر، لطفاً هرگونه حسی که در طول درمان تازه به اتمام رسیده، تجربه کرده‌اید را ارزیابی کنید.</txt>
+</headerText>
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+<attr id="alignment">default</attr>
+<attr id="character">plain</attr>
+</attributes.specific>
+</question>
+<question>
+<description>Occured Curr</description>
+<class>checkbox</class>
+<title>
+<txt>Please mark only if occurred in relation to treatment.</txt>
+<txt lng="ara"><![CDATA[يُرجى وضع علامة فقط إذا حدث ذلك في سياق العلاج.]]></txt>
+<txt lng="por"><![CDATA[Assinale apenas se tiver ocorrido em relação ao tratamento.]]></txt>
+<txt lng="dut"><![CDATA[Alleen markeren indien opgetreden in relatie met de behandeling.]]></txt>
+<txt lng="spa">Por favor, marque solo las opciones relacionadas con el tratamiento.</txt>
+<txt lng="chi">只选择与治疗有关的症状。</txt>
+<txt lng="ita">Contrassegni solo se si sono verificate in relazione al trattamento</txt>
+<txt lng="jpn">治療に関連して生じたもののみチェックして下さい。</txt>
+<txt lng="kor">치료와 관련된 경우만 표시하세요.</txt>
+<txt lng="glg">Por favor, marque só as opcións relacionadas co tratamento.</txt>
+<txt lng="deu">Bitte nur bei behandlungs-bezogenem Auftreten ankreuzen</txt>
+<txt lng="baq">Mesedez, markatu tratamenduarekin lotutako aukerak bakarrik.</txt>
+<txt lng="fre">Veuillez cocher uniquement les symptômes ressentis pendant le traitement.</txt>
+<txt lng="cat">Si us plau, marqui només les opcions relacionades amb el tractament.</txt>
+<txt lng="hin">कृपया केवल तभी चिह्नित करें जब यह चिकित्सा के दौरान हुआ हो।</txt>
+<txt lng="per">لطفاً فقط در صورتی علامت بزنید که حس مرتبط با درمان بوده باشد.</txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+<item>
+<text>
+<txt>Headache</txt>
+<txt lng="ara">صداع</txt>
+<txt lng="por">Dor de cabeça (cefaleia)</txt>
+<txt lng="dut">Hoofdpijn</txt>
+<txt lng="spa">Dolor de cabeza</txt>
+<txt lng="chi">头痛</txt>
+<txt lng="ita">Mal di testa</txt>
+<txt lng="jpn">頭痛</txt>
+<txt lng="kor">두통</txt>
+<txt lng="glg">Dor de cabeza</txt>
+<txt lng="deu">Kopfschmerzen</txt>
+<txt lng="baq">Buruko mina</txt>
+<txt lng="fre">Maux de tête</txt>
+<txt lng="cat">Mal de cap</txt>
+<txt lng="hin">सिरदर्द</txt>
+<txt lng="per">سردرد</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Neck pain</txt>
+<txt lng="ara">ألم في الرقبة</txt>
+<txt lng="por">Dor no pescoço</txt>
+<txt lng="dut">Nekpijn</txt>
+<txt lng="spa">Dolor cervical</txt>
+<txt lng="chi">颈痛</txt>
+<txt lng="ita">Mal di collo</txt>
+<txt lng="jpn">首の痛み</txt>
+<txt lng="kor">목 통증</txt>
+<txt lng="glg">Dor no pescozo</txt>
+<txt lng="deu">Nackenschmerzen</txt>
+<txt lng="baq">Lepoko mina</txt>
+<txt lng="fre">Douleur cervicale</txt>
+<txt lng="cat">Dolor cervical</txt>
+<txt lng="hin">गर्दन में दर्द</txt>
+<txt lng="per">گردن‌درد</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Dizziness</txt>
+<txt lng="ara">دوخة (دوار)</txt>
+<txt lng="por">Tontura</txt>
+<txt lng="dut">Duizeligheid</txt>
+<txt lng="spa">Mareo</txt>
+<txt lng="chi">头晕</txt>
+<txt lng="ita">Stordimento</txt>
+<txt lng="jpn">めまい</txt>
+<txt lng="kor">어지러움</txt>
+<txt lng="glg">Mareo</txt>
+<txt lng="deu">Schwindel</txt>
+<txt lng="baq">Zorabioa</txt>
+<txt lng="fre">Vertige</txt>
+<txt lng="cat">Mareig</txt>
+<txt lng="hin">चक्कर आना</txt>
+<txt lng="per">سرگیجه</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Sleepiness/fatigue</txt>
+<txt lng="ara">نعاس أو إرهاق</txt>
+<txt lng="por">Sonolência/fadiga</txt>
+<txt lng="dut">Slaperigheid/vermoeidheid</txt>
+<txt lng="spa">Somnolencia/fatiga</txt>
+<txt lng="chi">困倦或疲惫</txt>
+<txt lng="ita">Sonnolenza/stanchezza</txt>
+<txt lng="jpn">眠気または倦怠感</txt>
+<txt lng="kor">졸음/피로</txt>
+<txt lng="glg">Somnolencia/fatiga</txt>
+<txt lng="deu">Müdigkeit/Erschöpfung</txt>
+<txt lng="baq">Logura/nekea</txt>
+<txt lng="fre">Somnolence/fatigue</txt>
+<txt lng="cat">Somnolència/fatiga</txt>
+<txt lng="hin">उनींदापन/थकान</txt>
+<txt lng="per">خواب‌آلودگی یا خستگی</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Redness (scalp)</txt>
+<txt lng="ara">احمرار (فروة الرأس)</txt>
+<txt lng="por">Vermelhidão na cabeça</txt>
+<txt lng="dut">Roodheid (schedel)</txt>
+<txt lng="spa">Enrojecimiento (cuero cabelludo)</txt>
+<txt lng="chi">发红（头皮）</txt>
+<txt lng="ita">Rossore (cuoio capelluto)</txt>
+<txt lng="jpn">赤み（頭皮）</txt>
+<txt lng="kor">홍반(두피)</txt>
+<txt lng="glg">Arroibamento (coiro cabeludo)</txt>
+<txt lng="deu">Rötung (Kopfhaut)</txt>
+<txt lng="baq">Gorritasuna (buru-azala)</txt>
+<txt lng="fre">Rougeur (cuir chevelu)</txt>
+<txt lng="cat">Vermellor (cuir cabellut)</txt>
+<txt lng="hin">लाली (सिर)</txt>
+<txt lng="per">قرمزی (پوست سر)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Itching (scalp)</txt>
+<txt lng="ara">حكة (فروة الرأس)</txt>
+<txt lng="por">Coceira na cabeça</txt>
+<txt lng="dut">Jeuk (schedel)</txt>
+<txt lng="spa">Picor (cuero cabelludo)</txt>
+<txt lng="chi">瘙痒（头皮）</txt>
+<txt lng="ita">Prurito (cuoio capelluto)</txt>
+<txt lng="jpn">かゆみ（頭皮）</txt>
+<txt lng="kor">가려움(두피)</txt>
+<txt lng="glg">Proído (coiro cabeludo)</txt>
+<txt lng="deu">Juckreiz (Kopfhaut)</txt>
+<txt lng="baq">Azkura (buru-azala)</txt>
+<txt lng="fre">Démangeaison (cuir chevelu)</txt>
+<txt lng="cat">Picor (cuir cabellut)</txt>
+<txt lng="hin">खुजली (सिर)</txt>
+<txt lng="per">خارش (پوست سر)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Tingling (scalp)</txt>
+<txt lng="ara">وخز (فروة الرأس)</txt>
+<txt lng="por">Formigamento na cabeça (couro cabeludo)</txt>
+<txt lng="dut">Tinteling (schedel)</txt>
+<txt lng="spa">Hormigueo (cuero cabelludo)</txt>
+<txt lng="chi">刺痛（头皮）</txt>
+<txt lng="ita">Formicolio (cuoio capelluto)</txt>
+<txt lng="jpn">ピリピリ感（頭皮）</txt>
+<txt lng="kor">따끔거림(두피)</txt>
+<txt lng="glg">Formigueo (coiro cabeludo)</txt>
+<txt lng="deu">Kribbeln (Kopfhaut)</txt>
+<txt lng="baq">Inurridura (buru-azala)</txt>
+<txt lng="fre">Picotement (cuir chevelu)</txt>
+<txt lng="cat">Formigueig (cuir cabellut)</txt>
+<txt lng="hin">सिहरन (सिर)</txt>
+<txt lng="per">مورمور شدن (پوست سر)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Burning or heating (scalp)</txt>
+<txt lng="ara">حرقة أو سخونة (فروة الرأس)</txt>
+<txt lng="por">Sensação de queimação ou ardência (couro cabeludo)</txt>
+<txt lng="dut">Brandend of warm gevoel (schedel)</txt>
+<txt lng="spa">Quemazón/sensación de calor (cuero cabelludo)</txt>
+<txt lng="chi">灼烧感或发热（头皮）</txt>
+<txt lng="ita">Bruciore o calore (cuoio capelluto)</txt>
+<txt lng="jpn">灼熱感または熱感（頭皮）</txt>
+<txt lng="kor">열감 또는 화상(두피)</txt>
+<txt lng="glg">Ardor ou sensación de calor (coiro cabeludo)</txt>
+<txt lng="deu">Brennen/Erhitzen (Kopfhaut)</txt>
+<txt lng="baq">Sumindura edo berotasuna (buru-azala)</txt>
+<txt lng="fre">Sensation de brûlure/chaleur (cuir chevelu)</txt>
+<txt lng="cat">Cremor/sensació de calor (cuir cabellut)</txt>
+<txt lng="hin">जलन या गर्मी (सिर)</txt>
+<txt lng="per">سوزش یا داغ شدن (پوست سر)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Muscle twitching</txt>
+<txt lng="ara">ارتعاش العضلات</txt>
+<txt lng="por">Contrações musculares</txt>
+<txt lng="dut">Spiertrekkingen</txt>
+<txt lng="spa">Espasmos musculares</txt>
+<txt lng="chi">肌肉抽搐</txt>
+<txt lng="ita">Contrazioni muscolari</txt>
+<txt lng="jpn">筋肉のぴくつき</txt>
+<txt lng="kor">근육 경련</txt>
+<txt lng="glg">Espasmos musculares</txt>
+<txt lng="deu">Muskelzuckungen</txt>
+<txt lng="baq">Muskulu-espasmoak</txt>
+<txt lng="fre">Contraction musculaire</txt>
+<txt lng="cat">Espasmes musculars</txt>
+<txt lng="hin">मांसपेशियों में ऐंठन</txt>
+<txt lng="per">لرزش عضلانی</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">9</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Local pain or discomfort</txt>
+<txt lng="ara">آلام أو متاعب موضعية</txt>
+<txt lng="por">Dor local ou desconforto</txt>
+<txt lng="dut">Plaatselijke pijn of ongemak</txt>
+<txt lng="spa">Dolor o malestar localizados</txt>
+<txt lng="chi">局部疼痛或不适</txt>
+<txt lng="ita">Dolore locale o fastidio</txt>
+<txt lng="jpn">局所的な痛みや不快感</txt>
+<txt lng="kor">국소 통증 또는 불편감</txt>
+<txt lng="glg">Dor ou malestar localizados</txt>
+<txt lng="deu">Lokaler Schmerz/Unbehagen</txt>
+<txt lng="baq">Mugatutako mina edo ondoeza</txt>
+<txt lng="fre">Douleur ou gêne locale</txt>
+<txt lng="cat">Dolor o malestar localizats</txt>
+<txt lng="hin">स्थानीय दर्द या बेचैनी</txt>
+<txt lng="per">درد یا ناراحتی موضعی</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">10</attr>
+<attr id="pos">10</attr>
+</attributes.specific>
+</item>
+</question>
+</section>
+<section>
+<title>frei platzierte Eingabefelder</title>
+<attributes.specific program="ofb">
+<attr id="id">ZE</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+<question>
+<description>Location</description>
+<class>checkbox</class>
+<title />
+<explanation />
+<inputPosition>right</inputPosition>
+<labels>
+<li i="1">
+<txt>Stimulation site</txt>
+<txt lng="ara">موضع التحفيز</txt>
+<txt lng="por">Local de estimulação</txt>
+<txt lng="dut">Plaats van stimulatie</txt>
+<txt lng="spa">Zona de estimulación</txt>
+<txt lng="chi">刺激部位</txt>
+<txt lng="ita">Punto della stimolazione</txt>
+<txt lng="jpn">刺激部位</txt>
+<txt lng="kor">자극 부위</txt>
+<txt lng="glg">Zona da estimulación</txt>
+<txt lng="deu">Stimulationsstelle</txt>
+<txt lng="baq">Estimulazio aldea</txt>
+<txt lng="fre">Zone de stimulation</txt>
+<txt lng="cat">Zona d’estimulació</txt>
+<txt lng="hin">उद्दीपन स्थल</txt>
+<txt lng="per">محل تحریک</txt>
+</li>
+<li i="2">
+<txt>Face (incl. jaw/teeth)</txt>
+<txt lng="ara">الوجه (بما في ذلك الفك/الأسنان)</txt>
+<txt lng="por">Face (incl. maxila/dentes)</txt>
+<txt lng="dut">Gezicht (incl. kaak/gebit)</txt>
+<txt lng="spa">Cara (incl. mandíbula/dentadura)</txt>
+<txt lng="chi">面部（包括下颌/牙齿）</txt>
+<txt lng="ita">Viso (incl. mandibola/denti)</txt>
+<txt lng="jpn">顔（顎や歯を含む）</txt>
+<txt lng="kor">얼굴(턱/치아 포함)</txt>
+<txt lng="glg">Cara (incl. mandíbula/dentadura)</txt>
+<txt lng="deu">Gesicht (inkl. Kiefer/Zähne)</txt>
+<txt lng="baq">Aurpegia (masailezurra/hortzeria barne)</txt>
+<txt lng="fre">Visage (y compris mâchoire/dents)</txt>
+<txt lng="cat">Cara (incl. mandíbula/dentadura)</txt>
+<txt lng="hin">चेहरा (जबड़ा/दांत सहित)</txt>
+<txt lng="per">صورت (شامل فک/دندان‌ها)</txt>
+</li>
+<li i="3">
+<txt>Other head areas</txt>
+<txt lng="ara">مناطق أخرى من الرأس</txt>
+<txt lng="por">Outras áreas da cabeça</txt>
+<txt lng="dut">Overige gebieden van het hoofd</txt>
+<txt lng="spa">Otras partes de la cabeza</txt>
+<txt lng="chi">其他头部区域</txt>
+<txt lng="ita">Altre parti della testa</txt>
+<txt lng="jpn">その他頭部</txt>
+<txt lng="kor">기타 머리 부위</txt>
+<txt lng="glg">Outras partes da cabeza</txt>
+<txt lng="deu">andere Kopfbereiche</txt>
+<txt lng="baq">Buruko beste atal batzuk</txt>
+<txt lng="fre">Autres zones de la tête</txt>
+<txt lng="cat">Altres parts del cap</txt>
+<txt lng="hin">सिर के अन्य भाग</txt>
+<txt lng="per">سایر نواحی سر</txt>
+</li>
+<li i="4">
+<txt>Body (non-head)</txt>
+<txt lng="ara">الجسم (غير الرأس)</txt>
+<txt lng="por">Corpo (exceto cabeça)</txt>
+<txt lng="dut">Lichaam (geen hoofd)</txt>
+<txt lng="spa">Cuerpo (excluyendo la cabeza)</txt>
+<txt lng="chi">身体（非头部）</txt>
+<txt lng="ita">Corpo (non testa)</txt>
+<txt lng="jpn">体（頭部以外）</txt>
+<txt lng="kor">몸(머리 제외)</txt>
+<txt lng="glg">Corpo (excluíndo a cabeza)</txt>
+<txt lng="deu">Körper (außer Kopf)</txt>
+<txt lng="baq">Gorputza (burua kanpo)</txt>
+<txt lng="fre">Corps (hors tête)</txt>
+<txt lng="cat">Cos (excloent el cap)</txt>
+<txt lng="hin">शरीर (सिर के अलावा)</txt>
+<txt lng="per">بدن (غیر از سر)</txt>
+</li>
+</labels>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="scale.metrics.extrema">50</attr>
+<attr id="scale.niveau">4</attr>
+<attr id="alignment" />
+</attributes.specific>
+<item>
+<text>
+<txt>If yes, specify location:</txt>
+<txt lng="ara">إذا كانت الاجابة بنعم، حدد الموقع:</txt>
+<txt lng="por">Em caso afirmativo, especifique o local:</txt>
+<txt lng="dut">Zo ja, specificeer de plaats:</txt>
+<txt lng="spa">En caso afirmativo, especifique la zona:</txt>
+<txt lng="chi">如果有，请说明部位：</txt>
+<txt lng="ita">Se sì, specifichi dove:</txt>
+<txt lng="jpn">該当する場合はその場所：</txt>
+<txt lng="kor">해당하면, 구체적 부위:</txt>
+<txt lng="glg">En caso afirmativo, especifique onde:</txt>
+<txt lng="deu">Falls ja, Ort angeben:</txt>
+<txt lng="baq">Baiezkoa bada, adierazi aldea:</txt>
+<txt lng="fre">Le cas échéant, précisez à quel endroit :</txt>
+<txt lng="cat">En cas afirmatiu, especifiqui la zona:</txt>
+<txt lng="hin">यदि हाँ, तो स्थान निर्दिष्ट करें:</txt>
+<txt lng="per">اگر بله، موضع را مشخص کنید:</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Location</description>
+<class>mc-matrix</class>
+<title />
+<explanation />
+<inputPosition>right</inputPosition>
+<labels>
+<li i="1">
+<txt>Stimulation site</txt>
+<txt lng="ara">موضع التحفيز</txt>
+<txt lng="por">Local de estimulação</txt>
+<txt lng="dut">Plaats van stimulatie</txt>
+<txt lng="spa">Zona de estimulación</txt>
+<txt lng="chi">刺激部位</txt>
+<txt lng="ita">Punto della stimolazione</txt>
+<txt lng="jpn">刺激部位</txt>
+<txt lng="kor">자극 부위</txt>
+<txt lng="glg">Zona da estimulación</txt>
+<txt lng="deu">Stimulationsstelle</txt>
+<txt lng="baq">Estimulazio aldea</txt>
+<txt lng="fre">Zone de stimulation</txt>
+<txt lng="cat">Zona d’estimulació</txt>
+<txt lng="hin">उद्दीपन स्थल</txt>
+<txt lng="per">محل تحریک</txt>
+</li>
+<li i="2">
+<txt>Face (incl. jaw/teeth)</txt>
+<txt lng="ara">الوجه (بما في ذلك الفك/الأسنان)</txt>
+<txt lng="por">Face (incl. maxila/dentes)</txt>
+<txt lng="dut">Gezicht (incl. kaak/gebit)</txt>
+<txt lng="spa">Cara (incl. mandíbula/dentadura)</txt>
+<txt lng="chi">面部（包括下颌/牙齿）</txt>
+<txt lng="ita">Viso (incl. mandibola/denti)</txt>
+<txt lng="jpn">顔（顎や歯を含む）</txt>
+<txt lng="kor">얼굴(턱/치아 포함)</txt>
+<txt lng="glg">Cara (incl. mandíbula/dentadura)</txt>
+<txt lng="deu">Gesicht (inkl. Kiefer/Zähne)</txt>
+<txt lng="baq">Aurpegia (masailezurra/hortzeria barne)</txt>
+<txt lng="fre">Visage (y compris mâchoire/dents)</txt>
+<txt lng="cat">Cara (incl. mandíbula/dentadura)</txt>
+<txt lng="hin">चेहरा (जबड़ा/दांत सहित)</txt>
+<txt lng="per">صورت (شامل فک/دندان‌ها)</txt>
+</li>
+<li i="3">
+<txt>Other head areas</txt>
+<txt lng="ara">مناطق أخرى من الرأس</txt>
+<txt lng="por">Outras áreas da cabeça</txt>
+<txt lng="dut">Overige gebieden van het hoofd</txt>
+<txt lng="spa">Otras partes de la cabeza</txt>
+<txt lng="chi">其他头部区域</txt>
+<txt lng="ita">Altre parti della testa</txt>
+<txt lng="jpn">その他頭部</txt>
+<txt lng="kor">기타 머리 부위</txt>
+<txt lng="glg">Outras partes da cabeza</txt>
+<txt lng="deu">andere Kopfbereiche</txt>
+<txt lng="baq">Buruko beste atal batzuk</txt>
+<txt lng="fre">Autres zones de la tête</txt>
+<txt lng="cat">Altres parts del cap</txt>
+<txt lng="hin">सिर के अन्य भाग</txt>
+<txt lng="per">سایر نواحی سر</txt>
+</li>
+<li i="4">
+<txt>Body (non-head)</txt>
+<txt lng="ara">الجسم (غير الرأس)</txt>
+<txt lng="por">Corpo (exceto cabeça)</txt>
+<txt lng="dut">Lichaam (geen hoofd)</txt>
+<txt lng="spa">Cuerpo (excluyendo la cabeza)</txt>
+<txt lng="chi">身体（非头部）</txt>
+<txt lng="ita">Corpo (non testa)</txt>
+<txt lng="jpn">体（頭部以外）</txt>
+<txt lng="kor">몸(머리 제외)</txt>
+<txt lng="glg">Corpo (excluíndo a cabeza)</txt>
+<txt lng="deu">Körper (außer Kopf)</txt>
+<txt lng="baq">Gorputza (burua kanpo)</txt>
+<txt lng="fre">Corps (hors tête)</txt>
+<txt lng="cat">Cos (excloent el cap)</txt>
+<txt lng="hin">शरीर (सिर के अलावा)</txt>
+<txt lng="per">بدن (غیر از سر)</txt>
+</li>
+</labels>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+<attr id="scale.metrics.extrema">100</attr>
+<attr id="scale.niveau">4</attr>
+<attr id="composition">default</attr>
+</attributes.specific>
+<item>
+<text>
+<txt>If yes, specify location:</txt>
+<txt lng="ara">إذا كانت الاجابة بنعم، حدد الموقع:</txt>
+<txt lng="por">Em caso afirmativo, especifique o local:</txt>
+<txt lng="dut">Zo ja, specificeer de plaats:</txt>
+<txt lng="spa">En caso afirmativo, especifique la zona:</txt>
+<txt lng="chi">如果有，请说明部位：</txt>
+<txt lng="ita">Se sì, specifichi dove:</txt>
+<txt lng="jpn">該当する場合はその場所：</txt>
+<txt lng="kor">해당하면, 구체적 부위:</txt>
+<txt lng="glg">En caso afirmativo, especifique onde:</txt>
+<txt lng="deu">Falls ja, Ort angeben:</txt>
+<txt lng="baq">Baiezkoa bada, adierazi aldea:</txt>
+<txt lng="fre">Le cas échéant, précisez à quel endroit :</txt>
+<txt lng="cat">En cas afirmatiu, especifiqui la zona:</txt>
+<txt lng="hin">यदि हाँ, तो स्थान निर्दिष्ट करें:</txt>
+<txt lng="per">اگر بله، موضع را مشخص کنید:</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Location</description>
+<class>checkbox</class>
+<title />
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+<item>
+<text>
+<txt>Stimulation site</txt>
+<txt lng="ara">موضع التحفيز</txt>
+<txt lng="por">Local de estimulação</txt>
+<txt lng="dut">Plaats van stimulatie</txt>
+<txt lng="spa">Zona de estimulación</txt>
+<txt lng="chi">刺激部位</txt>
+<txt lng="ita">Punto della stimolazione</txt>
+<txt lng="jpn">刺激部位</txt>
+<txt lng="kor">자극 부위</txt>
+<txt lng="glg">Zona da estimulación</txt>
+<txt lng="deu">Stimulationsstelle</txt>
+<txt lng="baq">Estimulazio aldea</txt>
+<txt lng="fre">Zone de stimulation</txt>
+<txt lng="cat">Zona d’estimulació</txt>
+<txt lng="hin">उद्दीपन स्थल</txt>
+<txt lng="per">محل تحریک</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Face (incl. jaw/teeth)</txt>
+<txt lng="ara">الوجه (بما في ذلك الفك/الأسنان)</txt>
+<txt lng="por">Face (incl. maxila/dentes)</txt>
+<txt lng="dut">Gezicht (incl. kaak/gebit)</txt>
+<txt lng="spa">Cara (incl. mandíbula/dentadura)</txt>
+<txt lng="chi">面部（包括下颌/牙齿）</txt>
+<txt lng="ita">Viso (incl. mandibola/denti)</txt>
+<txt lng="jpn">顔（顎や歯を含む）</txt>
+<txt lng="kor">얼굴(턱/치아 포함)</txt>
+<txt lng="glg">Cara (incl. mandíbula/dentadura)</txt>
+<txt lng="deu">Gesicht (inkl. Kiefer/Zähne)</txt>
+<txt lng="baq">Aurpegia (masailezurra/hortzeria barne)</txt>
+<txt lng="fre">Visage (y compris mâchoire/dents)</txt>
+<txt lng="cat">Cara (incl. mandíbula/dentadura)</txt>
+<txt lng="hin">चेहरा (जबड़ा/दांत सहित)</txt>
+<txt lng="per">صورت (شامل فک/دندان‌ها)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Other head areas</txt>
+<txt lng="ara">مناطق أخرى من الرأس</txt>
+<txt lng="por">Outras áreas da cabeça</txt>
+<txt lng="dut">Overige gebieden van het hoofd</txt>
+<txt lng="spa">Otras partes de la cabeza</txt>
+<txt lng="chi">其他头部区域</txt>
+<txt lng="ita">Altre parti della testa</txt>
+<txt lng="jpn">その他頭部</txt>
+<txt lng="kor">기타 머리 부위</txt>
+<txt lng="glg">Outras partes da cabeza</txt>
+<txt lng="deu">andere Kopfbereiche</txt>
+<txt lng="baq">Buruko beste atal batzuk</txt>
+<txt lng="fre">Autres zones de la tête</txt>
+<txt lng="cat">Altres parts del cap</txt>
+<txt lng="hin">सिर के अन्य भाग</txt>
+<txt lng="per">سایر نواحی سر</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Body (non-head)</txt>
+<txt lng="ara">الجسم (غير الرأس)</txt>
+<txt lng="por">Corpo (exceto cabeça)</txt>
+<txt lng="dut">Lichaam (geen hoofd)</txt>
+<txt lng="spa">Cuerpo (excluyendo la cabeza)</txt>
+<txt lng="chi">身体（非头部）</txt>
+<txt lng="ita">Corpo (non testa)</txt>
+<txt lng="jpn">体（頭部以外）</txt>
+<txt lng="kor">몸(머리 제외)</txt>
+<txt lng="glg">Corpo (excluíndo a cabeza)</txt>
+<txt lng="deu">Körper (außer Kopf)</txt>
+<txt lng="baq">Gorputza (burua kanpo)</txt>
+<txt lng="fre">Corps (hors tête)</txt>
+<txt lng="cat">Cos (excloent el cap)</txt>
+<txt lng="hin">शरीर (सिर के अलावा)</txt>
+<txt lng="per">بدن (غیر از سر)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Location</description>
+<class>checkbox</class>
+<title />
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+<item>
+<text>
+<txt>Stimulation site</txt>
+<txt lng="ara">موضع التحفيز</txt>
+<txt lng="por">Local de estimulação</txt>
+<txt lng="dut">Plaats van stimulatie</txt>
+<txt lng="spa">Zona de estimulación</txt>
+<txt lng="chi">刺激部位</txt>
+<txt lng="ita">Punto della stimolazione</txt>
+<txt lng="jpn">刺激部位</txt>
+<txt lng="kor">자극 부위</txt>
+<txt lng="glg">Zona da estimulación</txt>
+<txt lng="deu">Stimulationsstelle</txt>
+<txt lng="baq">Estimulazio aldea</txt>
+<txt lng="fre">Zone de stimulation</txt>
+<txt lng="cat">Zona d’estimulació</txt>
+<txt lng="hin">उद्दीपन स्थल</txt>
+<txt lng="per">محل تحریک</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Face (incl. jaw/teeth)</txt>
+<txt lng="ara">الوجه (بما في ذلك الفك/الأسنان)</txt>
+<txt lng="por">Face (incl. maxila/dentes)</txt>
+<txt lng="dut">Gezicht (incl. kaak/gebit)</txt>
+<txt lng="spa">Cara (incl. mandíbula/dentadura)</txt>
+<txt lng="chi">面部（包括下颌/牙齿）</txt>
+<txt lng="ita">Viso (incl. mandibola/denti)</txt>
+<txt lng="jpn">顔（顎や歯を含む）</txt>
+<txt lng="kor">얼굴(턱/치아 포함)</txt>
+<txt lng="glg">Cara (incl. mandíbula/dentadura)</txt>
+<txt lng="deu">Gesicht (inkl. Kiefer/Zähne)</txt>
+<txt lng="baq">Aurpegia (masailezurra/hortzeria barne)</txt>
+<txt lng="fre">Visage (y compris mâchoire/dents)</txt>
+<txt lng="cat">Cara (incl. mandíbula/dentadura)</txt>
+<txt lng="hin">चेहरा (जबड़ा/दांत सहित)</txt>
+<txt lng="per">صورت (شامل فک/دندان‌ها)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Other head areas</txt>
+<txt lng="ara">مناطق أخرى من الرأس</txt>
+<txt lng="por">Outras áreas da cabeça</txt>
+<txt lng="dut">Overige gebieden van het hoofd</txt>
+<txt lng="spa">Otras partes de la cabeza</txt>
+<txt lng="chi">其他头部区域</txt>
+<txt lng="ita">Altre parti della testa</txt>
+<txt lng="jpn">その他頭部</txt>
+<txt lng="kor">기타 머리 부위</txt>
+<txt lng="glg">Outras partes da cabeza</txt>
+<txt lng="deu">andere Kopfbereiche</txt>
+<txt lng="baq">Buruko beste atal batzuk</txt>
+<txt lng="fre">Autres zones de la tête</txt>
+<txt lng="cat">Altres parts del cap</txt>
+<txt lng="hin">सिर के अन्य भाग</txt>
+<txt lng="per">سایر نواحی سر</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Body (non-head)</txt>
+<txt lng="ara">الجسم (غير الرأس)</txt>
+<txt lng="por">Corpo (exceto cabeça)</txt>
+<txt lng="dut">Lichaam (geen hoofd)</txt>
+<txt lng="spa">Cuerpo (excluyendo la cabeza)</txt>
+<txt lng="chi">身体（非头部）</txt>
+<txt lng="ita">Corpo (non testa)</txt>
+<txt lng="jpn">体（頭部以外）</txt>
+<txt lng="kor">몸(머리 제외)</txt>
+<txt lng="glg">Corpo (excluíndo a cabeza)</txt>
+<txt lng="deu">Körper (außer Kopf)</txt>
+<txt lng="baq">Gorputza (burua kanpo)</txt>
+<txt lng="fre">Corps (hors tête)</txt>
+<txt lng="cat">Cos (excloent el cap)</txt>
+<txt lng="hin">शरीर (सिर के अलावा)</txt>
+<txt lng="per">بدن (غیر از سر)</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Schreibfeld</description>
+<class>text</class>
+<title />
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+<item>
+<text />
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="width">600</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Schreibfeld klein</description>
+<class>text</class>
+<title />
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+<item>
+<text />
+<suffix>
+<txt>h</txt>
+<txt lng="ara">ساعة</txt>
+<txt lng="por">h</txt>
+<txt lng="dut">h</txt>
+<txt lng="spa">h</txt>
+<txt lng="chi">小时</txt>
+<txt lng="ita">h</txt>
+<txt lng="jpn">時間</txt>
+<txt lng="kor">시간 </txt>
+<txt lng="glg">h</txt>
+<txt lng="deu">h</txt>
+<txt lng="baq">h</txt>
+<txt lng="fre">h</txt>
+<txt lng="cat">h</txt>
+<txt lng="hin">घंटे</txt>
+<txt lng="per">ساعت</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="width">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text />
+<suffix>
+<txt>h</txt>
+<txt lng="ara">ساعة</txt>
+<txt lng="por">h</txt>
+<txt lng="dut">h</txt>
+<txt lng="spa">h</txt>
+<txt lng="chi">小时</txt>
+<txt lng="ita">h</txt>
+<txt lng="jpn">時間</txt>
+<txt lng="kor">시간 </txt>
+<txt lng="glg">h</txt>
+<txt lng="deu">h</txt>
+<txt lng="baq">h</txt>
+<txt lng="fre">h</txt>
+<txt lng="cat">h</txt>
+<txt lng="hin">घंटे</txt>
+<txt lng="per">ساعت</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+<attr id="width">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text />
+<suffix>
+<txt>h</txt>
+<txt lng="ara">ساعة</txt>
+<txt lng="por">h</txt>
+<txt lng="dut">h</txt>
+<txt lng="spa">h</txt>
+<txt lng="chi">小时</txt>
+<txt lng="ita">h</txt>
+<txt lng="jpn">時間</txt>
+<txt lng="kor">시간 </txt>
+<txt lng="glg">h</txt>
+<txt lng="deu">h</txt>
+<txt lng="baq">h</txt>
+<txt lng="fre">h</txt>
+<txt lng="cat">h</txt>
+<txt lng="hin">घंटे</txt>
+<txt lng="per">ساعت</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+<attr id="width">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text />
+<suffix>
+<txt>h</txt>
+<txt lng="ara">ساعة</txt>
+<txt lng="por">h</txt>
+<txt lng="dut">h</txt>
+<txt lng="spa">h</txt>
+<txt lng="chi">小时</txt>
+<txt lng="ita">h</txt>
+<txt lng="jpn">時間</txt>
+<txt lng="kor">시간 </txt>
+<txt lng="glg">h</txt>
+<txt lng="deu">h</txt>
+<txt lng="baq">h</txt>
+<txt lng="fre">h</txt>
+<txt lng="cat">h</txt>
+<txt lng="hin">घंटे</txt>
+<txt lng="per">ساعت</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+<attr id="width">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text />
+<suffix>
+<txt>h</txt>
+<txt lng="ara">ساعة</txt>
+<txt lng="por">h</txt>
+<txt lng="dut">h</txt>
+<txt lng="spa">h</txt>
+<txt lng="chi">小时</txt>
+<txt lng="ita">h</txt>
+<txt lng="jpn">時間</txt>
+<txt lng="kor">시간 </txt>
+<txt lng="glg">h</txt>
+<txt lng="deu">h</txt>
+<txt lng="baq">h</txt>
+<txt lng="fre">h</txt>
+<txt lng="cat">h</txt>
+<txt lng="hin">घंटे</txt>
+<txt lng="per">ساعت</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+<attr id="width">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text />
+<suffix>
+<txt>h</txt>
+<txt lng="ara">ساعة</txt>
+<txt lng="por">h</txt>
+<txt lng="dut">h</txt>
+<txt lng="spa">h</txt>
+<txt lng="chi">小时</txt>
+<txt lng="ita">h</txt>
+<txt lng="jpn">時間</txt>
+<txt lng="kor">시간 </txt>
+<txt lng="glg">h</txt>
+<txt lng="deu">h</txt>
+<txt lng="baq">h</txt>
+<txt lng="fre">h</txt>
+<txt lng="cat">h</txt>
+<txt lng="hin">घंटे</txt>
+<txt lng="per">ساعت</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+<attr id="width">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text />
+<suffix>
+<txt>h</txt>
+<txt lng="ara">ساعة</txt>
+<txt lng="por">h</txt>
+<txt lng="dut">h</txt>
+<txt lng="spa">h</txt>
+<txt lng="chi">小时</txt>
+<txt lng="ita">h</txt>
+<txt lng="jpn">時間</txt>
+<txt lng="kor">시간 </txt>
+<txt lng="glg">h</txt>
+<txt lng="deu">h</txt>
+<txt lng="baq">h</txt>
+<txt lng="fre">h</txt>
+<txt lng="cat">h</txt>
+<txt lng="hin">घंटे</txt>
+<txt lng="per">ساعت</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+<attr id="width">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text />
+<suffix>
+<txt>h</txt>
+<txt lng="ara">ساعة</txt>
+<txt lng="por">h</txt>
+<txt lng="dut">h</txt>
+<txt lng="spa">h</txt>
+<txt lng="chi">小时</txt>
+<txt lng="ita">h</txt>
+<txt lng="jpn">時間</txt>
+<txt lng="kor">시간 </txt>
+<txt lng="glg">h</txt>
+<txt lng="deu">h</txt>
+<txt lng="baq">h</txt>
+<txt lng="fre">h</txt>
+<txt lng="cat">h</txt>
+<txt lng="hin">घंटे</txt>
+<txt lng="per">ساعت</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+<attr id="width">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text />
+<suffix>
+<txt>h</txt>
+<txt lng="ara">ساعة</txt>
+<txt lng="por">h</txt>
+<txt lng="dut">h</txt>
+<txt lng="spa">h</txt>
+<txt lng="chi">小时</txt>
+<txt lng="ita">h</txt>
+<txt lng="jpn">時間</txt>
+<txt lng="kor">시간 </txt>
+<txt lng="glg">h</txt>
+<txt lng="deu">h</txt>
+<txt lng="baq">h</txt>
+<txt lng="fre">h</txt>
+<txt lng="cat">h</txt>
+<txt lng="hin">घंटे</txt>
+<txt lng="per">ساعت</txt>
+</suffix>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">9</attr>
+<attr id="width">5</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Ongoing </description>
+<class>checkbox</class>
+<title />
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">9</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Ongoing</description>
+<class>checkbox</class>
+<title />
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Ongoing?</txt>
+<txt lng="ara">مستمر؟</txt>
+<txt lng="por">Contínua?</txt>
+<txt lng="dut">Doorlopend?</txt>
+<txt lng="spa">¿Persistente?</txt>
+<txt lng="chi">仍在持续？</txt>
+<txt lng="ita">Persiste?</txt>
+<txt lng="jpn">継続中か？</txt>
+<txt lng="kor">여전히 계속 되나요?</txt>
+<txt lng="glg">Mantense?</txt>
+<txt lng="deu">Andauernd?</txt>
+<txt lng="baq">Jarraitzen al du?</txt>
+<txt lng="fre">Encore présent ?</txt>
+<txt lng="cat">Persistent?</txt>
+<txt lng="hin">जारी है?</txt>
+<txt lng="per">مستمر؟</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">9</attr>
+</attributes.specific>
+</item>
+</question>
+</section>
+<section>
+<title>Introduction</title>
+<attributes.specific program="ofb">
+<attr id="id">A0</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+<question>
+<description>IDs </description>
+<class>text</class>
+<title>
+<txt><![CDATA[Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Rating scale for the assessment of adverse effects of non-invasive brain stimulation]]></txt>
+<txt lng="ara"><![CDATA[Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+مقياس تقييم الآثار الجانبية لتحفيز الدماغ غير جراحي]]></txt>
+<txt lng="por"><![CDATA[Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Escala de classificação para avaliação dos efeitos adversos da estimulação cerebral não invasiva]]></txt>
+<txt lng="dut"><![CDATA[Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Scoreschaal voor de beoordeling van bijwerkingen van niet-invasieve hersenstimulatie]]></txt>
+<txt lng="spa"><![CDATA[Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Escala para la valoración de los efectos adversos de la estimulación cerebral no invasiva]]></txt>
+<txt lng="chi"><![CDATA[Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+非侵入性脑刺激不良反应评定量表]]></txt>
+<txt lng="ita"><![CDATA[Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Scala di valutazione degli effetti avversi della stimolazione cerebrale non invasiva]]></txt>
+<txt lng="jpn"><![CDATA[Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+非侵襲的脳刺激法の有害事象評価スケール]]></txt>
+<txt lng="kor"><![CDATA[Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+비침습적 뇌 자극 부작용을 평가하는 척도]]></txt>
+<txt lng="glg"><![CDATA[Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Escala para a valoración dos efectos adversos da estimulación cerebral non invasiva]]></txt>
+<txt lng="deu"><![CDATA[Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Skala zur Erfassung von Nebenwirkungen nicht-invasiver Hirnstimulation]]></txt>
+<txt lng="baq"><![CDATA[Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Garuneko estimulazio ez-inbaditzailearen ondorio kaltegarriak baloratzeko eskala]]></txt>
+<txt lng="fre"><![CDATA[Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Échelle d'évaluation des effets indésirables de la stimulation cérébrale non invasive]]></txt>
+<txt lng="cat"><![CDATA[Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Escala per a la valoració dels efectes adversos de la estimulación cerebral no invasiva]]></txt>
+<txt lng="hin"><![CDATA[Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+नॉन-इनवेसिव ब्रेन स्टिमुलेशन के प्रतिकूल प्रभावों के आकलन के लिए रेटिंग पैमाना]]></txt>
+<txt lng="per"><![CDATA[Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+مقیاس ارزیابی برای بررسی عوارض نامطلوب تحریک غیرتهاجمی مغز]]></txt>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="out.title">
+<txt>Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)</txt>
+<txt lng="ara">Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)</txt>
+<txt lng="por">Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)</txt>
+<txt lng="dut">Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)</txt>
+<txt lng="spa">Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)</txt>
+<txt lng="chi">Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)</txt>
+<txt lng="ita">Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)</txt>
+<txt lng="jpn">Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)</txt>
+<txt lng="kor">Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)</txt>
+<txt lng="glg">Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)</txt>
+<txt lng="deu">Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)</txt>
+<txt lng="baq">Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)</txt>
+<txt lng="fre">Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)</txt>
+<txt lng="cat">Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)</txt>
+<txt lng="hin">Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)</txt>
+<txt lng="per">Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)</txt>
+</attr>
+<attr id="number">no</attr>
+</attributes.specific>
+<item>
+<text>
+<txt>Participant ID:</txt>
+<txt lng="ara">Participant ID:</txt>
+<txt lng="por">ID do participante:</txt>
+<txt lng="dut">Deelnemer-ID:</txt>
+<txt lng="spa">ID Participante:</txt>
+<txt lng="chi">受试者 ID：</txt>
+<txt lng="ita">ID partecipante:</txt>
+<txt lng="jpn">参加者 ID:</txt>
+<txt lng="kor">참가자 ID:</txt>
+<txt lng="glg">ID Participante:</txt>
+<txt lng="deu">Probanden ID:</txt>
+<txt lng="baq">Parte-hartzailearen IDa:</txt>
+<txt lng="fre">ID du participant :</txt>
+<txt lng="cat">ID Participante:</txt>
+<txt lng="hin">प्रतिभागी ID:</txt>
+<txt lng="per">شناسه شرکت‌کننده:</txt>
+</text>
+<required>yes</required>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="width">200</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Experimenter ID:</txt>
+<txt lng="ara">Experimenter ID:</txt>
+<txt lng="por">ID do avaliador:</txt>
+<txt lng="dut">Experimentator-ID:</txt>
+<txt lng="spa">ID Investigador/a:</txt>
+<txt lng="chi">主试者 ID：</txt>
+<txt lng="ita">ID sperimentatore:</txt>
+<txt lng="jpn">実験者ID:</txt>
+<txt lng="kor">실험자 ID:</txt>
+<txt lng="glg">ID Investigador/a:</txt>
+<txt lng="deu">Versuchsleiter ID:</txt>
+<txt lng="baq">Ikerlariaren IDa:</txt>
+<txt lng="fre">ID de l'expérimentateur :</txt>
+<txt lng="cat">ID Investigador/a:</txt>
+<txt lng="hin">प्रयोगकर्ता ID:</txt>
+<txt lng="per">شناسه آزمایشگر:</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+<attr id="width">200</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Date:</txt>
+<txt lng="ara">Date:</txt>
+<txt lng="por">Data:</txt>
+<txt lng="dut">Datum:</txt>
+<txt lng="spa">Fecha:</txt>
+<txt lng="chi">日期：</txt>
+<txt lng="ita">Data:</txt>
+<txt lng="jpn">日付:</txt>
+<txt lng="kor">날짜:</txt>
+<txt lng="glg">Data:</txt>
+<txt lng="deu">Datum:</txt>
+<txt lng="baq">Data:</txt>
+<txt lng="fre">Date :</txt>
+<txt lng="cat">Fecha:</txt>
+<txt lng="hin">तिथि:</txt>
+<txt lng="per">تاریخ:</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+<attr id="width">200</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Time:</txt>
+<txt lng="ara">Time:</txt>
+<txt lng="por">Hora:</txt>
+<txt lng="dut">Tijd:</txt>
+<txt lng="spa">Hora:</txt>
+<txt lng="chi">时间：</txt>
+<txt lng="ita">Ora:</txt>
+<txt lng="jpn">時刻:</txt>
+<txt lng="kor">시간:</txt>
+<txt lng="glg">Hora:</txt>
+<txt lng="deu">Uhrzeit:</txt>
+<txt lng="baq">Ordua:</txt>
+<txt lng="fre">Heure :</txt>
+<txt lng="cat">Hora:</txt>
+<txt lng="hin">समय:</txt>
+<txt lng="per">ساعت:</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+<attr id="width">200</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Study ID:</txt>
+<txt lng="ara">Study ID:</txt>
+<txt lng="por">ID do estudo:</txt>
+<txt lng="dut">Studie-ID:</txt>
+<txt lng="spa">ID Estudio:</txt>
+<txt lng="chi">研究 ID：</txt>
+<txt lng="ita">ID studio:</txt>
+<txt lng="jpn">研究ID:</txt>
+<txt lng="kor">연구 ID:</txt>
+<txt lng="glg">ID Estudo:</txt>
+<txt lng="deu">Studien ID:</txt>
+<txt lng="baq">Ikerketaren IDa:</txt>
+<txt lng="fre">ID de l’étude :</txt>
+<txt lng="cat">ID Estudio:</txt>
+<txt lng="hin">अध्ययन ID:</txt>
+<txt lng="per">شناسه پژوهش:</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+<attr id="width">200</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Session ID:</txt>
+<txt lng="ara">Session ID:</txt>
+<txt lng="por">ID da sessão:</txt>
+<txt lng="dut">Sessie-ID:</txt>
+<txt lng="spa">ID Sesión:</txt>
+<txt lng="chi">轮次 ID：</txt>
+<txt lng="ita">ID sessione:</txt>
+<txt lng="jpn">セッションID:</txt>
+<txt lng="kor">세션 ID:</txt>
+<txt lng="glg">ID Sesión:</txt>
+<txt lng="deu">Sitzung ID:</txt>
+<txt lng="baq">Saioaren IDa:</txt>
+<txt lng="fre">ID de la session :</txt>
+<txt lng="cat">ID Sesión:</txt>
+<txt lng="hin">सेशन ID:</txt>
+<txt lng="per">شناسه جلسه:</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+<attr id="width">200</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Protocol ID:</txt>
+<txt lng="ara">Protocol ID:</txt>
+<txt lng="por">ID do protocolo:</txt>
+<txt lng="dut">Protocol-ID:</txt>
+<txt lng="spa">ID Protocolo:</txt>
+<txt lng="chi">实验方案 ID：</txt>
+<txt lng="ita">ID protocollo:</txt>
+<txt lng="jpn">プロトコルID:</txt>
+<txt lng="kor">프로토콜 ID:</txt>
+<txt lng="glg">ID Protocolo:</txt>
+<txt lng="deu">Protokoll ID:</txt>
+<txt lng="baq">Protokoloaren IDa:</txt>
+<txt lng="fre">ID du protocole :</txt>
+<txt lng="cat">ID Protocolo:</txt>
+<txt lng="hin">प्रोटोकोल ID:</txt>
+<txt lng="per">شناسه پروتکل:</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+<attr id="width">200</attr>
+</attributes.specific>
+</item>
+<item>
+<text>
+<txt>Other:</txt>
+<txt lng="ara">Other:</txt>
+<txt lng="por">Outro:</txt>
+<txt lng="dut">Overige:</txt>
+<txt lng="spa">Otros:</txt>
+<txt lng="chi">其他：</txt>
+<txt lng="ita">Altro:</txt>
+<txt lng="jpn">その他:</txt>
+<txt lng="kor">기타:</txt>
+<txt lng="glg">Outros:</txt>
+<txt lng="deu">Sonstiges:</txt>
+<txt lng="baq">Bestelakoak:</txt>
+<txt lng="fre">Autre :</txt>
+<txt lng="cat">Otros:</txt>
+<txt lng="hin">अन्य:</txt>
+<txt lng="per">سایر:</txt>
+</text>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+<attr id="width">200</attr>
+</attributes.specific>
+</item>
+</question>
+</section>
+<layoutTexts>
+<layoutText id="default.imprint"><txt lng="eng">2026</txt>
+<txt lng="ara">2026</txt>
+<txt lng="por">2026</txt>
+<txt lng="dut">2026</txt>
+<txt lng="spa">2026</txt>
+<txt lng="chi">2026</txt>
+<txt lng="ita">2026</txt>
+<txt lng="jpn">2026</txt>
+<txt lng="kor">2026</txt>
+<txt lng="glg">2026</txt>
+<txt lng="deu">2026</txt>
+<txt lng="baq">2026</txt>
+<txt lng="fre">2026</txt>
+<txt lng="cat">2026</txt>
+<txt lng="hin">2026</txt>
+<txt lng="per">2026</txt></layoutText>
+<layoutText id="default.logo"><txt lng="ara">none</txt>
+<txt lng="por">none</txt>
+<txt lng="dut">none</txt>
+<txt lng="spa">none</txt>
+<txt lng="chi">none</txt>
+<txt lng="ita">none</txt>
+<txt lng="jpn">none</txt>
+<txt lng="kor">none</txt>
+<txt lng="glg">none</txt>
+<txt lng="deu">none</txt>
+<txt lng="baq">none</txt>
+<txt lng="fre">none</txt>
+<txt lng="cat">none</txt>
+<txt lng="hin">none</txt>
+<txt lng="per">none</txt></layoutText>
+<layoutText id="info.form.close"><txt lng="ara"><![CDATA[<p style="text-align: center">
+<button onclick="closeWindow()">إغلاق النافذة</button>
+</p>
+<script type="text/javascript">
+<!--
+function closeWindow()
+    {
+window.close();
+window.setTimeout(nocloseAlert, 100);
+} function nocloseAlert()
+    {
+alert("يمنع المتصفح الخاص بك إغلاق النافذة تلقائيًّا.\n\nتم حفظ إجاباتك،\nيمكنك إغلاق نافذة المتصفح بشكل طبيعي.");
+} // -->
+</script>]]></txt>
+<txt lng="dut"><![CDATA[<p style="text-align: center;">
+    <button onclick="closeWindow()">Venster sluiten</button>
+</p>
+<script type="text/javascript">
+<!--
+function closeWindow()
+    {
+    window.close();
+    window.setTimeout("nocloseAlert()", 100);
+}
+function nocloseAlert()
+    {
+    alert("Uw browser heeft het automatisch sluiten van het venster geblokkeerd.\n\nUw antwoorden zijn opgeslagen. U kunt nu het browservenster sluiten.");
+}
+// -->
+</script>]]></txt>
+<txt lng="spa"><![CDATA[<p style="text-align: center">
+    <button onclick="closeWindow()">Cerrar ventana</button>
+</p>
+<script type="text/javascript">
+<!--
+function closeWindow()
+    {
+    window.close();
+    window.setTimeout("nocloseAlert()", 100);
+}
+function nocloseAlert()
+    {
+    alert("Su navegador ha bloqueado el cierre automático de la ventana.\n\nSus respuestas han sido guardadas; ahora puede cerrar la ventana del navegador.");
+}
+// -->
+</script>]]></txt>
+<txt lng="chi"><![CDATA[<p style="text-align: center">
+    <button onclick="closeWindow()">关闭窗口</button>
+</p>
+<script type="text/javascript">
+<!--
+function closeWindow()
+    {
+    window.close();
+    window.setTimeout("nocloseAlert()", 100);
+}
+function nocloseAlert()
+    {
+    alert("您的浏览器已阻止窗口自动关闭。\n\n您的回答已保存，您现在可以关闭浏览器窗口。");
+}
+// -->
+</script>]]></txt>
+<txt lng="ita"><![CDATA[<p style="text-align: center">
+    <button onclick="closeWindow()">Chiudi la finestra.</button>
+</p>
+<script type="text/javascript">
+<!--
+function closeWindow()
+    {
+    window.close();
+    window.setTimeout("nocloseAlert()", 100);
+}
+function nocloseAlert()
+    {
+    alert("Il browser ha bloccato la chiusura automatica della finestra.\n\nLe risposte sono state salvate. È ora possibile chiudere la finestra del browser.");
+}
+// -->
+</script>]]></txt>
+<txt lng="jpn"><![CDATA[<p style="text-align: center;">
+    <button onclick="closeWindow()">ウィンドウを閉じる</button>
+</p>
+<script type="text/javascript">
+<!--
+function closeWindow()
+    {
+    window.close();
+    window.setTimeout(nocloseAlert, 100);
+}
+function nocloseAlert()
+    {
+    alert("ブラウザの設定により、ウィンドウの自動クローズがブロックされています\n\n回答が保存されました,\nウィンドウを手動で閉じてください。");
+}
+// -->
+</script>]]></txt>
+<txt lng="kor"><![CDATA[<p style="text-align: center;">
+    <button onclick="closeWindow()">창 닫기</button>
+</p>
+<script type="text/javascript">
+<!--
+function closeWindow()
+    {
+    window.close();
+    window.setTimeout(nocloseAlert, 100);
+}
+function nocloseAlert()
+    {
+    alert("브라우저가 창의 자동 닫기 기능을 차단했습니다.\n\n응답이 저장되었습니다. 이제 브라우저 창을 닫으셔도 됩니다.");
+}
+// -->
+</script>]]></txt>
+<txt lng="glg"><![CDATA[<p style="text-align: center;">
+    <button onclick="closeWindow()">Pechar a xanela</button>
+</p>
+<script type="text/javascript">
+<!--
+function closeWindow()
+    {
+    window.close();
+    window.setTimeout(nocloseAlert, 100);
+}
+function nocloseAlert()
+    {
+    alert("O seu navegador bloqueou o peche automático da xanela.\n\nAs súas respostas gardáronse. Agora pode pechar a xanela do navegador.");
+}
+// -->
+</script>]]></txt>
+<txt lng="fre"><![CDATA[<p style="text-align: center;">
+    <button onclick="closeWindow()">Fermer la fenêtre</button>
+</p>
+<script type="text/javascript">
+<!--
+function closeWindow()
+    {
+    window.close();
+    window.setTimeout("nocloseAlert()", 100);
+}
+function nocloseAlert()
+    {
+    alert("La fermeture automatique a été bloquée par votre navigateur.\n\nVos réponses ont été enregistrées.\nVous pouvez fermer la fenêtre du navigateur.");
+}
+// -->
+</script>]]></txt>
+<txt lng="hin"><![CDATA[<p style="text-align: center;">
+<button onclick="closeWindow()">विंडो बंद करें</button>
+</p>
+<script type="text/javascript">
+<!--
+function closeWindow()
+    {
+        window.close();
+        window.setTimeout(nocloseAlert, 100);
+}
+function nocloseAlert()
+    {
+        alert("आपकी ब्राउज़र सेटिंग विंडो को स्वचालित रूप से बंद होने से रोकती हैं।\n\nआपके उत्तर सहेजे गए हैं,\nकृपया विंडो को मैन्युअल रूप से बंद करें।");
+}
+// -->
+</script>]]></txt>
+<txt lng="per"><![CDATA[<p style="text-align: center;">
+    <button onclick="closeWindow()">بستن پنجره</button>
+</p>
+<script type="text/javascript">
+<!--
+function closeWindow()
+    {
+    window.close();
+    window.setTimeout(nocloseAlert, 100);
+}
+function nocloseAlert()
+    {
+    alert("مرورگر شما از بسته شدن خودکار پنجره جلوگیری کرده است.\n\nپاسخ‌های شما ذخیره شدند؛ اکنون می‌توانید پنجرهٔ مرورگر را ببندید.");
+}
+// -->
+</script>]]></txt></layoutText>
+</layoutTexts>
+<questionnaire>
+<title>Fragebogen</title>
+<attributes.specific program="ofb">
+<attr id="id">NIBS-SES</attr>
+<attr id="content">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;questionnaire&gt;
+
+&lt;!-- Seite 1 --&gt;
+&lt;page ident=&quot;Header&quot; intID=&quot;1&quot;&gt;
+&lt;info&gt;IDs&lt;/info&gt;
+&lt;question id=&quot;A001&quot; intID=&quot;20&quot; /&gt;
+&lt;/page&gt;
+
+
+&lt;!-- Seite 2 --&gt;
+&lt;page ident=&quot;MedSleep&quot; intID=&quot;2&quot;&gt;
+&lt;info&gt;Medication and Sleep&lt;/info&gt;
+&lt;question id=&quot;A101&quot; intID=&quot;3&quot; /&gt;
+&lt;question id=&quot;A102&quot; intID=&quot;4&quot; /&gt;
+&lt;question id=&quot;A103&quot; intID=&quot;5&quot; /&gt;
+&lt;question id=&quot;A201&quot; intID=&quot;24&quot; /&gt;
+&lt;question id=&quot;A202&quot; intID=&quot;25&quot; /&gt;
+&lt;question id=&quot;A203&quot; intID=&quot;26&quot; /&gt;
+&lt;/page&gt;
+
+
+&lt;!-- Seite 3 --&gt;
+&lt;page ident=&quot;PrevSE&quot; intID=&quot;6&quot;&gt;
+&lt;info&gt;Previous Treatment Side Effects&lt;/info&gt;
+&lt;question id=&quot;A306&quot; intID=&quot;7&quot; /&gt;
+&lt;question id=&quot;A309&quot; intID=&quot;8&quot; /&gt;
+&lt;question id=&quot;A301&quot; intID=&quot;23&quot; /&gt;
+&lt;question id=&quot;A302&quot; intID=&quot;27&quot; /&gt;
+&lt;question id=&quot;A303&quot; intID=&quot;28&quot; /&gt;
+&lt;html intID=&quot;21&quot;&gt;&lt;![CDATA[
+&lt;script&gt;
+window.addEventListener(&#039;load&#039;, function () {
+
+  const OCCURRED_PREFIXES = [&#039;A309_&#039;, &#039;A309[&#039;];
+  // Matrices: support both underscore and bracket forms; A302 rows also include ZE07_XX fields
+  const MATRICES = [
+    { prefixes: [&#039;A301_&#039;, &#039;A301[&#039;], altPrefixes: [] },
+    { prefixes: [&#039;A302_&#039;, &#039;A302[&#039;], altPrefixes: [&#039;ZE07_&#039;, &#039;ZE07[&#039;] },
+    { prefixes: [&#039;A303_&#039;, &#039;A303[&#039;], altPrefixes: [] }
+  ];
+  const HIDE_ROWS = true;   // false: keep non-applicable rows visible but disabled/greyed
+
+  const esc = s =&gt; s.replace(/[.*+?^${}()|[\]\\]/g, &#039;\\$&amp;&#039;);
+  const two = s =&gt; { s = String(s); return s.length === 1 ? &#039;0&#039; + s : s; };
+
+  // Collect distinct control names/ids 
+  function collectNames(prefixes) {
+    const set = new Set();
+    prefixes.forEach(pfx =&gt; {
+      document.querySelectorAll(&#039;[name^=&quot;&#039;+pfx+&#039;&quot;], [id^=&quot;&#039;+pfx+&#039;&quot;]&#039;).forEach(el =&gt; {
+        set.add(el.getAttribute(&#039;name&#039;) || el.id);
+      });
+    });
+    return Array.from(set);
+  }
+
+  // A309: selected if (checkbox checked) OR (checked control has value &quot;2&quot;) OR (hidden/select has value &quot;2&quot;)
+  function getSelectedCodes() {
+    const selected = new Set();
+    const names = collectNames(OCCURRED_PREFIXES);
+
+    names.forEach(name =&gt; {
+      // match A309_01 or A309[01]
+      const m = name.match(/A309[_\[](\d{1,2})\b/);
+      if (!m) return;
+      const code = two(m[1]);
+
+      const group = document.getElementsByName(name);
+      let on = false;
+      if (group &amp;&amp; group.length) {
+        for (const el of group) {
+          const t = (el.type || &#039;&#039;).toLowerCase();
+          if (t === &#039;checkbox&#039; &amp;&amp; el.checked) { on = true; break; }
+          if ((t === &#039;radio&#039; || t === &#039;checkbox&#039;) &amp;&amp; el.checked &amp;&amp; el.value === &#039;2&#039;) { on = true; break; }
+          if (t === &#039;hidden&#039; &amp;&amp; el.value === &#039;2&#039;) { on = true; }
+          if (el.tagName === &#039;SELECT&#039; &amp;&amp; el.value === &#039;2&#039;) { on = true; break; }
+        }
+      } else {
+        // fallback: single element (via id)
+        const el = document.getElementById(name);
+        if (el) {
+          const t = (el.type || &#039;&#039;).toLowerCase();
+          on = (t === &#039;checkbox&#039; &amp;&amp; el.checked) ||
+               ((t === &#039;radio&#039; || t === &#039;checkbox&#039;) &amp;&amp; el.checked &amp;&amp; el.value === &#039;2&#039;) ||
+               (t === &#039;hidden&#039; &amp;&amp; el.value === &#039;2&#039;) ||
+               (el.tagName === &#039;SELECT&#039; &amp;&amp; el.value === &#039;2&#039;);
+        }
+      }
+      if (on) selected.add(code);
+    });
+    return selected;
+  }
+
+   function codeFrom(nameOrId, prefix) {
+    // 1) underscore style:  PREFIX + (1..2 digits) + [end or &#039;_&#039; or &#039;[&#039;]
+    let re = new RegExp(&#039;^&#039; + esc(prefix) + &#039;(\\d{1,2})(?:$|_|\\[)&#039;);
+    let m  = (nameOrId || &#039;&#039;).match(re);
+    if (m) return two(m[1]);
+
+    // 2) bracket style: PREFIX + &#039;[&#039; + (digits) + &#039;]&#039; + (optional &#039;[&#039; or end)
+    if (prefix.endsWith(&#039;[&#039;)) {
+      re = new RegExp(&#039;^&#039; + esc(prefix) + &#039;(\\d{1,2})\\](?:$|\\[|_)&#039;);
+      m  = (nameOrId || &#039;&#039;).match(re);
+      if (m) return two(m[1]);
+    }
+    return null;
+  }
+
+  function collectRows(prefixes, altPrefixes) {
+    const map = new Map();
+
+    function addByPrefix(pfx) {
+      document.querySelectorAll(&#039;[name^=&quot;&#039;+pfx+&#039;&quot;], [id^=&quot;&#039;+pfx+&#039;&quot;]&#039;).forEach(el =&gt; {
+        const key = codeFrom(el.getAttribute(&#039;name&#039;) || el.id, pfx);
+        if (!key) return;
+        // find the row container; for matrices this is TR, but fall back to nearest block if no TR
+        let row = el.closest(&#039;tr&#039;);
+        if (!row) {
+          // fallback: SoSci sometimes uses div-based layouts for custom inputs
+          row = el.closest(&#039;.sosci-question, .question, .content, .row, div&#039;);
+        }
+        if (!row) return;
+        if (!map.has(key)) map.set(key, row);
+      });
+    }
+
+    prefixes.forEach(addByPrefix);
+    (altPrefixes || []).forEach(addByPrefix);
+    return map;
+  }
+
+  function clearAndDisable(container, disabled) {
+    container.querySelectorAll(&#039;input, select, textarea&#039;).forEach(el =&gt; {
+      const t = (el.type || &#039;&#039;).toLowerCase();
+      if (t === &#039;hidden&#039;) return;                      // keep hidden counters
+      const nm = el.name || &#039;&#039;;
+      if (/_CN\b/.test(nm) || /\[CN\]$/.test(nm)) return;  // keep *_CN fields
+
+      if (disabled) {
+        if (t === &#039;checkbox&#039; || t === &#039;radio&#039;) el.checked = false;
+        else if (el.tagName === &#039;SELECT&#039;) el.selectedIndex = -1;
+        else el.value = &#039;&#039;;
+      }
+      el.disabled = disabled;
+    });
+  }
+
+  function applyFilter() {
+    const sel = getSelectedCodes();
+
+    MATRICES.forEach(cfg =&gt; {
+      const rows = collectRows(cfg.prefixes, cfg.altPrefixes);
+      rows.forEach((row, code) =&gt; {
+        const active = sel.has(code);
+        if (active) {
+          if (HIDE_ROWS) row.style.display = &#039;&#039;;
+          row.style.opacity = &#039;&#039;;
+          clearAndDisable(row, false);
+        } else {
+          clearAndDisable(row, true);
+          row.style.opacity = &#039;0.4&#039;;
+          if (HIDE_ROWS) row.style.display = &#039;none&#039;;
+        }
+      });
+    });
+  }
+
+  applyFilter();
+
+  // Re-apply when any A309 element changes
+  document.addEventListener(&#039;change&#039;, function (e) {
+    const n = (e.target &amp;&amp; (e.target.name || e.target.id)) || &#039;&#039;;
+    if (n.startsWith(&#039;A309_&#039;) || n.startsWith(&#039;A309[&#039;)) applyFilter();
+  });
+});
+&lt;/script&gt;
+]]&gt;&lt;/html&gt;
+&lt;postprocessing intID=&quot;10&quot;&gt;
+
+&lt;/postprocessing&gt;
+&lt;/page&gt;
+
+
+&lt;!-- Seite 4 --&gt;
+&lt;page ident=&quot;PrevSE DA&quot; intID=&quot;9&quot;&gt;
+&lt;question id=&quot;A304&quot; intID=&quot;14&quot; /&gt;
+&lt;question id=&quot;A305&quot; intID=&quot;15&quot; /&gt;
+&lt;/page&gt;
+
+
+&lt;!-- Seite 5 --&gt;
+&lt;page ident=&quot;CurrSE&quot; intID=&quot;16&quot;&gt;
+&lt;info&gt;Current Side Effects&lt;/info&gt;
+&lt;question id=&quot;A404&quot; intID=&quot;22&quot; /&gt;
+&lt;question id=&quot;A401&quot; intID=&quot;17&quot; /&gt;
+&lt;question id=&quot;A405&quot; intID=&quot;11&quot; /&gt;
+&lt;question id=&quot;A402&quot; intID=&quot;12&quot; /&gt;
+&lt;question id=&quot;A403&quot; intID=&quot;19&quot; /&gt;
+&lt;html intID=&quot;13&quot;&gt;&lt;![CDATA[
+&lt;script&gt;
+
+window.addEventListener(&#039;load&#039;, function () {
+  // ---- CONFIG ----
+  const OCCURRED_PREFIXES = [&#039;A405_&#039;, &#039;A405[&#039;];     // occurred checklist
+  const A402_PREFIXES     = [&#039;A402_&#039;, &#039;A402[&#039;];     // follow-up rows
+  const HIDE_ROWS         = true;                   // false =&gt; grey/disable instead of hide
+
+  // Map A405 code -&gt; A402 row code (exactly like muscle twitching)
+  function mapA405toA402(code) {
+    if (code === &#039;10&#039;) return &#039;12&#039;; // Local pain/discomfort -&gt; A402_12 (like A402_09 for muscle)
+    return code;                    // 01..09 map to themselves (e.g., 09 -&gt; 09)
+  }
+
+  // Never render this A402 row (duplicate header for local pain)
+  const ALWAYS_SUPPRESS_A402 = new Set([&#039;11&#039;]);
+
+  // ---- HELPERS ----
+  const esc = s =&gt; s.replace(/[.*+?^${}()|[\]\\]/g, &#039;\\$&amp;&#039;);
+  const two = s =&gt; { s = String(s); return s.length === 1 ? &#039;0&#039; + s : s; };
+
+  function collectNames(prefixes) {
+    const set = new Set();
+    prefixes.forEach(pfx =&gt; {
+      document.querySelectorAll(&#039;[name^=&quot;&#039;+pfx+&#039;&quot;], [id^=&quot;&#039;+pfx+&#039;&quot;]&#039;).forEach(el =&gt; {
+        set.add(el.getAttribute(&#039;name&#039;) || el.id);
+      });
+    });
+    return Array.from(set);
+  }
+
+  // Read selected codes from A405 (2 = selected)
+  function getSelectedA405() {
+    const selected = new Set();
+    collectNames(OCCURRED_PREFIXES).forEach(name =&gt; {
+      const m = name.match(/A405[_\[](\d{1,2})\b/);
+      if (!m) return;
+      const code = two(m[1]);
+      const group = document.getElementsByName(name);
+      let on = false;
+      if (group &amp;&amp; group.length) {
+        for (const el of group) {
+          const t = (el.type || &#039;&#039;).toLowerCase();
+          if (t === &#039;checkbox&#039; &amp;&amp; el.checked) { on = true; break; }
+          if ((t === &#039;radio&#039; || t === &#039;checkbox&#039;) &amp;&amp; el.checked &amp;&amp; el.value === &#039;2&#039;) { on = true; break; }
+          if (t === &#039;hidden&#039; &amp;&amp; el.value === &#039;2&#039;) { on = true; }
+          if (el.tagName === &#039;SELECT&#039; &amp;&amp; el.value === &#039;2&#039;) { on = true; break; }
+        }
+      }
+      if (on) selected.add(code);
+    });
+    return selected;
+  }
+
+  // Extract A402 row code from name/id (supports underscore &amp; bracket)
+  function a402CodeFrom(nameOrId, prefix) {
+    let re = new RegExp(&#039;^&#039; + esc(prefix) + &#039;(\\d{1,2})(?:$|_|\\[)&#039;);      // A402_12 or A402_12_1
+    let m  = (nameOrId || &#039;&#039;).match(re);
+    if (m) return two(m[1]);
+    if (prefix.endsWith(&#039;[&#039;)) {
+      re = new RegExp(&#039;^&#039; + esc(prefix) + &#039;(\\d{1,2})\\](?:$|\\[|_)&#039;);    // A402[12] or A402[12][1]
+      m  = (nameOrId || &#039;&#039;).match(re);
+      if (m) return two(m[1]);
+    }
+    return null;
+  }
+
+  function findRowContainer(el) {
+    let row = el.closest(&#039;tr&#039;);
+    if (row) return row;
+    return el.closest(&#039;.sosci-question, .question, .content, .row, div&#039;) || el.parentElement;
+  }
+
+  // Group A402 rows by code (01..12)
+  function collectA402Rows() {
+    const map = new Map();
+    A402_PREFIXES.forEach(pfx =&gt; {
+      document.querySelectorAll(&#039;[name^=&quot;&#039;+pfx+&#039;&quot;], [id^=&quot;&#039;+pfx+&#039;&quot;]&#039;).forEach(el =&gt; {
+        const nm = el.getAttribute(&#039;name&#039;) || el.id || &#039;&#039;;
+        if (/_CN\b/.test(nm) || /\[CN\]$/.test(nm)) return; // ignore counters/hidden
+        const key = a402CodeFrom(nm, pfx);
+        if (!key) return;
+        const row = findRowContainer(el);
+        if (!row) return;
+        if (!map.has(key)) map.set(key, new Set());
+        map.get(key).add(row);
+      });
+    });
+    return map; // Map&lt;&#039;01&#039;..&#039;12&#039;, Set&lt;rowElements&gt;&gt;
+  }
+
+  function clearAndDisable(container, disabled) {
+    container.querySelectorAll(&#039;input, select, textarea&#039;).forEach(el =&gt; {
+      const t = (el.type || &#039;&#039;).toLowerCase();
+      const nm = el.name || &#039;&#039;;
+      if (t === &#039;hidden&#039;) return;
+      if (/_CN\b/.test(nm) || /\[CN\]$/.test(nm)) return;
+      if (disabled) {
+        if (t === &#039;checkbox&#039; || t === &#039;radio&#039;) el.checked = false;
+        else if (el.tagName === &#039;SELECT&#039;) el.selectedIndex = -1;
+        else el.value = &#039;&#039;;
+      }
+      el.disabled = disabled;
+    });
+  }
+
+  function applyFilter() {
+    // Build the set of A402 rows to show from selected A405 items
+    const selected = getSelectedA405();                 // e.g., {&quot;08&quot;,&quot;09&quot;,&quot;10&quot;}
+    const toShow   = new Set();
+
+    selected.forEach(a405 =&gt; {
+      const a402 = mapA405toA402(a405);                // &quot;10&quot; -&gt; &quot;12&quot;, &quot;09&quot;-&gt;&quot;09&quot;, others identity
+      if (!ALWAYS_SUPPRESS_A402.has(a402)) toShow.add(a402);
+    });
+
+    // Toggle A402 rows
+    const rowsByCode = collectA402Rows();
+    rowsByCode.forEach((rowSet, code) =&gt; {
+      const show = toShow.has(code) &amp;&amp; !ALWAYS_SUPPRESS_A402.has(code);
+      rowSet.forEach(row =&gt; {
+        if (show) {
+          if (HIDE_ROWS) row.style.display = &#039;&#039;;
+          row.style.opacity = &#039;&#039;;
+          clearAndDisable(row, false);   // enable all inputs in that row (incl. ZE03/ZE04 if present)
+        } else {
+          clearAndDisable(row, true);
+          row.style.opacity = &#039;0.4&#039;;
+          if (HIDE_ROWS) row.style.display = &#039;none&#039;;
+        }
+      });
+    });
+  }
+
+  applyFilter();
+  document.addEventListener(&#039;change&#039;, function (e) {
+    const n = (e.target &amp;&amp; (e.target.name || e.target.id)) || &#039;&#039;;
+    if (n.startsWith(&#039;A405_&#039;) || n.startsWith(&#039;A405[&#039;)) applyFilter();
+  });
+});
+&lt;/script&gt;
+]]&gt;&lt;/html&gt;
+&lt;/page&gt;
+
+
+&lt;/questionnaire&gt;</attr>
+<attr id="goodbye">
+<txt><![CDATA[Your answers have been saved. You can now close the browser window.
+
+Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Rating scale for the assessment of adverse effects of non-invasive brain stimulation
+
+Selaskowski et al. (2026). <a href="https://doi.org/10.1016/j.brs.2026.103252" target="_blank">https://doi.org/10.1016/j.brs.2026.103252</a> · Version 1.1 · Open Access under CC BY 4.0]]></txt>
+<txt lng="ara"><![CDATA[تم حفظ إجاباتك، ويمكنك الآن إغلاق نافذة المتصفح.
+
+Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+مقياس تقييم الآثار الجانبية لتحفيز الدماغ غير جراحي
+
+Selaskowski et al. (2026). <a href="https://doi.org/10.1016/j.brs.2026.103252" target="_blank">https://doi.org/10.1016/j.brs.2026.103252</a> · Version 1.1 · Open Access under CC BY 4.0]]></txt>
+<txt lng="por"><![CDATA[As suas respostas foram guardadas, agora pode fechar a janela do navegador.
+
+Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Escala de classificação para avaliação dos efeitos adversos da estimulação cerebral não invasiva
+
+Selaskowski et al. (2026). <a href="https://doi.org/10.1016/j.brs.2026.103252" target="_blank">https://doi.org/10.1016/j.brs.2026.103252</a> · Version 1.1 · Open Access under CC BY 4.0]]></txt>
+<txt lng="dut"><![CDATA[Uw antwoorden zijn opgeslagen. U kunt nu het browservenster sluiten.
+
+Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Scoreschaal voor de beoordeling van bijwerkingen van niet-invasieve hersenstimulatie
+
+Selaskowski et al. (2026). <a href="https://doi.org/10.1016/j.brs.2026.103252" target="_blank">https://doi.org/10.1016/j.brs.2026.103252</a> · Version 1.1 · Open Access under CC BY 4.0]]></txt>
+<txt lng="spa"><![CDATA[Sus respuestas han sido guardadas; ahora puede cerrar la ventana del navegador.
+
+Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Escala para la valoración de los efectos adversos de la estimulación cerebral no invasiva
+
+Selaskowski et al. (2026). <a href="https://doi.org/10.1016/j.brs.2026.103252" target="_blank">https://doi.org/10.1016/j.brs.2026.103252</a> · Version 1.1 · Open Access under CC BY 4.0]]></txt>
+<txt lng="chi"><![CDATA[您的回答已保存，您现在可以关闭浏览器窗口。
+
+Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+非侵入性脑刺激不良反应评定量表
+
+Selaskowski et al. (2026). <a href="https://doi.org/10.1016/j.brs.2026.103252" target="_blank">https://doi.org/10.1016/j.brs.2026.103252</a> · Version 1.1 · Open Access under CC BY 4.0]]></txt>
+<txt lng="ita"><![CDATA[Le risposte sono state salvate. È ora possibile chiudere la finestra del browser.
+
+Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Scala di valutazione degli effetti avversi della stimolazione cerebrale non invasiva
+
+Selaskowski et al. (2026). <a href="https://doi.org/10.1016/j.brs.2026.103252" target="_blank">https://doi.org/10.1016/j.brs.2026.103252</a> · Version 1.1 · Open Access under CC BY 4.0]]></txt>
+<txt lng="jpn"><![CDATA[ご回答は保存されました。ブラウザのウィンドウを閉じてください。
+
+Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+非侵襲的脳刺激法の有害事象評価スケール
+
+Selaskowski et al. (2026). <a href="https://doi.org/10.1016/j.brs.2026.103252" target="_blank">https://doi.org/10.1016/j.brs.2026.103252</a> · Version 1.1 · Open Access under CC BY 4.0]]></txt>
+<txt lng="kor"><![CDATA[응답이 저장되었습니다. 이제 브라우저 창을 닫으셔도 됩니다.
+
+Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+비침습적 뇌 자극 부작용을 평가하는 척도
+
+Selaskowski et al. (2026). <a href="https://doi.org/10.1016/j.brs.2026.103252" target="_blank">https://doi.org/10.1016/j.brs.2026.103252</a> · Version 1.1 · Open Access under CC BY 4.0]]></txt>
+<txt lng="glg"><![CDATA[As súas respostas gardáronse. Agora pode pechar a xanela do navegador.
+
+Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Escala para a valoración dos efectos adversos da estimulación cerebral non invasiva
+
+Selaskowski et al. (2026). <a href="https://doi.org/10.1016/j.brs.2026.103252" target="_blank">https://doi.org/10.1016/j.brs.2026.103252</a> · Version 1.1 · Open Access under CC BY 4.0]]></txt>
+<txt lng="deu"><![CDATA[Ihre Antworten wurden gespeichert, Sie können das Browser-Fenster nun schließen.
+
+Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Skala zur Erfassung von Nebenwirkungen nicht-invasiver Hirnstimulation
+
+Selaskowski et al. (2026). <a href="https://doi.org/10.1016/j.brs.2026.103252" target="_blank">https://doi.org/10.1016/j.brs.2026.103252</a> · Version 1.1 · Open Access under CC BY 4.0]]></txt>
+<txt lng="baq"><![CDATA[Zure erantzunak gorde dira; orain nabigatzailearen leihoa itxi dezakezu.
+
+Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Garuneko estimulazio ez-inbaditzailearen ondorio kaltegarriak baloratzeko eskala
+
+Selaskowski et al. (2026). <a href="https://doi.org/10.1016/j.brs.2026.103252" target="_blank">https://doi.org/10.1016/j.brs.2026.103252</a> · Version 1.1 · Open Access under CC BY 4.0]]></txt>
+<txt lng="fre"><![CDATA[Vos réponses ont été enregistrées. Vous pouvez maintenant fermer la fenêtre du navigateur.
+
+Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Échelle d'évaluation des effets indésirables de la stimulation cérébrale non invasive
+
+Selaskowski et al. (2026). <a href="https://doi.org/10.1016/j.brs.2026.103252" target="_blank">https://doi.org/10.1016/j.brs.2026.103252</a> · Version 1.1 · Open Access under CC BY 4.0]]></txt>
+<txt lng="cat"><![CDATA[Les seves respostes s’han desat. Ara pot tancar la finestra del navegador.
+
+Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+Escala per a la valoració dels efectes adversos de la estimulación cerebral no invasiva
+
+Selaskowski et al. (2026). <a href="https://doi.org/10.1016/j.brs.2026.103252" target="_blank">https://doi.org/10.1016/j.brs.2026.103252</a> · Version 1.1 · Open Access under CC BY 4.0]]></txt>
+<txt lng="hin"><![CDATA[आपके उत्तर सुरक्षित कर दिए गए हैं। आप अब ब्राउज़र विंडो बंद कर सकते हैं।
+
+Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+नॉन-इनवेसिव ब्रेन स्टिमुलेशन के प्रतिकूल प्रभावों के आकलन के लिए रेटिंग पैमाना
+
+Selaskowski et al. (2026). <a href="https://doi.org/10.1016/j.brs.2026.103252" target="_blank">https://doi.org/10.1016/j.brs.2026.103252</a> · Version 1.1 · Open Access under CC BY 4.0]]></txt>
+<txt lng="per"><![CDATA[پاسخ‌های شما ذخیره شدند؛ اکنون می‌توانید پنجرهٔ مرورگر را ببندید.
+
+Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES)
+مقیاس ارزیابی برای بررسی عوارض نامطلوب تحریک غیرتهاجمی مغز
+
+Selaskowski et al. (2026). <a href="https://doi.org/10.1016/j.brs.2026.103252" target="_blank">https://doi.org/10.1016/j.brs.2026.103252</a> · Version 1.1 · Open Access under CC BY 4.0]]></txt>
+</attr>
+<attr id="inputEnhanced">yes</attr>
+<attr id="selection">1</attr>
+<attr id="backbutton">yes</attr>
+<attr id="probePreset">no</attr>
+</attributes.specific>
+</questionnaire>
+</surveyProject>
