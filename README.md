@@ -56,7 +56,7 @@ The table [items/NIBS-SES_items_v1.1.csv](items/NIBS-SES_items_v1.1.csv) lists t
 
 ## License
 
-The NIBS-SES is open access under CC BY 4.0. You can use, share, adapt, and translate, including for clinical and commercial work, as long as you credit the source (https://doi.org/10.1016/j.brs.2026.103252).
+The NIBS-SES is open access under CC BY 4.0. You can use, share, adapt, and translate, including for clinical and commercial work, as long as you credit the [source](https://doi.org/10.1016/j.brs.2026.103252).
 
 ## Feedback and corrections
 
