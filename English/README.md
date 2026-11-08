@@ -4,7 +4,7 @@ The English (original) version of the NIBS-SES is a questionnaire on adverse eff
 
 This folder contains the questionnaire as PDF, the user manual and files for direct import into REDCap, Qualtrics and SoSci Survey. The questionnaire is free to use under the CC BY 4.0 license.
 
-Selaskowski, B., Koelsch, C., Baeken, C., Blumberger, D. M., Brunoni, A. R., Hurlemann, R., Lerma-Usabiaga, G., Noda, Y., Paz-Alonso, P. M., Rivadulla, C., Sun, J., Venkatasubramanian, G., Sack, A. T., Rossi, S., Valero-Cabré, A., & Kiebs, M. (2026). The Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES): development of a brief, multilingual questionnaire for monitoring adverse effects in transcranial magnetic, electrical and ultrasound stimulation. Brain Stimulation, 103252. https://doi.org/10.1016/j.brs.2026.103252
+Selaskowski, B., Koelsch, C., Baeken, C., Blumberger, D. M., Brunoni, A. R., Hurlemann, R., Lerma-Usabiaga, G., Noda, Y., Paz-Alonso, P. M., Rivadulla, C., Sun, J., Venkatasubramanian, G., Sack, A. T., Rossi, S., Valero-Cabré, A., & Kiebs, M. (2026). The Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES): development of a brief, multilingual questionnaire for monitoring adverse effects in transcranial magnetic, electrical and ultrasound stimulation. Brain Stimulation, 19(6), 103252. https://doi.org/10.1016/j.brs.2026.103252
 
 [Back to overview](../README.md) · [OSF](https://doi.org/10.17605/OSF.IO/XZ3NB) · [nibs-ses.com](https://nibs-ses.com)
 

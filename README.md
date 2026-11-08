@@ -8,7 +8,7 @@ The primary archive of the NIBS-SES is the Open Science Framework (https://doi.o
 
 Please find the [accompanying open-access publication in Brain Stimulation here](https://doi.org/10.1016/j.brs.2026.103252). When you use the NIBS-SES, please cite this article.
 
-Selaskowski, B., Koelsch, C., Baeken, C., Blumberger, D. M., Brunoni, A. R., Hurlemann, R., Lerma-Usabiaga, G., Noda, Y., Paz-Alonso, P. M., Rivadulla, C., Sun, J., Venkatasubramanian, G., Sack, A. T., Rossi, S., Valero-Cabré, A., & Kiebs, M. (2026). The Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES): development of a brief, multilingual questionnaire for monitoring adverse effects in transcranial magnetic, electrical and ultrasound stimulation. Brain Stimulation, 103252. https://doi.org/10.1016/j.brs.2026.103252
+Selaskowski, B., Koelsch, C., Baeken, C., Blumberger, D. M., Brunoni, A. R., Hurlemann, R., Lerma-Usabiaga, G., Noda, Y., Paz-Alonso, P. M., Rivadulla, C., Sun, J., Venkatasubramanian, G., Sack, A. T., Rossi, S., Valero-Cabré, A., & Kiebs, M. (2026). The Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES): development of a brief, multilingual questionnaire for monitoring adverse effects in transcranial magnetic, electrical and ultrasound stimulation. Brain Stimulation, 19(6), 103252. https://doi.org/10.1016/j.brs.2026.103252
 
 The OSF repository can be cited as https://doi.org/10.17605/OSF.IO/XZ3NB.
 

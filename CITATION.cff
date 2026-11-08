@@ -28,6 +28,9 @@ preferred-citation:
   type: article
   title: "The Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES): development of a brief, multilingual questionnaire for monitoring adverse effects in transcranial magnetic, electrical and ultrasound stimulation"
   journal: "Brain Stimulation"
+  volume: 19
+  issue: "6"
+  start: "103252"
   year: 2026
   doi: 10.1016/j.brs.2026.103252
   authors:
